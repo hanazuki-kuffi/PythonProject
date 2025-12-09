@@ -225,3 +225,44 @@ print('Цифра в позиции тысяч равна', first_digit)
 print('Цифра в позиции сотен равна', second_digit)
 print('Цифра в позиции десятков равна', third_digit)
 print('Цифра в позиции единиц равна', four_digit)
+
+# print("степиктан новый задания истедим")
+
+# s = 13
+# k = -5
+# d = s + 2  13 +2 = 15
+# s = d 13= 15
+# k = 2 * s 15 * 2 = 30
+# print(s + k + d) 15 + 30 + 15
+
+# a = 17 // (23 % 7)
+# b = 34 % a * 5 - 29 % 4 * 3 10-3
+# print(a * b)
+
+# говнокод
+# print('*****************')
+# print('*               *')
+# print('*               *')
+# print('*****************')
+
+# замудренный код
+# a = "*"
+# print(a * 17 + "\n" + a + " " * 15 + a + "\n" + a + " " * 15 + a + "\n" + a * 17)
+
+# a = int(input())
+# b = int(input())
+# square_of_the_sum = (a + b)**2
+# sum_of_squares = a**2 + b**2
+# print('Квадрат суммы', a, 'и', b, 'равен',square_of_the_sum )
+# print('Сумма квадратов', a, 'и', b, 'равна', sum_of_squares)
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# d = int(input())
+# print(a**b + c**d)
+
+# n = input()
+# nn = n + n
+# nnn = n + n + n
+# print(int(n) + int(nn) + int(nnn))

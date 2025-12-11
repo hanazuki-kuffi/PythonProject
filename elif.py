@@ -9,7 +9,7 @@
 #     print(num1, 'equals', num2)
 # if num1 != num2:
 #     print(num1, 'not equal', num2)
-
+# from number import last_digit, first_digit
 
 # answer = input('What programming language are we learning?')
 # if answer == 'Python':
@@ -19,6 +19,40 @@
 #     print('Not quite like that!')
 
 
-age = int(input())
-if 3 <= age <= 6:
-    print('You child!')
+# age = int(input())
+# if 3 <= age <= 6:
+#     print('You child!')
+
+
+# word = input()
+# if word =='Python':
+#     print('YES')
+# else:
+#     print('NO')
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a != b != c:
+#     print('numbers are not equal')
+# else:
+#     print('numbers are equal')
+
+# number = int(input())
+# last_digit2 = number % 10    # последняя цифра числа
+# first_digit1 = number // 10  # первая цифра числа
+# if last_digit2 == first_digit1:
+#     print('ДА')
+# else:
+#     print('НЕТ')
+
+num1 = int(input())
+num2 = int(input())
+num3 = int(input())
+counter = 0
+if num1 % 2 == 0:
+    counter = counter + 1
+if num2 % 2 == 0:
+    counter = counter + 1
+if num3 % 2 == 0:
+    counter = counter + 1
+print(counter)

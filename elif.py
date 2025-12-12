@@ -45,14 +45,38 @@
 # else:
 #     print('НЕТ')
 
-num1 = int(input())
-num2 = int(input())
-num3 = int(input())
-counter = 0
-if num1 % 2 == 0:
-    counter = counter + 1
-if num2 % 2 == 0:
-    counter = counter + 1
-if num3 % 2 == 0:
-    counter = counter + 1
-print(counter)
+# num1 = int(input())
+# num2 = int(input())
+# num3 = int(input())
+# counter = 0
+# if num1 % 2 == 0:
+#     counter = counter + 1
+# if num2 % 2 == 0:
+#     counter = counter + 1
+# if num3 % 2 == 0:
+#     counter = counter + 1
+# print(counter)
+
+
+ # Присутствие  двоеточия : в блоке if после условия
+ if num % 10 == 0:
+     print('The number is a multiple of 10')
+
+# Использование оператора сравнения ==. вместо оператора присвайвание ==.
+if num == 10
+    print('The number is equal to 10')
+
+#  if и else на одном уровне:
+if num == 777:
+    print('The number is equal to 777')
+else:
+    print('The number not equal to 777')
+
+# Запомните, что операторов =>, =<, =! в Python не существует! Существуют только >=, <=, !=.
+if x >= 10:
+    print('x is greater than or equal to 10')
+if y <= 20:
+    print('y is less than or equal to 20')
+if z != 30:
+    print('z is not equal to 30')
+

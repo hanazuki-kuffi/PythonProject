@@ -59,24 +59,34 @@
 
 
  # Присутствие  двоеточия : в блоке if после условия
- if num % 10 == 0:
-     print('The number is a multiple of 10')
-
+# if num % 10 == 0:
+#      print('The number is a multiple of 10')
+#
 # Использование оператора сравнения ==. вместо оператора присвайвание ==.
-if num == 10
-    print('The number is equal to 10')
-
-#  if и else на одном уровне:
-if num == 777:
-    print('The number is equal to 777')
-else:
-    print('The number not equal to 777')
+# if num == 10
+#     print('The number is equal to 10')
+#
+# if и else на одном уровне:
+# if num == 777:
+#     print('The number is equal to 777')
+# else:
+#     print('The number not equal to 777')
 
 # Запомните, что операторов =>, =<, =! в Python не существует! Существуют только >=, <=, !=.
-if x >= 10:
-    print('x is greater than or equal to 10')
-if y <= 20:
-    print('y is less than or equal to 20')
-if z != 30:
-    print('z is not equal to 30')
+# if x >= 10:
+#     print('x is greater than or equal to 10')
+# if y <= 20:
+#     print('y is less than or equal to 20')
+# if z != 30:
+#     print('z is not equal to 30')
+
+
+#     if do some code only IF some condition is True
+#     Else do something else
+# age = int(input("Enter your age: "))
+#
+# if age >= 18:
+#     print('You are now signed up!')
+# else:
+#     print('You must be 18+ to signed up')
 

@@ -81,12 +81,22 @@
 #     print('z is not equal to 30')
 
 
-#     if do some code only IF some condition is True
+# if do some code only IF some condition is True
 #     Else do something else
 # age = int(input("Enter your age: "))
 #
-# if age >= 18:
+# if age >= 100:
+#     print("You are too old to sign up!")
+# elif age >= 18:
 #     print('You are now signed up!')
+# elif age < 0:
+#     print("You haven't been born yet!")
 # else:
-#     print('You must be 18+ to signed up')
+#     print('You must be 18+ to sign up!')
 
+responce = input("Would you like food? (Y/N) ")
+
+if responce == "Y":
+    print("Have you some food!")
+else:
+    print("No food for you!")

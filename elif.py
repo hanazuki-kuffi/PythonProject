@@ -94,9 +94,50 @@
 # else:
 #     print('You must be 18+ to sign up!')
 
-responce = input("Would you like food? (Y/N) ")
+# responce = input("Would you like food? (Y/N) ")
+#
+# if responce == "Y":
+#     print("Have you some food!")
+# else:
+#     print("No food for you!")
 
-if responce == "Y":
-    print("Have you some food!")
-else:
-    print("No food for you!")
+# name = input("Enter your name: ")
+#
+# if name == "":
+#     print("You did not type in your name!")
+# else:
+#     print(f"Hello {name}")
+
+# for_sale = False/True
+#
+# if for_sale:
+#     print("This item is for sale ")
+# else:
+#     print("This item is NOT for sale")
+
+
+# online = True/False
+# if online:
+#     print("The user is ONLINE")
+# else:
+#     print("The user is OFFLINE")
+
+# Напишите программу, ''которая сравнивает пароль'' и его подтверждение
+# password1 = input()
+# password2 = input()
+
+# if password1 == password2:       #которая сравнивает пароль
+    # print(f"Пароль принят")
+# else:
+    # print(f"Пароль не принят")
+
+
+#Напишите программу, которая определяет, является число четным или нечетным.
+
+# number_line = int(input())
+#
+# if number_line % 2:  #которая определяет, является число четным или нечетным.
+#     print("Нечетное")
+# else:
+#     print("Четное")
+

@@ -1,7 +1,8 @@
 # This is my first Python code!!
 # print("I like pizza!")
 # print("It is really good!")
-
+from math import remainder
+from pickle import format_version
 
 # Variable = A container for value (string, integer, float, boolean)
 #            A variable behaves as if it was the value it contains
@@ -120,3 +121,54 @@
 # area = length * width
 #
 # print(f"The area is: {area} cm²")
+
+# EXERCISE 2 SHOPPING CART PROGRAM
+# item = input("What item would you like to buy?: ")
+# price = float(input("What is the price?: "))
+# quantity = int(input("How many would you like?: "))
+# total = price * quantity
+#
+# print(f"You have bought {quantity} x {item}/s")
+# print(f"your total is: ${total}")
+# print(total)
+
+
+#Madlibs game
+#Word game where you create a story
+#By filling in blanks with random words
+
+# adjective1 = input("Enter an adjective (description): ")
+# noun1 = input("Enter a noun (person, place, thing): ")
+# adjective2 = input("Enter an adjective (description): ")
+# verb1 = input("Enter a verb ending with 'ing' ")
+# adjective3 = input("Enter an adjective (description): ")
+#
+# print(f"Today I went to a {adjective1} zoo. ")
+# print(f"In an exhibit, I saw a {noun1}")
+# print(f"{noun1} was {adjective2} and {verb1}")
+# print(f"I was {adjective3}")
+
+#ARITHMETIC OPERATORS & MATH FUNCTIONS & EXERCISES
+
+friends = 10
+
+# friends = friends + 1
+# friends += 1
+# friends = friends - 2
+# friends -= 2
+# friends = friends * 3
+# friends *= 3
+# friends = friends / 2
+# friends /= 2
+# friends = friends ** 2
+# friends **= 2
+# remainder = friends % 3
+
+# print(remainder)
+
+x = 3.14
+y = 4
+z = 5
+result = round(x)
+
+print(result)

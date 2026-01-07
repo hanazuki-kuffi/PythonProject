@@ -195,8 +195,9 @@
 first_integer = int(input())
 second_integer = int(input())
 thirst_integer = int(input())
+first_integer, second_integer, thirst_integer = 0
+print(first_integer, second_integer, thirst_integer)
 
-if (first_integer, second_integer, thirst_integer >= 0): # идея типо каждыйын иф пен > 0 деп ал 
 
 
 

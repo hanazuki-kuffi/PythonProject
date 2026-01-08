@@ -20,8 +20,8 @@
 # print(message)
 
 # Удаление пропусков
-name = "  \tAli\n  "
-print(name)
-print(name.lsrtip())
-print(name.rstrip())
-print(name.strip())
+# name = "  \tAli\n  "
+# print(name)
+# print(name.lsrtip())
+# print(name.rstrip())
+# print(name.strip())

@@ -192,11 +192,30 @@
 # else:
 #     print("НЕТ")
 
-first_integer = int(input())
-second_integer = int(input())
-thirst_integer = int(input())
-first_integer, second_integer, thirst_integer = 0
-print(first_integer, second_integer, thirst_integer)
+#Напишите программу, которая считывает три числа и подсчитывает сумму только положительных чисел.
+
+# Формат входных данных
+# На вход программе подаются три целых числа, каждое на отдельной строке.
+#
+# Формат выходных данных
+# Программа должна вывести одно число – сумму положительных чисел.
+
+a = int(input())
+b = int(input())
+c = int(input())
+sum = 0
+
+if a > 0:
+   sum = sum + a
+if b > 0:
+    sum = sum + b
+if c > 0:
+    sum = sum + c
+else:
+    print()
+
+
+
 
 
 

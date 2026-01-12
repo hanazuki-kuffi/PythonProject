@@ -214,6 +214,24 @@
 #
 # print(sum)
 
+# age = int(input())
+#
+# if age <= 13:
+#     print("детство")
+# if 14 <= age <= 24:
+#     print("молодость")
+# if 25 <= age <= 59:
+#     print("зрелость")
+# if age >= 60:
+#     print("старость")
+
+
+integer_1 = int(input())
+integer_2 = int(input())
+integer_3 = int(input())
+integer_4 = int(input())
+
+
 
 
 

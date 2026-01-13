@@ -192,10 +192,10 @@ import math # Подключаем модуль math, который содер�
 # print(math.ceil(x))
 # print(math.floor(x))
 
-# import math
-#
-# radius = float(input("Enter the radius of a circle: "))
-# circumference = 2 * math.pi * radius
-# print(circumference)
-# print(f"The circumference is: {round(circumference, 5)} cm") # 5 - это количество цифр после запятой, до которых нужно округлить.
-# round(circumference, 5) = 62.83185 ✅ (оставили 5 цифр после запятой)
+import math
+
+radius = float(input("Enter the radius of a circle: "))
+circumference = 2 * math.pi * radius
+print(circumference)
+print(f"The circumference is: {round(circumference, 5)} cm") # 5 - это количество цифр после запятой, до которых нужно округлить.
+round(circumference, 5) = 62.83185 ✅ (оставили 5 цифр после запятой)

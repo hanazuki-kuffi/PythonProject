@@ -226,10 +226,11 @@
 #     print("старость")
 
 
-integer_1 = int(input())
-integer_2 = int(input())
-integer_3 = int(input())
-integer_4 = int(input())
+a = int(input())
+
+
+if a < 0:
+    print(a)
 
 
 

@@ -226,26 +226,21 @@
 #     print("старость")
 
 
-a = int(input())
+# age = int(input("Enter your age: "))
+#
+# if age <= 13:
+#     print("детство")
+# if 14 <= age <= 24:
+#     print("молодость")
+# if 25 <= age <= 59:
+#     print("зрелость")
+# if age >= 60:
+#     print("старость")
 
-
-if a < 0:
-    print(a)
-
-
-
-age = int(input("Enter your age: "))
-
-if age <= 13:
-    print("детство")
-if 14 <= age <= 24:
-    print("молодость")
-if 25 <= age <= 59:
-    print("зрелость")
-if age >= 60:
-    print("старость")
-
-
+if integer1 < integer2:   # 15 < 3? НЕТ
+    print(integer1)
+if integer1 > integer2:   # 15 > 3? ДА → выводит 3
+    print(integer2)
 
 
 

@@ -148,13 +148,7 @@
 #     print("Доступ запрещен")
 
 #Напишите программу, которая определяет наименьшее из двух чисел.
-# integer1 = int(input())
-# integer2 = int(input())
-#
-# if integer1 < integer2:
-#     print(integer1)
-# if integer1 > integer2:
-#     print(integer2)
+
 
 # Напишите программу, которая определяет, являются ли три заданных числа (в указанном порядке) последовательными членами арифметической прогрессии.
 #
@@ -226,23 +220,21 @@
 #     print("старость")
 
 
-integer_1 = int(input())
-integer_2 = int(input())
-integer_3 = int(input())
-integer_4 = int(input())
+# integer_1 = int(input())
+# integer_2 = int(input())
+# integer_3 = int(input())
+# integer_4 = int(input())
+#
+# if integer_1 < integer_2:
+#     print(integer_1)
+# if integer_2 < integer_3:
+#     print(integer_2)
+# if integer_3 < integer_4:
+#     print(integer_3)
 
 
 
-age = int(input("Enter your age: "))
 
-if age <= 13:
-    print("детство")
-if 14 <= age <= 24:
-    print("молодость")
-if 25 <= age <= 59:
-    print("зрелость")
-if age >= 60:
-    print("старость")
 
 
 

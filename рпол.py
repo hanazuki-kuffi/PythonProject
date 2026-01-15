@@ -1,0 +1,8 @@
+
+integer1 = int(input())
+integer2 = int(input())
+
+if integer1 < integer2:
+    print(integer1)
+if integer1 > integer2:
+    print(integer2)

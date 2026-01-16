@@ -231,18 +231,14 @@ integer_2 = int(input())
 integer_3 = int(input())
 integer_4 = int(input())
 
-
-
-age = int(input("Enter your age: "))
-
-if age <= 13:
-    print("детство")
-if 14 <= age <= 24:
-    print("молодость")
-if 25 <= age <= 59:
-    print("зрелость")
-if age >= 60:
-    print("старость")
+if integer_1 < integer_2:
+   print(integer_1)
+elif integer_3 < integer_4:
+    print(integer_3)
+elif integer_1 < integer_3:
+    print(integer_1)
+elif integer_2 < integer_4:
+    print(integer_2)
 
 
 

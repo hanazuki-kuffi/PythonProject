@@ -5,3 +5,11 @@
 #     print("Access allowed!")
 # else:
 #     print("Access denied!")
+
+# age = int(input("How old are you?: "))
+# grade = int(input("What grade are you in?: "))
+# city = input("What city do you live in?: ")
+# if age >= 12 and grade >= 7 and city == "Astana ":
+#     print("Access allowed!")
+# else:
+#     print("Access denied! ")

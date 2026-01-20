@@ -226,21 +226,15 @@
 #     print("старость")
 
 
-integer_1 = int(input())
-integer_2 = int(input())
-integer_3 = int(input())
-integer_4 = int(input())
-
-if integer_1 < integer_2:
-   print(integer_1)
-elif integer_3 < integer_4:
-    print(integer_3)
-elif integer_1 < integer_3:
-    print(integer_1)
-elif integer_2 < integer_4:
-    print(integer_2)
-
-
-
-
+# integer_1 = int(input())
+# integer_2 = int(input())
+# integer_3 = int(input())
+# integer_4 = int(input())
+#
+# if integer_1 < integer_2:
+#     print(integer_1)
+# elif integer_1 < integer_3:
+#     print(integer_1)
+# elif integer_1 < integer_4:
+#     print(integer_1)
 

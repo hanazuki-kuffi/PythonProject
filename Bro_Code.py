@@ -150,7 +150,7 @@ from math import remainder
 
 #ARITHMETIC OPERATORS & MATH FUNCTIONS & EXERCISES
 
-friends = 10
+# friends = 10
 
 # friends = friends + 1
 # friends += 1
@@ -199,3 +199,58 @@ import math # Подключаем модуль math, который содер�
 # print(circumference)
 # print(f"The circumference is: {round(circumference, 5)} cm") # 5 - это количество цифр после запятой, до которых нужно округлить.
 # round(circumference, 5) = 62.83185 ✅ (оставили 5 цифр после запятой)
+
+# import math
+# radius = float(input("Enter the radius of a circle:" ))
+# area = math.pi * pow(radius, 2)
+# print(f"The area of the circle is: {round(area, 2)}cm² ")
+
+# import math
+#
+# a = float(input("Enter side A: "))
+# b = float(input("Enter side B: "))
+# c = math.sqrt(pow(a, 2) + pow(b, 2))
+# print(f"Side C {c}")
+
+
+# if = Do some code only IF some condition is TRUE
+#    Else = do something else
+
+# age = int(input("Enter your age: "))
+#
+# if age >= 100:
+#     print("You are too old to sign up! ")
+# elif age >= 18:
+#     print("You are now signed up!")
+# elif age < 0:
+#     print("You haven't been born yet! ")
+# else:
+#     print("You must be 18+ to sign up! ")
+
+
+#PYTHON OPERATOR
+
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = input("Enter the 1st number: ")
+# num2 = input("Enter the 2nd number: ")
+#
+# print(num1 + num2)
+
+
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# print(num1 * num2)
+
+operator = input("Enter an operator (+ - / *): ")
+num1 = input("Enter the 1st number: ")
+num2 = input("Enter the 2nd number: ")
+
+if operator == "+":
+    pass
+elif operator == "-":
+    pass
+elif operator == "*":
+    pass
+elif operator ==

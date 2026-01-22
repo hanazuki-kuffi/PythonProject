@@ -42,3 +42,26 @@ from termios import INPCK
 #     print("Access allowed! ")
 # else:
 #     print("Access denied! ")
+
+
+#  Напишите программу, которая определяет, является ли заданное натуральное число трёхзначным.
+
+# num = int(input("Enter the number: "))
+#
+# if 100 <= num <= 999:
+#     print("The number is three-digit! ")
+# else:
+#     print("The number is not three-digit! ")
+
+#  Напишите программу, которая проверяет, что все три цифры натурального трёхзначного числа различны.
+
+num = int(input("Enter the number: "))
+
+digit_3 = num % 10
+digit_2 = num % 100 // 10
+digit_1 = num // 100
+
+if digit_3 != digit_2 and digit_3 != digit_1 and digit_2 != digit_1:
+    print("The numbers are different! ")
+else:
+    print("The numbers are not different! ")

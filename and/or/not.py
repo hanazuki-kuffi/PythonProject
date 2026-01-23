@@ -55,13 +55,28 @@ from termios import INPCK
 
 #  Напишите программу, которая проверяет, что все три цифры натурального трёхзначного числа различны.
 
-num = int(input("Enter the number: "))
+# num = int(input("Enter the number: "))
 
-digit_3 = num % 10
-digit_2 = num % 100 // 10
-digit_1 = num // 100
+# digit_3 = num % 10
+# digit_2 = num % 100 // 10
+# digit_1 = num // 100
+#
+# if digit_3 != digit_2 and digit_3 != digit_1 and digit_2 != digit_1:
+#     print("The numbers are different! ")
+# else:
+#     print("The numbers are not different! ")
 
-if digit_3 != digit_2 and digit_3 != digit_1 and digit_2 != digit_1:
-    print("The numbers are different! ")
-else:
-    print("The numbers are not different! ")
+
+#Задача 3. Напишите программу, которая по координатам точки, не лежащей на осях координат, определяет номер координатной четверти, в которой она находится.
+
+# x = int(input("Enter the X number of a axis: "))
+# y = int(input("Enter the Y number of a axis: "))
+#
+# if x > 0 and y > 0:
+#     print("1st quarter!")
+# if x < 0 and y > 0:
+#     print("2nd quarter!")
+# if x < 0 and y < 0:
+#     print("3st quarter!")
+# if x > 0 and y < 0:
+#     print("4th quarter!")

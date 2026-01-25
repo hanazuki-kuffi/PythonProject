@@ -80,3 +80,22 @@ from termios import INPCK
 #     print("3st quarter!")
 # if x > 0 and y < 0:
 #     print("4th quarter!")
+
+
+# river1 = "Volga"
+# river2 = "Elba"
+#
+# print(river1 == "Bug" and river2 == "Oder")
+# print(river2 != "Elba" or river1 != "Lena")
+
+# river1 = "Irtysh"
+# river2 = "Yantze"
+#
+# print(river1 == "Amur" or river1 == "Irtysh")
+# print(river2 != "Kama" or river2 == "Po")
+
+river1 = "Rain"
+river2 = "Ind"
+
+print(river1 != "Amur" or river1 != "Dunai")
+print(river2 != "Kama" and river2 != "Ind")

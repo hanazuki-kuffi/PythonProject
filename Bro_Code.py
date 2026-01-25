@@ -228,7 +228,7 @@ import math # Подключаем модуль math, который содер�
 #     print("You must be 18+ to sign up! ")
 
 
-#PYTHON OPERATOR
+#PYTHON CALCULATE OPERATOR
 
 # operator = input("Enter an operator (+ - / *): ")
 # num1 = input("Enter the 1st number: ")
@@ -243,14 +243,72 @@ import math # Подключаем модуль math, который содер�
 #
 # print(num1 * num2)
 
-operator = input("Enter an operator (+ - / *): ")
-num1 = input("Enter the 1st number: ")
-num2 = input("Enter the 2nd number: ")
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# if operator == "+":
+#     result = num1 + num2
+#     print(result)
+# elif operator == "-":
+#     result = num1 - num2
+#     print(result)
+# elif operator == "*":
+#     result = num1 * num2
+#     print(result)
+# elif operator == "/":
+#     result = num1 / num2
+#     print(result)
 
-if operator == "+":
-    pass
-elif operator == "-":
-    pass
-elif operator == "*":
-    pass
-elif operator ==
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result))
+# elif operator == "*":
+#     result = num1 * num2
+#     print(round(result))
+
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1sh number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result, 3))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result, 3))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result, 3))
+# elif operator == "*":
+#     result = num1 * num2
+#     print(round(result, 3))
+# else:
+#     print(f"{operator} is not a valid operator!")
+
+#PYTHON WEIGHT CONVERTER
+
+weight = float(input("Enter your weight: "))
+unit = input("Kilograms or Pound? (K or L): ")
+
+if unit == "K":
+   weight = weight * 2.205
+   unit = "Lbs."
+   print(f"Your weight is: {round(weight, 1)} {unit}")
+elif unit == "L":
+    weight = weight / 2.205
+    unit = "Kgs."
+    print(f"Your weight is {round(weight, 1)} {unit}")
+else:
+    print(f"{unit}")
+

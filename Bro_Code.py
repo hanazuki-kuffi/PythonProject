@@ -281,20 +281,20 @@ import math # Подключаем модуль math, который содер�
 # num1 = float(input("Enter the 1sh number: "))
 # num2 = float(input("Enter the 2nd number: "))
 #
-# if operator == "+":
-#     result = num1 + num2
-#     print(round(result, 3))
-# elif operator == "-":
-#     result = num1 - num2
-#     print(round(result, 3))
-# elif operator == "/":
-#     result = num1 / num2
-#     print(round(result, 3))
-# elif operator == "*":
-#     result = num1 * num2
-#     print(round(result, 3))
-# else:
-#     print(f"{operator} is not a valid operator!")
+if operator == "+":
+    result = num1 + num2
+    print(round(result, 3))
+elif operator == "-":
+    result = num1 - num2
+    print(round(result, 3))
+elif operator == "/":
+    result = num1 / num2
+    print(round(result, 3))
+elif operator == "*":
+    result = num1 * num2
+    print(round(result, 3))
+else:
+    print(f"{operator} is not a valid operator!")
 
 #PYTHON WEIGHT CONVERTER
 

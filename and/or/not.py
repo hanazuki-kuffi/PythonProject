@@ -94,8 +94,16 @@ from termios import INPCK
 # print(river1 == "Amur" or river1 == "Irtysh")
 # print(river2 != "Kama" or river2 == "Po")
 
-river1 = "Rain"
+# river1 = "Rain"
+# river2 = "Ind"
+#
+# print(river1 != "Amur" or river1 != "Dunai")
+# print(river2 != "Kama" and river2 != "Ind")
+
+# == равно, != не равно
+river1 = "Neva"
 river2 = "Ind"
 
-print(river1 != "Amur" or river1 != "Dunai")
-print(river2 != "Kama" and river2 != "Ind")
+print(river1 == "Bug" and river2 != "Oder"or river1 == "Neva") # False and True or True → True (or имеет приоритет)
+print(river1 != "Elba" and river1 != "Sena" and river1 != "Ind")  #True and True and True → True (все условия != выполнены)
+## != означает "не равно", возвращает True если значения разные

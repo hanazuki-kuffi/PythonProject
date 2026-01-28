@@ -1,5 +1,5 @@
-The following simple dictionary stores information about one specific alien
-The alien_0 dictionary stores two attributes: color and points. The following two print commands read this information from the dictionary and display it on the screen:
+# The following simple dictionary stores information about one specific alien
+# The alien_0 dictionary stores two attributes: color and points. The following two print commands read this information from the dictionary and display it on the screen:
 alien_0 = {"colour": "Green", "points": 5}
 
 print(alien_0 ["colour"])

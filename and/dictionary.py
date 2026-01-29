@@ -16,3 +16,19 @@
 # alien_0["x-position"] = 0
 # alien_0["y-position"] = 25
 # print(alien_0)
+
+#Иногда удобно сначала создать пустой словарь, а потом постепенно добавлять в него данные.
+#Sometimes it is convenient to first create an empty and then gradually add data to it.
+# alien_0 = {}
+#
+# alien_0["colour"] = "green"
+# alien_0["points"] = 5
+#
+# print(alien_0)
+
+#first, the dictionary alien_0 is defined, wich contains only the alien colour: then the value associted with the key "colour" changed to "yellow"
+alien_0 = {"colour": "green"}
+print(f"The alien is {alien_0["colour"]}.")
+
+alien_0["colour"] = "yellow"
+print(f"The alien is now {alien_0["colour"]}.")

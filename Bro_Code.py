@@ -178,6 +178,8 @@ from math import remainder
 
 
 import math # Подключаем модуль math, который содержит математические функции (корень, округление, пи, и т.д.)
+from turtledemo.sorting_animate import enable_keys
+
 # ceil и floor работают только с дробными числами. Если число уже целое, то оно остается таким же! ceil и floor - всегда в одну сторону! 😊
 # x = 4.4
 #
@@ -237,30 +239,30 @@ import math # Подключаем модуль math, который содер�
 # print(num1 + num2)
 
 
-operator = input("Enter an operator (+ - / *): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
-
-print(num1 * num2)
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
 #
-operator = input("Enter an operator (+ - / *): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
+# print(num1 * num2)
 
-if operator == "+":
-    result = num1 + num2
-    print(result)
-elif operator == "-":
-    result = num1 - num2
-    print(result)
-elif operator == "*":
-    result = num1 * num2
-    print(result)
-elif operator == "/":
-    result = num1 / num2
-    print(result)
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
 #
-operator = input("Enter an operator (+ - / *): ")
+# if operator == "+":
+#     result = num1 + num2
+#     print(result)
+# elif operator == "-":
+#     result = num1 - num2
+#     print(result)
+# elif operator == "*":
+#     result = num1 * num2
+#     print(result)
+# elif operator == "/":
+#     result = num1 / num2
+#     print(result)
+
+# operator = input("Enter an operator (+ - / *): ")
 # num1 = float(input("Enter the 1st number: "))
 # num2 = float(input("Enter the 2nd number: "))
 #
@@ -281,34 +283,34 @@ operator = input("Enter an operator (+ - / *): ")
 # num1 = float(input("Enter the 1sh number: "))
 # num2 = float(input("Enter the 2nd number: "))
 #
-if operator == "+":
-    result = num1 + num2
-    print(round(result, 3))
-elif operator == "-":
-    result = num1 - num2
-    print(round(result, 3))
-elif operator == "/":
-    result = num1 / num2
-    print(round(result, 3))
-elif operator == "*":
-    result = num1 * num2
-    print(round(result, 3))
-else:
-    print(f"{operator} is not a valid operator!")
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result, 3))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result, 3))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result, 3))
+# elif operator == "*":
+#     result = num1 * num2
+#     print(round(result, 3))
+# else:
+#     print(f"{operator} is not a valid operator!")
 
 #PYTHON WEIGHT CONVERTER
 
 weight = float(input("Enter your weight: "))
-unit = input("Kilograms or Pound? (K or L): ")
+unit = input("Kilograms or Pounds? (K or L): ")
 
 if unit == "K":
-   weight = weight * 2.205
-   unit = "Lbs."
-   print(f"Your weight is: {round(weight, 1)} {unit}")
+    weight = weight * 2.205
+    unit = "Lbs"
+    print(f"your weight is {round(weight, 2)} {unit}")
 elif unit == "L":
     weight = weight / 2.205
-    unit = "Kgs."
-    print(f"Your weight is {round(weight, 1)} {unit}")
+    unit = "Kgs"
+    print(f"your weight is {round(weight, 2)} {unit}")
 else:
-    print(f"{unit}")
+    print(f"{unit} is not valid!")
 

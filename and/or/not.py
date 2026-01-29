@@ -101,9 +101,17 @@ from termios import INPCK
 # print(river2 != "Kama" and river2 != "Ind")
 
 # == равно, != не равно
-river1 = "Neva"
-river2 = "Ind"
+# river1 = "Neva"
+# river2 = "Ind"
+#
+# print(river1 == "Bug" and river2 != "Oder"or river1 == "Neva") # False and True or True → True (or имеет приоритет)
+# print(river1 != "Elba" and river1 != "Sena" and river1 != "Ind")  #True and True and True → True (все условия != выполнены)
+# != означает "не равно", возвращает True если значения разные
 
-print(river1 == "Bug" and river2 != "Oder"or river1 == "Neva") # False and True or True → True (or имеет приоритет)
-print(river1 != "Elba" and river1 != "Sena" and river1 != "Ind")  #True and True and True → True (все условия != выполнены)
-## != означает "не равно", возвращает True если значения разные
+num1 = 34
+num2 = 81
+
+if num1 // 9 or num2 % 9 == 0:
+    print("number", num1, "won")
+else:
+    print("number", num2, "won")

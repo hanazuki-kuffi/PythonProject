@@ -108,10 +108,29 @@ from termios import INPCK
 # print(river1 != "Elba" and river1 != "Sena" and river1 != "Ind")  #True and True and True → True (все условия != выполнены)
 # != означает "не равно", возвращает True если значения разные
 
-num1 = 34
-num2 = 81
+# num1 = 34
+# num2 = 81
+#
+# if num1 // 9 or num2 % 9 == 0:
+#     print("number", num1, "won")
+# else:
+#     print("number", num2, "won")
 
-if num1 // 9 or num2 % 9 == 0:
-    print("number", num1, "won")
-else:
-    print("number", num2, "won")
+# a = int(input())
+#
+# if a >= 2 and a <= 17:
+#     b = 3
+#     p = a * a + b * b
+# else:
+#     b = 5
+#                       A challenge for attentivetess! DO NOT get carried  away in this conditions. Identation is very inportant in Python!
+# p = (a + b) * (a + b)
+# print(p)
+
+
+# x = int(input())
+#
+# if x > -1 and x < 17:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")

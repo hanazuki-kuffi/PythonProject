@@ -134,3 +134,19 @@ from termios import INPCK
 #     print("Belongs")
 # else:
 #     print("Doesn't belong")
+
+
+# x = int(input())
+#
+# if -3 >= x or 7 <= x:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")
+
+
+x = int(input())
+
+if  -30 < x <= -2 or 7 < x <= 25:
+    print("Belongs")
+else:
+    print("Doesn't belong")

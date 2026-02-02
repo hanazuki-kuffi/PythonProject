@@ -144,9 +144,16 @@ from termios import INPCK
 #     print("Doesn't belong")
 
 
-x = int(input())
+# x = int(input())
+#
+# if  -30 < x <= -2 or 7 < x <= 25:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")
 
-if  -30 < x <= -2 or 7 < x <= 25:
-    print("Belongs")
+digit_0 = int(input("Enter the number: "))
+
+if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
+    print("YES")
 else:
-    print("Doesn't belong")
+    print("NO")

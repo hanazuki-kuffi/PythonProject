@@ -151,9 +151,35 @@ from termios import INPCK
 # else:
 #     print("Doesn't belong")
 
-digit_0 = int(input("Enter the number: "))
+# digit_0 = int(input("Enter the number: "))
+#
+# if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
+#     print("YES")
+# else:
+#     print("NO")
 
-if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
+
+# a = int(input("Enter the 1st number: "))
+# b = int(input("Enter the 2nd number: "))
+# c = int(input("Enter the 3th number: "))
+#
+# if a + b > c and a + c > b and b + c > a:
+#     print("YES")
+# else:
+#     print("NO")
+
+# sj we can write through negative not()
+
+# a, b, c = int(input()), int(input()), int(input())
+#
+# if not (a + b <= c or a + c <= b or b + c <= a):
+#     print("YES")
+# else:
+#     print("NO")
+
+calendar = int(input())
+
+if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
     print("YES")
 else:
     print("NO")

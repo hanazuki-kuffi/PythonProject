@@ -128,63 +128,63 @@ from termios import INPCK
 # print(p)
 
 
-# x = int(input())
+x = int(input())
+
+if x > -1 and x < 17:
+    print("Belongs")
+else:
+    print("Doesn't belong")
 #
-# if x > -1 and x < 17:
-#     print("Belongs")
-# else:
-#     print("Doesn't belong")
-
-
-# x = int(input())
 #
-# if -3 >= x or 7 <= x:
-#     print("Belongs")
-# else:
-#     print("Doesn't belong")
+x = int(input())
 
-
-# x = int(input())
+if -3 >= x or 7 <= x:
+    print("Belongs")
+else:
+    print("Doesn't belong")
 #
-# if  -30 < x <= -2 or 7 < x <= 25:
-#     print("Belongs")
-# else:
-#     print("Doesn't belong")
-
-# digit_0 = int(input("Enter the number: "))
 #
-# if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
-#     print("YES")
-# else:
-#     print("NO")
+x = int(input())
 
-
-# a = int(input("Enter the 1st number: "))
-# b = int(input("Enter the 2nd number: "))
-# c = int(input("Enter the 3th number: "))
+if  -30 < x <= -2 or 7 < x <= 25:
+    print("Belongs")
+else:
+    print("Doesn't belong")
 #
-# if a + b > c and a + c > b and b + c > a:
-#     print("YES")
-# else:
-#     print("NO")
+digit_0 = int(input("Enter the number: "))
 
-# sj we can write through negative not()
-
-# a, b, c = int(input()), int(input()), int(input())
+if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
+    print("YES")
+else:
+    print("NO")
 #
-# if not (a + b <= c or a + c <= b or b + c <= a):
-#     print("YES")
-# else:
-#     print("NO")
-
-# calendar = int(input())
 #
-# if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
-#     print("YES")
-# else:
-#     print("NO")
+a = int(input("Enter the 1st number: "))
+b = int(input("Enter the 2nd number: "))
+c = int(input("Enter the 3th number: "))
 
+if a + b > c and a + c > b and b + c > a:
+    print("YES")
+else:
+    print("NO")
+#
+sj we can write through negative not()
+#
+a, b, c = int(input()), int(input()), int(input())
 
+if not (a + b <= c or a + c <= b or b + c <= a):
+    print("YES")
+else:
+    print("NO")
+#
+calendar = int(input())
+
+if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
+    print("YES")
+else:
+    print("NO")
+#
+#
 x1 = int(input())
 x2 = int(input())
 y1 = int(input())

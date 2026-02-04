@@ -177,9 +177,17 @@ from termios import INPCK
 # else:
 #     print("NO")
 
-calendar = int(input())
+# calendar = int(input())
+#
+# if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
+#     print("YES")
+# else:
+#     print("NO")
 
-if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
-    print("YES")
-else:
-    print("NO")
+
+x1 = int(input())
+x2 = int(input())
+y1 = int(input())
+y2 = int(input())
+
+if

@@ -27,8 +27,13 @@
 # print(alien_0)
 
 #first, the dictionary alien_0 is defined, wich contains only the alien colour: then the value associted with the key "colour" changed to "yellow"
-alien_0 = {"colour": "green"}
-print(f"The alien is {alien_0["colour"]}.")
+# alien_0 = {"colour": "green"}
+# print(f"The alien is {alien_0["colour"]}.")
+#
+# alien_0["colour"] = "yellow"
+# print(f"The alien is now {alien_0["colour"]}.")
 
-alien_0["colour"] = "yellow"
-print(f"The alien is now {alien_0["colour"]}.")
+# alien_0 = {"x_position": 0, "y_position": 25, "speed": "medium"}
+# print(f"Original position: {alien_0["x_position"]}")
+#
+# if alien_0["speed"] == "slow":

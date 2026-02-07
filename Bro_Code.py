@@ -1,6 +1,6 @@
-This is my first Python code!!
-print("I like pizza!")
-print("It is really good!")
+# This is my first Python code!!
+# print("I like pizza!")
+# print("It is really good!")
 # from math import remainder
 # # from pickle import format_version
 #
@@ -180,71 +180,71 @@ print("It is really good!")
 # import math # Подключаем модуль math, который содержит математические функции (корень, округление, пи, и т.д.)
 # from turtledemo.sorting_animate import enable_keys
 #
-ceil и floor работают только с дробными числами. Если число уже целое, то оно остается таким же! ceil и floor - всегда в одну сторону! 😊
-x = 4.4
+# ceil и floor работают только с дробными числами. Если число уже целое, то оно остается таким же! ceil и floor - всегда в одну сторону! 😊
+# x = 4.4
+#
+# print(math.pi) #Выводит число Пи (π ≈ 3.141592653589793)
+# print(math.e) #Выводит число Эйлера (e ≈ 2.718281828459045)
+#
+# result = math.sqrt(x) # square root (квадратный корень) Вычисляет корень из x
+# result = math.ceil(x) #ceiling (потолок) Округляет ВВЕРХ до ближайшего целого 9.1->10, 9.9->10
+# result = math.floor(x) #Округляет ВНИЗ до ближайшего целого 9.1->9, 9.9->9
+#
+# print(math.sqrt(x))
+# print(math.ceil(x))
+# print(math.floor(x))
 
-print(math.pi) #Выводит число Пи (π ≈ 3.141592653589793)
-print(math.e) #Выводит число Эйлера (e ≈ 2.718281828459045)
+# import math
+#
+# radius = float(input("Enter the radius of a circle: "))
+# circumference = 2 * math.pi * radius
+# print(circumference)
+# print(f"The circumference is: {round(circumference, 5)} cm") # 5 - это количество цифр после запятой, до которых нужно округлить.
+# round(circumference, 5) = 62.83185 ✅ (оставили 5 цифр после запятой)
 
-result = math.sqrt(x) # square root (квадратный корень) Вычисляет корень из x
-result = math.ceil(x) #ceiling (потолок) Округляет ВВЕРХ до ближайшего целого 9.1->10, 9.9->10
-result = math.floor(x) #Округляет ВНИЗ до ближайшего целого 9.1->9, 9.9->9
+# import math
+# radius = float(input("Enter the radius of a circle:" ))
+# area = math.pi * pow(radius, 2)
+# print(f"The area of the circle is: {round(area, 2)}cm² ")
 
-print(math.sqrt(x))
-print(math.ceil(x))
-print(math.floor(x))
+# import math
 #
-import math
+# a = float(input("Enter side A: "))
+# b = float(input("Enter side B: "))
+# c = math.sqrt(pow(a, 2) + pow(b, 2))
+# print(f"Side C {c}")
 
-radius = float(input("Enter the radius of a circle: "))
-circumference = 2 * math.pi * radius
-print(circumference)
-print(f"The circumference is: {round(circumference, 5)} cm") # 5 - это количество цифр после запятой, до которых нужно округлить.
-round(circumference, 5) = 62.83185 ✅ (оставили 5 цифр после запятой)
-#
-import math
-radius = float(input("Enter the radius of a circle:" ))
-area = math.pi * pow(radius, 2)
-print(f"The area of the circle is: {round(area, 2)}cm² ")
-#
-import math
 
-a = float(input("Enter side A: "))
-b = float(input("Enter side B: "))
-c = math.sqrt(pow(a, 2) + pow(b, 2))
-print(f"Side C {c}")
-#
-#
-if = Do some code only IF some condition is TRUE
-   Else = do something else
-#
-age = int(input("Enter your age: "))
+# if = Do some code only IF some condition is TRUE
+#    Else = do something else
 
-if age >= 100:
-    print("You are too old to sign up! ")
-elif age >= 18:
-    print("You are now signed up!")
-elif age < 0:
-    print("You haven't been born yet! ")
-else:
-    print("You must be 18+ to sign up! ")
+# age = int(input("Enter your age: "))
 #
-#
-PYTHON CALCULATE OPERATOR
-#
-operator = input("Enter an operator (+ - / *): ")
-num1 = input("Enter the 1st number: ")
-num2 = input("Enter the 2nd number: ")
+# if age >= 100:
+#     print("You are too old to sign up! ")
+# elif age >= 18:
+#     print("You are now signed up!")
+# elif age < 0:
+#     print("You haven't been born yet! ")
+# else:
+#     print("You must be 18+ to sign up! ")
 
-print(num1 + num2)
-#
-#
-operator = input("Enter an operator (+ - / *): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
 
+# PYTHON CALCULATE OPERATOR
+
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = input("Enter the 1st number: ")
+# num2 = input("Enter the 2nd number: ")
+#
+# print(num1 + num2)
+
+
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
 # print(num1 * num2)
-
+#
 # operator = input("Enter an operator (+ - / *): ")
 # num1 = float(input("Enter the 1st number: "))
 # num2 = float(input("Enter the 2nd number: "))
@@ -316,14 +316,25 @@ num2 = float(input("Enter the 2nd number: "))
 
 #PYTHON TEMPERATURE CONVERTER
 
-unit = input("Is this temperature in Celsius or Farenheit (C/F): ")
-temp = float(input("Enter the temperature: "))
+# unit = input("Is this temperature in Celsius or Farenheit (C/F): ")
+# temp = float(input("Enter the temperature: "))
+#
+# if unit == "C":
+#     temp = round((9 * temp) / 5 + 32, 1)
+#     print(f"The temperature in Farenheit is: {temp} ℉")
+# elif unit == "F":
+#     temp = round((temp - 32) * 5 / 9, 1)
+#     print(f"The temperature in Celsius is: {temp} ℃")
+# else:
+#     print(f"{unit} is an invalid unit of measurement!")
 
-if unit == "C":
-    temp = round((9 * temp) / 5 + 32, 1)
-    print(f"The temperature in Farenheit is: {temp} ℉")
-elif unit == "F":
-    temp = round((temp - 32) * 5 / 9, 1)
-    print(f"The temperature in Celsius is: {temp} ℃")
+
+x1 = int(input())
+x2 = int(input())
+y1 = int(input())
+y2 = int(input())
+
+if (x1 == y2 + 1 and x2 == y1 + 1):
+    print("YES")
 else:
-    print(f"{unit} is an invalid unit of measurement!")
+    print("NO")

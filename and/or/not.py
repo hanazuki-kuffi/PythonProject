@@ -128,66 +128,91 @@ from termios import INPCK
 # print(p)
 
 
-x = int(input())
+# x = int(input())
+#
+# if x > -1 and x < 17:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")
 
-if x > -1 and x < 17:
-    print("Belongs")
-else:
-    print("Doesn't belong")
-#
-#
-x = int(input())
 
-if -3 >= x or 7 <= x:
-    print("Belongs")
-else:
-    print("Doesn't belong")
+# x = int(input())
 #
-#
-x = int(input())
+# if -3 >= x or 7 <= x:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")
 
-if  -30 < x <= -2 or 7 < x <= 25:
-    print("Belongs")
-else:
-    print("Doesn't belong")
-#
-digit_0 = int(input("Enter the number: "))
 
-if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
-    print("YES")
-else:
+# x = int(input())
+#
+# if  -30 < x <= -2 or 7 < x <= 25:
+#     print("Belongs")
+# else:
+#     print("Doesn't belong")
+
+# digit_0 = int(input("Enter the number: "))
+#
+# if 1000 <= digit_0 <= 9999 and (digit_0 % 7 == 0 or digit_0 % 17 == 0):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# a = int(input("Enter the 1st number: "))
+# b = int(input("Enter the 2nd number: "))
+# c = int(input("Enter the 3th number: "))
+#
+# if a + b > c and a + c > b and b + c > a:
+#     print("YES")
+# else:
+#     print("NO")
+
+# sj we can write through negative not()
+
+# a, b, c = int(input()), int(input()), int(input())
+#
+# if not (a + b <= c or a + c <= b or b + c <= a):
+#     print("YES")
+# else:
+#     print("NO")
+
+# calendar = int(input())
+#
+# if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
+#     print("YES")
+# else:
+#     print("NO")
+
+#Даны две различные клетки шахматной доски. Напишите программу, которая определяет, может ли ладья попасть с первой клетки на вторую одним ходом. Программа получает на вход четыре числа от
+# 1
+# 1 до
+# 8
+# 8 каждое, задающие номер столбца и номер строки сначала для первой клетки, потом для второй клетки. Программа должна вывести «YES» (без кавычек), если из первой клетки ходом ладьи можно попасть во вторую, или «NO» (без кавычек) в противном случае.
+# x1 = int(input("Choose these numbers around 1-8: "))
+# x2 = int(input("Choose these numbers around 1-8: "))
+# y1 = int(input("Choose these numbers around 1-8: "))
+# y2 = int(input("Choose these numbers around 1-8: "))
+#
+# if x1 == y1 or x2 == y2: #Чтобы ладья могла перейти с одной клетки на другую, нам достаточно проверить, что координаты этих клеток равны по вертикали или по горизонтали.
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# x1 = int(input())
+# x2 = int(input())
+# y1 = int(input())
+# y2 = int(input())
+#
+# if x1 == x2 and :
+#     print("YES")
+# else:
     print("NO")
-#
-#
-a = int(input("Enter the 1st number: "))
-b = int(input("Enter the 2nd number: "))
-c = int(input("Enter the 3th number: "))
 
-if a + b > c and a + c > b and b + c > a:
-    print("YES")
-else:
-    print("NO")
-#
-sj we can write through negative not()
-#
-a, b, c = int(input()), int(input()), int(input())
 
-if not (a + b <= c or a + c <= b or b + c <= a):
-    print("YES")
-else:
-    print("NO")
-#
-calendar = int(input())
-
-if calendar % 4 == 0 and (calendar % 100  or calendar % 400 == 0):
-    print("YES")
-else:
-    print("NO")
+# королль у нас ходит по горизонтали по вертикали и по диагонали но только на одну клетку
+# у нас есть два различных клеток и каждый из них чередуется между собой
+# чтоб король мог двигаться с одной клетки на другую координата по вертикали отличается не более чем на 1 и по горизонтали отличается не более чем на 1
 #
 #
-x1 = int(input())
-x2 = int(input())
-y1 = int(input())
-y2 = int(input())
-
-if

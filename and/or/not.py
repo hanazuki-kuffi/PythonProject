@@ -208,7 +208,7 @@ from termios import INPCK
 # if x1 == x2 and :
 #     print("YES")
 # else:
-    print("NO")
+#     print("NO")
 
 
 # королль у нас ходит по горизонтали по вертикали и по диагонали но только на одну клетку

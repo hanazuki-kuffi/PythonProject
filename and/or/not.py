@@ -216,3 +216,27 @@ from termios import INPCK
 # чтоб король мог двигаться с одной клетки на другую координата по вертикали отличается не более чем на 1 и по горизонтали отличается не более чем на 1
 #
 #
+
+# if condition1:
+#     print()
+# else:
+#     if condition2:
+#         print()
+#     else:
+#         if condition3:
+#             print()
+
+
+x = int(input())
+y = int(input())
+
+if x > 0:
+    if y > 0:
+        print("First quarter")
+    else:
+        print("Fourth quarter")
+else:
+    if y > 0:
+        print("Second quarter")
+    else:
+        print("Third quarter")

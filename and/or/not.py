@@ -230,13 +230,14 @@ from termios import INPCK
 x = int(input())
 y = int(input())
 
-if x > 0:
-    if y > 0:
-        print("First quarter")
-    else:
-        print("Fourth quarter")
-else:
-    if y > 0:
-        print("Second quarter")
-    else:
-        print("Third quarter")
+# if x > 0:
+#     if y > 0:
+#         print("First quarter")
+#     else:
+#         print("Fourth quarter")
+# else:
+#     if y > 0:
+#         print("Second quarter")
+#     else:
+#         print("Third quarter")
+

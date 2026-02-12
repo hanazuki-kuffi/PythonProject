@@ -194,50 +194,50 @@ from termios import INPCK
 # y1 = int(input("Choose these numbers around 1-8: "))
 # y2 = int(input("Choose these numbers around 1-8: "))
 #
-# if x1 == y1 or x2 == y2: #Чтобы ладья могла перейти с одной клетки на другую, нам достаточно проверить, что координаты этих клеток равны по вертикали или по горизонтали.
-#     print("YES")
-# else:
-#     print("NO")
-
-
-# x1 = int(input())
-# x2 = int(input())
-# y1 = int(input())
-# y2 = int(input())
-#
-# if x1 == x2 and :
-#     print("YES")
-# else:
-#     print("NO")
-
-
-# королль у нас ходит по горизонтали по вертикали и по диагонали но только на одну клетку
-# у нас есть два различных клеток и каждый из них чередуется между собой
-# чтоб король мог двигаться с одной клетки на другую координата по вертикали отличается не более чем на 1 и по горизонтали отличается не более чем на 1
+if x1 == y1 or x2 == y2: #Чтобы ладья могла перейти с одной клетки на другую, нам достаточно проверить, что координаты этих клеток равны по вертикали или по горизонтали.
+    print("YES")
+else:
+    print("NO")
 #
 #
+x1 = int(input())
+x2 = int(input())
+y1 = int(input())
+y2 = int(input())
 
-# if condition1:
-#     print()
-# else:
-#     if condition2:
-#         print()
-#     else:
-#         if condition3:
-#             print()
+if x1 == x2 and :
+    print("YES")
+else:
+    print("NO")
+#
+#
+королль у нас ходит по горизонтали по вертикали и по диагонали но только на одну клетку
+у нас есть два различных клеток и каждый из них чередуется между собой
+чтоб король мог двигаться с одной клетки на другую координата по вертикали отличается не более чем на 1 и по горизонтали отличается не более чем на 1
 
 
-# x = int(input())
-# y = int(input())
-
-# if x > 0:
-#     if y > 0:
-#         print("First quarter")
-#     else:
-#         print("Fourth quarter")
-# else:
-#     if y > 0:
-#         print("Second quarter")
-#     else:
-#         print("Third quarter")
-
+#
+if condition1:
+    print()
+else:
+    if condition2:
+        print()
+    else:
+        if condition3:
+            print()
+#
+#
+x = int(input())
+y = int(input())
+#
+if x > 0:
+    if y > 0:
+        print("First quarter")
+    else:
+        print("Fourth quarter")
+else:
+    if y > 0:
+        print("Second quarter")
+    else:
+        print("Third quarter")
+#

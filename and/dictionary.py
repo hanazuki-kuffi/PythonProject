@@ -61,23 +61,59 @@
 #PLEASE NOTE THAT DELETING                           alien_0["points"]
 #A KEY-VALUE PAIR CANNOT BE UNDONE    print(alien_0)
 
-favorite_languages = {
-    "Jen": "python",
-    "Sarah": "c",
-    "Edward": "ruby",
-    "Phil": "python",
-}
-
-language1 = favorite_languages["Sarah"].title()
-print(f"Sarah is favorite language {language1}.")
-
-language2 = favorite_languages["Jen"].title()
-print(f"Jen is favorite language  {language2}.")
-
-language3 = favorite_languages["Edward"].title()
-print(f"Edward is favorite language {language3}.")
-
-language4 = favorite_languages["Phil"].title()
-print(f"Phil is favorite language {language4}.")
+# favorite_languages = {
+#     "Jen": "python",
+#     "Sarah": "c",
+#     "Edward": "ruby",
+#     "Phil": "python",
+# }
+#
+# language1 = favorite_languages["Sarah"].title()
+# print(f"Sarah is favorite language {language1}.")
+#
+# language2 = favorite_languages["Jen"].title()
+# print(f"Jen is favorite language  {language2}.")
+#
+# language3 = favorite_languages["Edward"].title()
+# print(f"Edward is favorite language {language3}.")
+#
+# language4 = favorite_languages["Phil"].title()
+# print(f"Phil is favorite language {language4}.")
 
 #ПЕРЕМЕННАЯ НИКОГДА НЕ НАЧИНАЕТСЯ С ЗАГЛАВНОЙ БУКВ ВСЕХ ЯЗЫКОВ ПРОГРАММИРОВАНИЯ
+
+# alien_0 = {"colour": "green", "speed": "slow"}
+# print(alien_0["points"])
+
+# alien_0 = {"colour": "green", "speed": "slow"}
+#
+# point_value = alien_0.get("points", "No point value assigned!") # Если ключ существует — возвращает его значение, если нет — возвращает None или указанное значение по умолчанию. Это позволяет избежать ошибок при обращении к несуществующим ключам.
+# print(point_value)                                              # Пример: user.get('name', 'Неизвестно') вернёт имя пользователя, а если ключа 'name' нет — вернёт 'Неизвестно'.
+
+
+#human
+
+# sister_07 = {
+#     "first_name": "Nurailym",
+#     "Last_name": "Dumankyzy",
+#     "age": 19,
+#     "city": "Satpayev",
+# }
+#
+# print(sister_07["first_name"])
+# print(sister_07["Last_name"])
+# print(sister_07["age"])
+# print(sister_07["city"])
+
+
+# favorite_number = {
+#     "Mother": 7,
+#     "Sister": 28,
+#     "MoaNoHosuto": 21,
+#     "Kuffi": 45,
+# }
+#
+# print(favorite_number["Mother"])
+# print(favorite_number["Sister"])
+# print(favorite_number["MoaNoHosuto"])
+# print(favorite_number["Kuffi"])

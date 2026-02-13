@@ -217,39 +217,44 @@ from termios import INPCK
 
 #
 #
-if condition1:
-    print()
+# if condition1:
+#     print()
+# else:
+#     if condition2:
+#         print()
+#     else:
+#         if condition3:
+#             print()
+
+
+# x = int(input())
+# y = int(input())
+
+# if x > 0:
+#     if y > 0:
+#         print("First quarter")
+#     else:
+#         print("Fourth quarter")
+# else:
+#     if y > 0:
+#         print("Second quarter")
+#     else:
+#         print("Third quarter")
+
+
+grade = int(input("Please enter your score out of 100: "))
+
+if grade >= 90:
+    print(5)
 else:
-    if condition2:
-        print()
+    if grade >= 80:
+        print(4)
     else:
-        if condition3:
-            print()
-#
-#
-x = int(input())
-y = int(input())
-#
-if x > 0:
-    if y > 0:
-        print("First quarter")
-    else:
-        print("Fourth quarter")
-else:
-    if y > 0:
-        print("Second quarter")
-    else:
-        print("Third quarter")
-#
+        if grade >= 70:
+            print(3)
+        else:
+            if grade >= 60:
+                print(2)
+            else:
+                print(1)
 
-grade = int(input('Введите вашу отметку по 100-балльной системе: '))
-
-traffic_light_signal = input('Введите сигнал светофора: ')
-
-if traffic_light_signal == 'красный':
-    print('Стой!')
-elif traffic_light_signal == 'желтый':
-    print('Приготовься...')
-elif traffic_light_signal == 'зеленый':
-    print('Иди!')
-    пго

@@ -344,24 +344,52 @@ from turtledemo.sorting_animate import enable_keys
 #     print("The outdoor event is still schedulled!")
 
 
-temp = 25
-is_sunny = False
+# temp = 25
+# is_sunny = False
+#
+# if temp >= 28 and is_sunny:
+#     print("It is HOT outside 🥵")
+#     print("It is SUNNY ☀️")
+# elif temp <= 0 and is_sunny:
+#     print("It is COLD outside 🥶")
+#     print("It is SUNNY ☀️")
+# elif 28 > temp > 0 and is_sunny:
+#     print("It is WARM outside ☺️")
+#     print("It is SUNNY ☀️")
+# elif temp >= 28 and not is_sunny:
+#     print("It is HOT outside 🥵")
+#     print("It is CLOUDY ☁️️")
+# elif temp <= 0 and not is_sunny:
+#     print("It is COLD outside 🥶")
+#     print("It is CLOUDY ☁️️")
+# elif 28 > temp > 0 and not is_sunny:
+#     print("It is WARM outside ☺️")
+#     print("It is CLOUDY ☁️")
 
-if temp >= 28 and is_sunny:
-    print("It is HOT outside 🥵")
-    print("It is SUNNY ☀️")
-elif temp <= 0 and is_sunny:
-    print("It is COLD outside 🥶")
-    print("It is SUNNY ☀️")
-elif 28 > temp > 0 and is_sunny:
-    print("It is WARM outside ☺️")
-    print("It is SUNNY ☀️")
-elif temp >= 28 and not is_sunny:
-    print("It is HOT outside 🥵")
-    print("It is CLOUDY ☁️️")
-elif temp <= 0 and not is_sunny:
-    print("It is COLD outside 🥶")
-    print("It is CLOUDY ☁️️")
-elif 28 > temp > 0 and not is_sunny:
-    print("It is WARM outside ☺️")
-    print("It is CLOUDY ☁️")
+# name = input("Enter your full name: ")
+# result = len(name) # len() number is characters
+# print(result)
+
+# name = input("Enter your full name: ")
+# result = name.find("m") #любой мына жакша ишине любой символ  койып жазсак сол символга дин неше символ турганнын айтат
+# print(result)
+
+# name = input("Enter your full name: ")
+# result = name.rfind("i") # например бир любой символ жазсак но сол символдын неше рет кайталанганын тауып берет
+# print(result)
+
+# name = input("Enter your full name: ")
+# result = name.capitalize() # бас арипин жазып берет жазган оутпуттаг создерди
+# print(result)
+
+# name = input("Enter your full name: ")
+# result = name.upper()
+# print(result)
+
+# name = input("Enter your full name: ")
+# result = name.lower()
+# print(result)
+
+name = input("Enter your full name: ")
+result = name.isdigit()
+print(result)

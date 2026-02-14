@@ -242,19 +242,59 @@ from termios import INPCK
 #         print("Third quarter")
 
 
-grade = int(input("Please enter your score out of 100: "))
+# grade = int(input("Please enter your score out of 100: "))
 
-if grade >= 90:
-    print(5)
-else:
-    if grade >= 80:
-        print(4)
-    else:
-        if grade >= 70:
-            print(3)
+# if grade >= 90:
+#     print(5)
+# else:
+#     if grade >= 80:
+#         print(4)
+#     else:
+#         if grade >= 70:
+#             print(3)
+#         else:
+#             if grade >= 60:
+#                 print(2)
+#             else:
+#                 print(1)
+
+
+# grade = int(input("Please, enter your score out of 100: "))
+#
+# if grade >= 90:
+#     print(5)
+# elif grade >= 80:
+#     print(4)
+# elif grade >= 70:
+#     print(3)
+# elif grade >= 60:
+#     print(2)
+# else:
+#     print(1)
+
+# traffic_light_signal = input("Enter the traffic light signal: ")
+#
+# if traffic_light_signal == "red":
+#     print("Stop!")
+# elif traffic_light_signal == "yellow":
+#     print("Get ready!")
+# elif traffic_light_signal == "green":
+#     print("Go!")
+
+num_a = int(input("Enter the number: "))
+num_b = int(input("Enter the number: "))
+num_c = int(input("Enter the number: "))
+
+if num_a == num_b:              # Если a равно b
+    if num_b == num_c:          # И b равно c
+        print(3)                # → Значит все три равны!
+    else:                       # Иначе (b не равно c)
+        print(2)                # → Только a и b равны
+else:                           # иначе
+    if num_a == num_c:          # Проверяем, может a равно c?
+        print(2)                # → a и c равны
+    else:                       # a не равно c
+        if num_b == num_c:      # Проверяем, может b равно c?
+            print(2)            # → b и c равны
         else:
-            if grade >= 60:
-                print(2)
-            else:
-                print(1)
-
+            print(0)            # Все разные

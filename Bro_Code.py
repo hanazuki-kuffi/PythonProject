@@ -390,6 +390,6 @@ from turtledemo.sorting_animate import enable_keys
 # result = name.lower()
 # print(result)
 
-name = input("Enter your full name: ")
-result = name.isdigit()
-print(result)
+# name = input("Enter your full name: ")
+# result = name.isdigit()
+# print(result)

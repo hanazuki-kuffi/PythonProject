@@ -262,36 +262,36 @@ from turtledemo.sorting_animate import enable_keys
 #     result = num1 / num2
 #     print(result)
 
-# operator = input("Enter an operator (+ - / *): ")
-# num1 = float(input("Enter the 1st number: "))
-# num2 = float(input("Enter the 2nd number: "))
-#
-# if operator == "+":
-#     result = num1 + num2
-#     print(round(result))
-# elif operator == "-":
-#     result = num1 - num2
-#     print(round(result))
-# elif operator == "/":
-#     result = num1 / num2
-#     print(round(result))
-# elif operator == "*":
-#     result = num1 * num2
-#     print(round(result))
+operator = input("Enter an operator (+ - / *): ")
+num1 = float(input("Enter the 1st number: "))
+num2 = float(input("Enter the 2nd number: "))
 
-# operator = input("Enter an operator (+ - / *): ")
-# num1 = float(input("Enter the 1sh number: "))
-# num2 = float(input("Enter the 2nd number: "))
+if operator == "+":
+    result = num1 + num2
+    print(round(result))
+elif operator == "-":
+    result = num1 - num2
+    print(round(result))
+elif operator == "/":
+    result = num1 / num2
+    print(round(result))
+elif operator == "*":
+    result = num1 * num2
+    print(round(result))
 #
-# if operator == "+":
-#     result = num1 + num2
-#     print(round(result, 3))
-# elif operator == "-":
-#     result = num1 - num2
-#     print(round(result, 3))
-# elif operator == "/":
-#     result = num1 / num2
-#     print(round(result, 3))
+operator = input("Enter an operator (+ - / *): ")
+num1 = float(input("Enter the 1sh number: "))
+num2 = float(input("Enter the 2nd number: "))
+
+if operator == "+":
+    result = num1 + num2
+    print(round(result, 3))
+elif operator == "-":
+    result = num1 - num2
+    print(round(result, 3))
+elif operator == "/":
+    result = num1 / num2
+    print(round(result, 3))
 # elif operator == "*":
 #     result = num1 * num2
 #     print(round(result, 3))

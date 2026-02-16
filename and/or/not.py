@@ -281,20 +281,20 @@ from termios import INPCK
 # elif traffic_light_signal == "green":
 #     print("Go!")
 
-num_a = int(input("Enter the number: "))
-num_b = int(input("Enter the number: "))
-num_c = int(input("Enter the number: "))
-
-if num_a == num_b:              # Если a равно b
-    if num_b == num_c:          # И b равно c
-        print(3)                # → Значит все три равны!
-    else:                       # Иначе (b не равно c)
-        print(2)                # → Только a и b равны
-else:                           # иначе
-    if num_a == num_c:          # Проверяем, может a равно c?
-        print(2)                # → a и c равны
-    else:                       # a не равно c
-        if num_b == num_c:      # Проверяем, может b равно c?
-            print(2)            # → b и c равны
-        else:
-            print(0)            # Все разные
+# num_a = int(input("Enter the number: "))
+# num_b = int(input("Enter the number: "))
+# num_c = int(input("Enter the number: "))
+#
+# if num_a == num_b:              # Если a равно b
+#     if num_b == num_c:          # И b равно c
+#         print(3)                # → Значит все три равны!
+#     else:                       # Иначе (b не равно c)
+#         print(2)                # → Только a и b равны
+# else:                           # иначе
+#     if num_a == num_c:          # Проверяем, может a равно c?
+#         print(2)                # → a и c равны
+#     else:                       # a не равно c
+#         if num_b == num_c:      # Проверяем, может b равно c?
+#             print(2)            # → b и c равны
+#         else:
+#             print(0)            # Все разные

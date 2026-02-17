@@ -262,36 +262,36 @@ from turtledemo.sorting_animate import enable_keys
 #     result = num1 / num2
 #     print(result)
 
-operator = input("Enter an operator (+ - / *): ")
-num1 = float(input("Enter the 1st number: "))
-num2 = float(input("Enter the 2nd number: "))
-
-if operator == "+":
-    result = num1 + num2
-    print(round(result))
-elif operator == "-":
-    result = num1 - num2
-    print(round(result))
-elif operator == "/":
-    result = num1 / num2
-    print(round(result))
-elif operator == "*":
-    result = num1 * num2
-    print(round(result))
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1st number: "))
+# num2 = float(input("Enter the 2nd number: "))
 #
-operator = input("Enter an operator (+ - / *): ")
-num1 = float(input("Enter the 1sh number: "))
-num2 = float(input("Enter the 2nd number: "))
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result))
+# elif operator == "*":
+#     result = num1 * num2
+#     print(round(result))
 
-if operator == "+":
-    result = num1 + num2
-    print(round(result, 3))
-elif operator == "-":
-    result = num1 - num2
-    print(round(result, 3))
-elif operator == "/":
-    result = num1 / num2
-    print(round(result, 3))
+# operator = input("Enter an operator (+ - / *): ")
+# num1 = float(input("Enter the 1sh number: "))
+# num2 = float(input("Enter the 2nd number: "))
+#
+# if operator == "+":
+#     result = num1 + num2
+#     print(round(result, 3))
+# elif operator == "-":
+#     result = num1 - num2
+#     print(round(result, 3))
+# elif operator == "/":
+#     result = num1 / num2
+#     print(round(result, 3))
 # elif operator == "*":
 #     result = num1 * num2
 #     print(round(result, 3))
@@ -393,3 +393,25 @@ elif operator == "/":
 # name = input("Enter your full name: ")
 # result = name.isdigit()
 # print(result)
+
+# name = input("Enter your full name: ")
+# result = name.isalpha()
+# print(result)
+
+# phone_number = input("Enter your phone #: ")
+# result = phone_number.count("-")
+# print(result)
+
+# phone_number = input("Enter your phone #: ")
+# result = phone_number.replace("-", "")
+# print(result)
+
+
+# print(help(str))
+
+
+#validate = user input exercise
+# 1. username is no  more than 12 characters
+# 2. username must not contain spaces
+# 3. username must not contain digits
+

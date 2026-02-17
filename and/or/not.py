@@ -298,3 +298,52 @@ from termios import INPCK
 #             print(2)            # → b и c равны
 #         else:
 #             print(0)            # Все разные
+
+
+# num_a = int(input())
+# num_b = int(input())
+# num_c = int(input())
+#
+# if num_a == num_b:
+#     if num_b == num_c:
+#         print(3)
+#     else:
+#         print(2)
+# else:
+#     if num_a == num_c:
+#         print(2)
+#     else:
+#         if num_b == num_c:
+#             print(2)
+#         else:
+#             print(0)
+
+
+#САМЫЙ ИДЕЛАЬНЫЙ И ЧИТАБЕЛЬНЫЙ КОД КАК МЫ ПОЛОГАЕМ
+# num_a = int(input())
+# num_b = int(input())
+# num_c = int(input())
+#
+# if num_a == num_b == num_c:
+#     print(3)
+# elif num_a == num_b:
+#     print(2)
+# elif num_b == num_c:
+#     print(2)
+# elif num_a == num_c:
+#     print(2)
+# else:
+#     print(0)
+
+
+# num_a = int(input())
+# num_b = int(input())
+# num_c = int(input())
+#
+# if num_a == num_b == num_c:
+#     print(3)
+# elif num_a == num_b or num_b == num_c or num_b == num_c:
+#     print(2)
+# else:
+#     print(0)
+

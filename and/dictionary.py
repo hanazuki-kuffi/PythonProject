@@ -117,3 +117,14 @@
 # print(favorite_number["Sister"])
 # print(favorite_number["MoaNoHosuto"])
 # print(favorite_number["Kuffi"])
+
+
+user_0 = {
+    "username": "kuffi.vv",
+    "first": "gulaiym",
+    "last": "zharylkassynova",
+}
+
+for key, value in user_0.items():
+    print(f"\n key: {key}")
+    print(f"value {value}")

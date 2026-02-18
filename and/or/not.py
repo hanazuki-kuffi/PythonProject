@@ -368,3 +368,48 @@ from termios import INPCK
 #         print("Ни тупой ни острый, ни выпуклый") # вот тут можно ставить 291 а не 360 и вот почему в else показал 291 а в 360 вообще ничего не вышло в чем разница
 
 
+# zume_n = int(input())
+# flash_k = int(input())
+#
+# if zume_n > flash_k:
+#     print("NO")
+# elif flash_k > zume_n:
+#     print("YES")
+# else:
+#     print("Don't know")
+
+
+# triangle_1 = int(input())
+# triangle_2 = int(input())
+# triangle_3 = int(input())
+#
+# if triangle_1 == triangle_2:
+#     if triangle_2 == triangle_3:
+#         print("Равносторонний")
+#     else:
+#         print("Равнобедренный")
+# else:
+#     if triangle_1 == triangle_3:
+#         print("Равнобедренный")
+#     else:
+#         if triangle_2 == triangle_3:
+#             print("Равнобедренный")
+#         else:
+#             print("Разносторонний")
+#
+#
+# triangle_1 = int(input())
+# triangle_2 = int(input())
+# triangle_3 = int(input())
+#
+# if triangle_1 == triangle_2 == triangle_3:
+#     print("Равносторонний")
+# elif triangle_1 == triangle_2:
+#     print("Равнобедренный")
+# elif triangle_2 == triangle_3:
+#     print("Равнобедренный")
+# elif triangle_1 == triangle_3:
+#     print("Равнобедренный")
+# else:
+#     print("Разносторонний")
+

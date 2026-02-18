@@ -415,3 +415,13 @@ from turtledemo.sorting_animate import enable_keys
 # 2. username must not contain spaces
 # 3. username must not contain digits
 
+username = input("Enter a username: ")
+
+if len(username) > 12:
+    print("Your username can't be more than 12 characters!")
+elif not username.find(""):                    # "" и " "
+    print("Your username must not contain spaces!")
+elif not username.isalpha():
+    print("Your username must not contain numbers!")
+else:
+    print(f"Welcome {username}")

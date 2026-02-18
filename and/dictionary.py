@@ -119,12 +119,34 @@
 # print(favorite_number["Kuffi"])
 
 
-user_0 = {
-    "username": "kuffi.vv",
-    "first": "gulaiym",
-    "last": "zharylkassynova",
-}
+# user_0 = {
+#     "username": "kuffi.vv",
+#     "first": "gulaiym",
+#     "last": "zharylkassynova",
+# }
+#
+# for key, value in user_0.items():
+#     print(f"\n key: {key}")
+#     print(f"value {value}")
 
-for key, value in user_0.items():
-    print(f"\n key: {key}")
-    print(f"value {value}")
+
+# favorite_languages = {
+#     "jen": "python",
+#     "sarah": "c",
+#     "edward": "ruby",
+#     "phil": "python",
+# }
+#
+# for name, language in favorite_languages.items():
+#     print(f"\n {name.title()}'s favorite language is {language.title()}.")
+
+
+# favorite_languages = {
+#     "jen": "python",
+#     "sarah": "c",
+#     "edward": "ruby",
+#     "phil": "python",
+# }
+#
+# for name in favorite_languages.keys():
+#     print(name.title())

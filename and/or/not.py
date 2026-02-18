@@ -347,24 +347,24 @@ from termios import INPCK
 # else:
 #     print(0)
 
-angle = int(input())
-
-if angle % 90 == 0:
-    print("тут ничего нет ")
-    if angle == 0:
-        print("Нулевой")
-    elif angle == 90:
-        print("Прямой")
-    elif angle == 180:
-        print("Развернутый")
-else:
-    if 0 < angle < 90:
-        print("Острый")
-    elif 90 < angle < 180:
-        print("Тупой")
-    elif 180 < angle < 270:
-        print("Выпуклый")
-    else:
-        print("Ни тупой ни острый, ни выпуклый") # вот тут можно ставить 291 а не 360 и вот почему в else показал 291 а в 360 вообще ничего не вышло в чем разница
+# angle = int(input())
+#
+# if angle % 90 == 0:
+#     print("тут ничего нет ")
+#     if angle == 0:
+#         print("Нулевой")
+#     elif angle == 90:
+#         print("Прямой")
+#     elif angle == 180:
+#         print("Развернутый")
+# else:
+#     if 0 < angle < 90:
+#         print("Острый")
+#     elif 90 < angle < 180:
+#         print("Тупой")
+#     elif 180 < angle < 270:
+#         print("Выпуклый")
+#     else:
+#         print("Ни тупой ни острый, ни выпуклый") # вот тут можно ставить 291 а не 360 и вот почему в else показал 291 а в 360 вообще ничего не вышло в чем разница
 
 

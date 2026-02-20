@@ -383,33 +383,40 @@ from termios import INPCK
 # triangle_2 = int(input())
 # triangle_3 = int(input())
 #
-if triangle_1 == triangle_2:
-    if triangle_2 == triangle_3:
-        print("Равносторонний")
-    else:
-        print("Равнобедренный")
-else:
-    if triangle_1 == triangle_3:
-        print("Равнобедренный")
-    else:
-        if triangle_2 == triangle_3:
-            print("Равнобедренный")
-        else:
-            print("Разносторонний")
-
-
-triangle_1 = int(input())
-triangle_2 = int(input())
-triangle_3 = int(input())
-
-if triangle_1 == triangle_2 == triangle_3:
-    print("Равносторонний")
-elif triangle_1 == triangle_2:
-    print("Равнобедренный")
-elif triangle_2 == triangle_3:
-    print("Равнобедренный")
-elif triangle_1 == triangle_3:
-    print("Равнобедренный")
-else:
-    print("Разносторонний")
+# if triangle_1 == triangle_2:
+#     if triangle_2 == triangle_3:
+#         print("Равносторонний")
+#     else:
+#         print("Равнобедренный")
+# else:
+#     if triangle_1 == triangle_3:
+#         print("Равнобедренный")
+#     else:
+#         if triangle_2 == triangle_3:
+#             print("Равнобедренный")
+#         else:
+#             print("Разносторонний")
 #
+#
+# triangle_1 = int(input())
+# triangle_2 = int(input())
+# triangle_3 = int(input())
+#
+# if triangle_1 == triangle_2 == triangle_3:
+#     print("Равносторонний")
+# elif triangle_1 == triangle_2:
+#     print("Равнобедренный")
+# elif triangle_2 == triangle_3:
+#     print("Равнобедренный")
+# elif triangle_1 == triangle_3:
+#     print("Равнобедренный")
+# else:
+#     print("Разносторонний")
+#
+
+
+digit_1 = int(input())
+digit_2 = int(input())
+digit_3 = int(input())
+
+if

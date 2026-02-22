@@ -430,3 +430,31 @@ from termios import INPCK
 #     print(digit_1)
 # elif digit_1 < digit_3 < digit_2:
 #     print(digit_3)
+# elif digit_3 < digit_2 < digit_1:
+#     print(digit_2)
+# elif digit_2 < digit_1 < digit_3:
+#     print(digit_1)
+# elif digit_2 < digit_3 < digit_1:
+#     print(digit_3)
+
+
+# digit_1 = int(input())
+# digit_2 = int(input())
+# digit_3 = int(input())
+#
+# if digit_1 < digit_2 < digit_3 or digit_3 < digit_2 < digit_1:
+#     print(digit_2)
+# elif digit_3 < digit_1 < digit_2 or digit_2 < digit_1 < digit_3:
+#     print(digit_1)
+# else:
+#     print(digit_3)
+
+
+month_ordinal_number = int(input("Enter the month ordinal number: "))
+
+if month_ordinal_number == 1,3,5,7,8,10,12:
+    print(31)
+if month_ordinal_number == 4,6,9,11:
+    print(30)
+else:
+    print(28)

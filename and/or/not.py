@@ -415,8 +415,18 @@ from termios import INPCK
 #
 
 
-digit_1 = int(input())
-digit_2 = int(input())
-digit_3 = int(input())
 
-if
+# сперва числоларды сортировать ету керек типо томеннен жогары карай
+# потом после этого есть готовые формулы соган салып корип кодты проверка жасау керек
+#
+
+# digit_1 = int(input())
+# digit_2 = int(input())
+# digit_3 = int(input())
+#
+# if digit_1 < digit_2 < digit_3:
+#     print(digit_2)
+# elif digit_3 < digit_1 < digit_2:
+#     print(digit_1)
+# elif digit_1 < digit_3 < digit_2:
+#     print(digit_3)

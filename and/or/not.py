@@ -450,11 +450,11 @@ from termios import INPCK
 #     print(digit_3)
 
 
-month_ordinal_number = int(input("Enter the month ordinal number: "))
-
-if month_ordinal_number == 1 or month_ordinal_number == 3 or month_ordinal_number == 5 or month_ordinal_number == 7 or month_ordinal_number == 8 or month_ordinal_number == 10 or month_ordinal_number == 12:
-    print(31)
-elif month_ordinal_number == 4 or month_ordinal_number == 6 or month_ordinal_number == 9 or month_ordinal_number == 11:
-    print(30)
-else:
-    print(28)
+# month_ordinal_number = int(input("Enter the month ordinal number: "))
+#
+# if month_ordinal_number == 1 or month_ordinal_number == 3 or month_ordinal_number == 5 or month_ordinal_number == 7 or month_ordinal_number == 8 or month_ordinal_number == 10 or month_ordinal_number == 12:
+#     print(31)
+# elif month_ordinal_number == 4 or month_ordinal_number == 6 or month_ordinal_number == 9 or month_ordinal_number == 11:
+#     print(30)
+# else:
+#     print(28)

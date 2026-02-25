@@ -436,3 +436,26 @@ from turtledemo.sorting_animate import enable_keys
 #     print("Your username can't contain numbers")
 # else:
 #     print(f"Welcome {username}!")
+
+
+#INDEXING - accessing elements of a sequece using [] (indexing operator)
+#SYNTAXIS - [start : end : step]
+
+# credit_number = "1234-5678-9012-3456"
+#                1 2 3 4 - 5 6 7 8 - 9  0  1  2  -  3  4  5  6
+#                0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+# print(credit_number[0])
+# print(credit_number[1])
+# print(credit_number[2])
+# print(credit_number[3])
+# print(credit_number[4])
+# там в оутпуте выходит отдельно и вертикальный типология типот
+# 1
+# 2
+# 3
+# 4
+
+credit_number = "1234-5678-9012-3456"
+print(credit_number[0:4])
+# если вот так написать то тогда выйдет красиво только последний :4 и имеенно 4 не включительно
+#1234- емес а именно выходит 1234 вот вот так

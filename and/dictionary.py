@@ -104,7 +104,7 @@
 # print(sister_07["Last_name"])
 # print(sister_07["age"])
 # print(sister_07["city"])
-
+#
 
 # favorite_number = {
 #     "Mother": 7,
@@ -151,18 +151,17 @@
 # for name in favorite_languages.keys():
 #     print(name.title())
 
-# favorite_languages = {
-#     "jen": "python",
-#     "sarah": "c",
-#     "edward": "ruby",
-#     "phil": "python",
-# }
-#
-# friends = ["sarah", "phil"]
-# for name in favorite_languages.keys():
-#     print(name.title())
-#
-# if name in friends:
-#     language = favorite_languages[name].title()
-#     print(f"\t {name.title()}, I see you love {language}!")
+favorite_languages = {
+    "jen": "python",
+    "sarah": "c",
+    "edward": "ruby",
+    "phil": "python",
+}
+
+friends = ["sarah", "phil"]
+for name in favorite_languages.keys():
+    print(name.title())
+    if name in friends:
+        language = favorite_languages[name].title()
+        print(f"\t{name.title()}, I see you love {language}!")
 #ВАЩЕ НИХЕРА НЕ ПОН БРОУ ЮЛЯЯЯЯ#

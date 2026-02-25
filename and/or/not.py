@@ -458,3 +458,13 @@ from termios import INPCK
 #     print(30)
 # else:
 #     print(28)
+
+
+# boxer_weight = int(input())
+#
+# if boxer_weight < 60:
+#     print("Легкий вес")
+# elif boxer_weight < 64:
+#     print("Первый полусредний вес")
+# else:
+#     print("Полусредний вес")

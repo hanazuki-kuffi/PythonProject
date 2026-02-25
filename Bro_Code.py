@@ -455,7 +455,7 @@ from turtledemo.sorting_animate import enable_keys
 # 3
 # 4
 
-credit_number = "1234-5678-9012-3456"
-print(credit_number[0:4])
+# credit_number = "1234-5678-9012-3456"
+# print(credit_number[0:4])
 # если вот так написать то тогда выйдет красиво только последний :4 и имеенно 4 не включительно
 #1234- емес а именно выходит 1234 вот вот так

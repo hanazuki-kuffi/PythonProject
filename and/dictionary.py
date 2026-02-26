@@ -151,18 +151,44 @@
 # for name in favorite_languages.keys():
 #     print(name.title())
 
-# favorite_languages = {
+favorite_languages = {
+    "jen": "python",
+    "sarah": "c",
+    "edward": "ruby",
+    "phil": "python",
+}
+
+print(favorite_languages["edward"])
+
+friends = ["sarah", "phil"]
+print(friends[0][0])
+
+for name in favorite_languages.keys():
+    print(name.title())
+
+    if name in friends:
+        language = favorite_languages[name].title()  # почему тут [] жакшага name салып койган
+        print(f"\t{name.title()}, I see you love {language}!")
+#ВАЩЕ НИХЕРА НЕ ПОН БРОУ ЮЛЯЯЯЯ#
+
+
+
+
+
+
+# favorite_languages = {         # мы только что создали словарь в переменную favorite_languages
 #     "jen": "python",
 #     "sarah": "c",
 #     "edward": "ruby",
 #     "phil": "python",
 # }
 #
-# friends = ["sarah", "phil"]
-# for name in favorite_languages.keys():
-#     print(name.title())
-#     if name in friends:
-#         language = favorite_languages[name].title()
-#         print(f"\t{name.title()}, I see you love {language}!")
-#ВАЩЕ НИХЕРА НЕ ПОН БРОУ ЮЛЯЯЯЯ#
+# friends = ["sarah", "phil"]  # мы только что создали список в переменную friends
+#
+# for name in favorite_languages.keys():  # мы использовали цикл for и создали новый переменный name и искали из словаря ключи что бы присваивать для переменную name из favorite_languages.keys()
+#     print(name.title())                 # за принтировала и вызвала всех 4 ключты как name
+#     if
+
+
+
 

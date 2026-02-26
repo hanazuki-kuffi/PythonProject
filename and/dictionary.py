@@ -151,24 +151,24 @@
 # for name in favorite_languages.keys():
 #     print(name.title())
 
-favorite_languages = {
-    "jen": "python",
-    "sarah": "c",
-    "edward": "ruby",
-    "phil": "python",
-}
-
-print(favorite_languages["edward"])
-
-friends = ["sarah", "phil"]
-print(friends[0][0])
-
-for name in favorite_languages.keys():
-    print(name.title())
-
-    if name in friends:
-        language = favorite_languages[name].title()  # почему тут [] жакшага name салып койган
-        print(f"\t{name.title()}, I see you love {language}!")
+# favorite_languages = {
+#     "jen": "python",
+#     "sarah": "c",
+#     "edward": "ruby",
+#     "phil": "python",
+# }
+#
+# print(favorite_languages["edward"])
+#
+# friends = ["sarah", "phil"]
+# print(friends[0][0])
+#
+# for name in favorite_languages.keys():
+#     print(name.title())
+#
+#     if name in friends:
+#         language = favorite_languages[name].title()  # почему тут [] жакшага name салып койган
+#         print(f"\t{name.title()}, I see you love {language}!")
 #ВАЩЕ НИХЕРА НЕ ПОН БРОУ ЮЛЯЯЯЯ#
 
 

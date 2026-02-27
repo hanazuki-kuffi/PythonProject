@@ -493,5 +493,14 @@ from termios import INPCK
 
 
 
+colour_1 = input("Enter the colour (red,blue,yellow): ")
+colour_2 = input("Enter the colour (red,blue,yellow): ")
+
+if colour_1 == "red" and colour_2 == "blue":
+    print("Purple")
+elif colour_1 == "red" and colour_2 == "yellow":
+    print("Orange")
+elif colour_1
+
 
 

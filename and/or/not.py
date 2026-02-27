@@ -469,27 +469,27 @@ from termios import INPCK
 # else:
 #     print("Полусредний вес")
 
-number_1 = int(input("Enter the number: "))
-number_2 = int(input("Enter the number: "))
-operator = input("Enter an operator ( +, -,  *, / ): ")
-
-if operator == "+":
-    result = number_1 + number_2
-    print(result)
-elif operator == "-":
-    result = number_1 - number_2
-    print(result)
-elif operator == "*":
-    result = number_1 * number_2
-    print(result)
-elif operator == "/":
-    if number_2 == 0:
-        print("На ноль делить нельзя!")
-    else:
-        result = number_1 / number_2
-        print(result)
-else:
-    print("Неверная операция")
+# number_1 = int(input("Enter the number: "))
+# number_2 = int(input("Enter the number: "))
+# operator = input("Enter an operator ( +, -,  *, / ): ")
+#
+# if operator == "+":
+#     result = number_1 + number_2
+#     print(result)
+# elif operator == "-":
+#     result = number_1 - number_2
+#     print(result)
+# elif operator == "*":
+#     result = number_1 * number_2
+#     print(result)
+# elif operator == "/":
+#     if number_2 == 0:
+#         print("На ноль делить нельзя!")
+#     else:
+#         result = number_1 / number_2
+#         print(result)
+# else:
+#     print("Неверная операция")
 
 
 

@@ -530,3 +530,10 @@ from termios import INPCK
 #     print("синий")
 # else:
 #     print("ошибка цвета")
+
+
+# если номер 0 то цвет зеленым явл
+circle = int(input())
+
+if 0 < circle < 36 and 0 == "green":
+    print()

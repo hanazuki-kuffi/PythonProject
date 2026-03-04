@@ -513,20 +513,20 @@ from termios import INPCK
 
 
 
-colour_1 = input()
-colour_2 = input()
-
-if colour_1 == "красный" and colour_2 == "синий" or colour_1 == "синий" and colour_2 == "красный":
-    print("фиолетовый")
-elif colour_1 == "красный" and colour_2 == "желтый" or colour_1 == "желтый" and colour_2 == "красный":
-    print("оранжевый")
-elif colour_1 == "синий" and colour_2 == "желтый" or colour_1 == "желтый" and colour_2 == "синий":
-    print("зеленый")
-elif colour_1 == "красный" and colour_2 == "красный":
-    print("красный")
-elif colour_1 == "желтый" and colour_2 == "желтый":
-    print("желтый")
-elif colour_1 == "синий" and colour_2 == "синий":
-    print("синий")
-else:
-    print("ошибка цвета")
+# colour_1 = input()
+# colour_2 = input()
+#
+# if colour_1 == "красный" and colour_2 == "синий" or colour_1 == "синий" and colour_2 == "красный":
+#     print("фиолетовый")
+# elif colour_1 == "красный" and colour_2 == "желтый" or colour_1 == "желтый" and colour_2 == "красный":
+#     print("оранжевый")
+# elif colour_1 == "синий" and colour_2 == "желтый" or colour_1 == "желтый" and colour_2 == "синий":
+#     print("зеленый")
+# elif colour_1 == "красный" and colour_2 == "красный":
+#     print("красный")
+# elif colour_1 == "желтый" and colour_2 == "желтый":
+#     print("желтый")
+# elif colour_1 == "синий" and colour_2 == "синий":
+#     print("синий")
+# else:
+#     print("ошибка цвета")

@@ -533,7 +533,7 @@ from termios import INPCK
 
 
 # если номер 0 то цвет зеленым явл
-circle = int(input())
-
-if 0 < circle < 36 and 0 == "green":
-    print()
+# circle = int(input())
+#
+# if 0 < circle < 36 and 0 == "green":
+#     print()

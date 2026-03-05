@@ -49,7 +49,95 @@
 #
 # print(posts_ids[-1])
 # print(posts_ids[-2])
+
+
+# names = ["mukhamedali", "nurailym", "arai", "zhalgas"]
+# print(names[0].title())
+# print(names[1].title())
+# print(names[2].title())
+# print(names[3].title())
+
+# names = ["mukhamedali", "nurailym", "arai", "zhalgas"]
 #
+# print(f"Hello, {names[0].title()}!")
+# print(f"Hello, {names[1].title()}!")
+# print(f"Hello, {names[2].title()}!")
+# print(f"Hello, {names[3].title()}!")
 
 
-posts_ids =
+# transport = ["car", "bicycle", "bus", "bike"]
+# print(f"I would like to buy {transport[0]} BYD")
+
+
+# names = ["mukhamedali", "nurailym", "arai", "zhalgas"]
+#
+# for name in names:
+#     print(name.title())
+
+# motorcycles = ["suzuki", "honda", "yamato"]
+# print(motorcycles)
+#
+# motorcycles[1] = "subaru"
+# print(motorcycles)
+
+# posts_ids = [151, 141, 161, 191, 201]
+#
+# posts_ids[0] = 555
+# posts_ids[2] = 333
+#
+# print(posts_ids)
+
+# user_inputs = [True, "🌸", 10.5, "kuffi"]
+# print(user_inputs)
+# print(len(user_inputs))
+#
+# del user_inputs[0]
+# print(user_inputs)
+# print(len(user_inputs))
+#
+# del user_inputs[-3]
+# print(user_inputs)
+# print(len(user_inputs))
+
+# users = [
+#     {
+#         "user_id": 131,
+#         "user_name": "Ali"
+#     },
+#     {
+#         "user_id": 151,
+#         "user_name": "Gul"
+#     }
+# ]
+
+# print(len(users))
+# print(users[0]["user_id"])
+
+# my_fruits = "banana"
+# other_fruits = "apple"
+# new_fruits = "lime"
+#
+# all_fruits = [my_fruits,other_fruits,new_fruits]
+#
+# print(all_fruits)
+
+# happy_smiles = []
+#
+# happy_smiles.append("🌸") #append добавление новых элементов
+# happy_smiles.append("🌺")
+# happy_smiles.append("🌷")
+# happy_smiles.append("🌹")
+#
+# print(happy_smiles)
+# print(len(happy_smiles))
+
+# inputs = [True, "🌸", "kuffi", 10.5]
+#
+# inputs.pop()  #Без индекса — удаляет последний элемент:
+# print(inputs) # удалит 10.5
+#
+# inputs.pop(0) #С индексом — удаляет элемент по позиции:
+# print(inputs) # удалит первый элемент
+#
+# removed_element = inputs.pop() #Главная фишка — удалённый элемент можно сохранить:
+# print(removed_element)        # удалили И сохранили   # можно использовать дальше

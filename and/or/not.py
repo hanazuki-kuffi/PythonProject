@@ -6,6 +6,7 @@
 #     print("Access allowed!")
 # else:
 #     print("Access denied!")
+from selectors import SelectSelector
 from termios import INPCK
 
 # logical operator "AND"
@@ -532,8 +533,20 @@ from termios import INPCK
 #     print("ошибка цвета")
 
 
-# если номер 0 то цвет зеленым явл
-# circle = int(input())
+# pocket = int(input())
 #
-# if 0 < circle < 36 and 0 == "green":
-#     print()
+# if pocket == 0:
+#     print("Green")
+# elif 1 <= pocket <= 10:
+#     if mdklcm:
+#         dsmcdl
+#     elif dmkslcm:
+#         mdklscmdls
+# elif
+
+
+
+
+
+
+

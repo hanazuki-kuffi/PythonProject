@@ -141,3 +141,31 @@
 #
 # removed_element = inputs.pop() #Главная фишка — удалённый элемент можно сохранить:
 # print(removed_element)        # удалили И сохранили   # можно использовать дальше
+
+# motorcycles = ["honda", "suzuki", "ducati"]
+# print(motorcycles)
+#
+# motorcycles.append("yamaha")
+# print(motorcycles)
+
+# motorcycles = []
+#
+# motorcycles.append("honda")
+# motorcycles.append("suzuki")
+# motorcycles.append("yamaha")
+# motorcycles.append("ducati")
+#
+# print(motorcycles)
+
+# motorcycles = ["honda", "ducati", "yamato", "suzuki"]
+# print(motorcycles)
+#
+# motorcycles.insert(1, "subaru") #Вставка элементов в список
+# print(motorcycles)
+
+# motorcycles = ["honda", "ducati", "suzuzki", "yamaha"]
+# print(motorcycles)
+#
+# del motorcycles[-3] #Команда del позволяет удалить элемент из любой позиции списка, если вам известен его индекс.
+# print(motorcycles)  #В обоих примерах значение, удаленное из списка после использования команды del, становится недоступным.
+

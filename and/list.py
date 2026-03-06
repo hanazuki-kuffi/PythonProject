@@ -169,3 +169,33 @@
 # del motorcycles[-3] #Команда del позволяет удалить элемент из любой позиции списка, если вам известен его индекс.
 # print(motorcycles)  #В обоих примерах значение, удаленное из списка после использования команды del, становится недоступным.
 
+# posts_ids = [121, 147, 190, 151, 245]
+# print(posts_ids)
+#
+# posts_ids.sort()
+# print(posts_ids)
+#
+# posts_ids.sort(reverse=True) # методика по убыванию элемента
+# print(posts_ids)
+
+# greeting = "Hello from Python!" #КОНВЕРТАЦИЯ В СПИСОК НУ ТОЧНЕЕ СЛОВАРЬ КОНВЕНТИРОВАТЬ В СПИСОК
+# greeting_letters = list(greeting)
+# print(greeting_letters)
+# #['H', 'e', 'l', 'l', 'o', ' ', 'f', 'r', 'o', 'm', ' ', 'P', 'y', 't', 'h', 'o', 'n', '!']
+#
+# my_dict = {"a": 10, "b": True}
+# my_dict_keys = list(my_dict)
+# print(my_dict_keys)
+#['a', 'b']
+
+#
+# ratings = [2.5, 5.0, 4.3, 3.7]
+#
+# print(min(ratings))
+# print(max(ratings))
+# print(sum(ratings))
+
+# result = sum(ratings) / len(ratings)
+# print(result)
+
+# print(sum(ratings) / len(ratings))

@@ -533,16 +533,33 @@ from termios import INPCK
 #     print("ошибка цвета")
 
 
-# pocket = int(input())
-#
-# if pocket == 0:
-#     print("Green")
-# elif 1 <= pocket <= 10:
-#     if mdklcm:
-#         dsmcdl
-#     elif dmkslcm:
-#         mdklscmdls
-# elif
+pocket = int(input())
+
+if pocket == 0:
+    print("Green")
+elif 1 <= pocket <= 10:
+    if pocket % 2 == 0:
+        print("Black")
+    elif pocket % 2 == 1:
+        print("Red")
+elif 11 <= pocket <= 18:
+    if pocket % 2 == 0:
+        print("Red")
+    elif pocket % 2 == 1:
+        print("Black")
+elif 19 <= pocket <= 28:
+    if pocket % 2 == 0:
+        print("Black")
+    elif pocket % 2 == 1:
+        print("Red")
+elif 29 <= pocket <= 36:
+    if pocket % 2 == 0:
+        print("Red")
+    elif pocket % 2 == 1:
+        print("Black")
+else:
+    print("ошибка ввода")
+
 
 
 

@@ -533,37 +533,40 @@ from termios import INPCK
 #     print("ошибка цвета")
 
 
-pocket = int(input())
-
-if pocket == 0:
-    print("Green")
-elif 1 <= pocket <= 10:
-    if pocket % 2 == 0:
-        print("Black")
-    elif pocket % 2 == 1:
-        print("Red")
-elif 11 <= pocket <= 18:
-    if pocket % 2 == 0:
-        print("Red")
-    elif pocket % 2 == 1:
-        print("Black")
-elif 19 <= pocket <= 28:
-    if pocket % 2 == 0:
-        print("Black")
-    elif pocket % 2 == 1:
-        print("Red")
-elif 29 <= pocket <= 36:
-    if pocket % 2 == 0:
-        print("Red")
-    elif pocket % 2 == 1:
-        print("Black")
-else:
-    print("ошибка ввода")
-
-
+# pocket = int(input())
+#
+# if pocket == 0:
+#     print("Green")
+# elif 1 <= pocket <= 10:
+#     if pocket % 2 == 0:
+#         print("Black")
+#     elif pocket % 2 == 1:
+#         print("Red")
+# elif 11 <= pocket <= 18:
+#     if pocket % 2 == 0:
+#         print("Red")
+#     elif pocket % 2 == 1:
+#         print("Black")
+# elif 19 <= pocket <= 28:
+#     if pocket % 2 == 0:
+#         print("Black")
+#     elif pocket % 2 == 1:
+#         print("Red")
+# elif 29 <= pocket <= 36:
+#     if pocket % 2 == 0:
+#         print("Red")
+#     elif pocket % 2 == 1:
+#         print("Black")
+# else:
+#     print("ошибка ввода")
 
 
-
-
+# a_1 = int(input())
+# b_1 = int(input())
+# a_2 = int(input())
+# b_2 = int(input())
+#
+# if a_1 < b_1 and a_2 < b_2:
+#     print()
 
 

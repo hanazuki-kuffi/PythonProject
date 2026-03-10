@@ -199,3 +199,36 @@
 # print(result)
 
 # print(sum(ratings) / len(ratings))
+
+# motocycles = ["honda", "suzuki", "yamaha"]
+# print(motocycles) #Сначала в точке  определяется и выводится содержимое списка motorcycles.
+#
+# popped_motocycles = motocycles.pop() #В точке  значение извлекается из списка и сохраняется в переменной с именем popped_motorcycle.
+# print(motocycles) # Вывод измененного списка в точкепоказывает, что значе- ние было удалено из списка.
+# print(popped_motocycles) #Затем мы выводим извлеченное значение в точке, демонстрируя, что удаленное из списка значение остается доступным в программе.
+
+#Из вывода видно, что значение 'suzuki', удаленное в конце списка, теперь хранится в переменной popped_motorcycle:
+# ['honda', 'suzuki', 'yamaha']
+# ['honda', 'suzuki']
+# yamaha
+
+# motocycles = ["honda", "yamaha", "suzuki"]
+#
+# last_owned = motocycles.pop()
+# print(f"The last motocycle I owned was a {last_owned.title()}! ")
+
+# motocycles = ["suzuki", "honda", "yamaha"]
+#
+# first_motocycles = motocycles.pop(0)
+# print(f"The first motocycle I owned was a {first_motocycles.title()}!")
+
+#Помните, что после каждого вызова pop() элемент, с которым вы работаете, уже
+#не находится в списке.
+
+#если вы собираетесь просто удалить элемент из списка, никак не используя его, выбирайте команду del; если же вы намерены использовать элемент после удаления из списка, выбирайте ме- тод pop().
+
+# motocycles = ["honda", "yamaha", "suzuki", "ducatti"]
+# print(motocycles)
+#
+# motocycles.remove("ducatti")
+# print(motocycles)

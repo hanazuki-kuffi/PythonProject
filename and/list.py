@@ -232,3 +232,21 @@
 #
 # motocycles.remove("ducatti")
 # print(motocycles)
+
+
+# my_ratings = [2.5, 4.5, 2.8, 6.5] #Обьеденение списков
+# other_ratings = [3.5, 5.5]
+#
+# all_ratings = my_ratings + other_ratings
+# print(all_ratings) #При использований оператора + вызывается метод списков ___add___
+
+ratings = [2.5, 5.0, 4.3, 3.7, 4.5]
+
+first_two_ratings = ratings[:2]
+print(first_two_ratings) #[2.5, 5.0]
+
+middle_ratings = ratings[1:-1]
+print(middle_ratings) #[5.0, 4.3, 3.7]
+
+last_two_ratings = ratings[-2:]
+print(last_two_ratings) #[3.7, 4.5]

@@ -1,5 +1,6 @@
 # bicycles = ["trek", "cannondale", "redline", "specialized"]
 # print(bicycles)
+from threading import main_thread
 
 # bicycles = ["trek", "cannondale", "redline", "specialized"] # Список — упорядочённый набор. каждый элемент содержат свои индексы
 # print(bicycles[0:4])   #Когда мы запрашиваем один элемент из списка, Python возвращает только этот элемент без квадратных скобок или кавычек:
@@ -250,3 +251,81 @@
 #
 # last_two_ratings = ratings[-2:]
 # print(last_two_ratings) #[3.7, 4.5]
+
+
+# motocycles = ["honda", "yamaha", "suzuki", "ducati"]
+# print(motocycles)
+#
+# motocycles.remove("ducati")
+# print(motocycles)
+
+
+# motocycles = ["honda", "yamaha", "suzuki", "ducati"]
+# print(motocycles)
+#
+# too_expensive = "ducati" # Мы создали переменную для того что бы присваивать ответ " A Ducati is too expensive for me!"
+# motocycles.remove(too_expensive) # здесь мы убрали из фильтра якобы такой дукати в рограмме
+# print(motocycles)
+#
+# print(f"\n A {too_expensive.title()} is too expensive for me!") \n функ отвечает начать операцию с нового и отдельного абзаца
+
+# ['honda', 'yamaha', 'suzuki', 'ducati']
+# ['honda', 'yamaha', 'suzuki']
+#
+#  A Ducati is too expensive for me!
+
+
+# invitation = ["Nurai", "Kawai", "Arai"]
+#
+# print(f"{invitation[0].title()} I will invite  ")
+
+
+#КОПИРОРВАНИЕ СПИСКА
+# ВАРИАНТ 1 ТУТ МЫ НАПИСАЛИ И КОПИРОВАЛИ ОРИГИНАЛ И ВЫВЕЛИ В ОУТПУТ
+# my_cars = ["BMW", "Mercedes"]
+#
+# copied_cars = my_cars # этот метод называется копирование по ссылкам
+#
+# copied_cars.append("BYD")
+#
+# print(copied_cars) #['BMW', 'Mercedes', 'BYD']
+# print(my_cars)     #['BMW', 'Mercedes', 'BYD']
+# print(id(my_cars) == id(copied_cars))  #True
+
+#ВАРИАНТ 2 ТУТ МЫ НАПИСАЛИ И ИСПОЛЬЗОВАЛИ ОТРЕЗКА ЧТОБ НЕ ТРОГАТЬ НА ОРИГИНАЛ
+my_cars = ["BMW", "Mercedes"]
+
+copied_cars = my_cars[:] #<---- создание нового списка используя slice [кусочек]
+
+copied_cars.append("BYD")
+
+print(copied_cars) #['BMW', 'Mercedes', 'BYD']
+print(my_cars)     #['BMW', 'Mercedes']
+
+print(id(copied_cars) == id(my_cars)) #False
+
+#ВАРИАНТ 3 ТУТ МЫ БУДЕМ ИСПОЛЬЗОВАТЬ .copy()
+
+# my_cars = ["BMW", "Mercedes"]
+#
+# copied_cars = my_cars.copy() # Создание нового списка используя метод ".copy()"
+#
+# copied_cars.append("BYD")
+#
+# print(copied_cars) # ['BMW', 'Mercedes', 'BYD']
+# print(my_cars)     # ['BMW', 'Mercedes']
+#
+# print(id(copied_cars) == id(my_cars)) #False
+
+#ВАРИАНТ 4 НОВОГО СПИСКА ИСПОЛЬЗУЯ ВСТРОЕННЫЙ ФУНКЦИЮ "list()"
+
+# my_cars = ["BMW", "Mercedes"]
+#
+# copied_cars = list(my_cars)
+#
+# copied_cars.append("BYD")
+#
+# print(copied_cars)
+# print(my_cars)
+#
+# print(id(copied_cars) == id(my_cars))

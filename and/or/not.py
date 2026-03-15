@@ -561,13 +561,12 @@ from termios import INPCK
 # else:
 #     print("ошибка ввода")
 
-#
-# a_1 = int(input())
-# b_1 = int(input())
-# a_2 = int(input())
-# b_2 = int(input())
-#
-# result = a_1 < b_1 and a_2 < b_2
-#
-# a = b_1 == a_2
-# print(a)
+
+a_1 = int(input())
+b_1 = int(input())
+a_2 = int(input())
+b_2 = int(input())
+
+result = a_1 < b_1 and a_2 < b_2
+
+if a_1

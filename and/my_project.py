@@ -17,14 +17,14 @@
 #     print(f"{test}. {number}")
 
 
-result_patient = [209399, 209134, 417619, 312910, 417585, 209402, 209364]
-
-# cycle_threshold = int(input("enter a number: "))
-cycle_threshold1 = input("enter a number: ")
-
-if cycle_threshold1 == "" or cycle_threshold1 == " ":
-    print("Negative")
-elif 18 <= int(cycle_threshold1) <= 35:
-    print("Positive")
-elif 18 > int(cycle_threshold1) or 35 < int(cycle_threshold1):
-    print("Invalid")
+# result_patient = [209399, 209134, 417619, 312910, 417585, 209402, 209364]
+#
+# # cycle_threshold = int(input("enter a number: "))
+# cycle_threshold1 = input("enter a number: ")
+#
+# if cycle_threshold1 == "" or cycle_threshold1 == " ":
+#     print("Negative")
+# elif 18 <= int(cycle_threshold1) <= 35:
+#     print("Positive")
+# elif 18 > int(cycle_threshold1) or 35 < int(cycle_threshold1):
+#     print("Invalid")

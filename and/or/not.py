@@ -562,24 +562,3 @@ from termios import INPCK
 #     print("ошибка ввода")
 
 
-a_1 = int(input())
-b_1 = int(input())
-a_2 = int(input())
-b_2 = int(input())
-
-result = a_1 < b_1 and a_2 < b_2
-
-if a_1
-    x = int(input())
-    y = int(input())
-
-    if x > 0:
-        if y > 0:
-            print('Первая четверть')
-        else:
-            print('Четвертая четверть')
-    else:
-        if y > 0:
-            print('Вторая четверть')
-        else:
-            print('Третья четверть')

@@ -329,38 +329,49 @@ from threading import main_thread
 
 
 #VARIANT NUMBER 1 FROM LIST
-invitation = ["Nurai", "Kawai", "Arai"]
-
-print(f"{invitation[0].title()}, I will invite you")
-print(f"{invitation[1].title()}, I will invite you")
-print(f"{invitation[2].title()}, I will invite you")
-
-print(f"\n {invitation[2]} won't be able to come to visit.")
-
-invitation[2] = "Alima"
-print(invitation)
-
-for person in invitation:
-    print(f"{person}, I will invite you")
-
-
-print(f"\n !!! EXPANSION COMING SOON!!!")
-
-invitation.insert(0, "Ali")
-invitation.insert(1, "Zhalgas")
-invitation.append(2) = ""
-
-print(invitation)
-
-
-
-
-
-
-
+# invitation = ["Nurai", "Kawai", "Arai"]
+#
+# print(f"{invitation[0].title()}, I will invite you")
+# print(f"{invitation[1].title()}, I will invite you")
+# print(f"{invitation[2].title()}, I will invite you")
+#
+# print(f"\n {invitation[2]} won't be able to come to visit.")
+#
+# invitation[2] = "Alima"
+# print(invitation)
+#
+# for person in invitation:
+#     print(f"{person}, I will invite you")
+#
+#
+# print(f"\n !!! EXPANSION COMING SOON!!!")
+#
+# invitation.insert(0, "Ali")
+# invitation.insert(1, "Zhalgas")
+# invitation.append(2) = ""
+#
+# print(invitation)
 
 # invitation = ["Nurai", "Kawai", "Arai"]
 #
 # for friend in invitation:
 #     print(f"{friend}, I will invite you!")
 
+
+# my_nums = [1, 3, 3, 67, 78, 34]
+
+# result = my_nums.count(3) #метод .count() найдет в списке элемент который сколько раз встречался и выводит число сколько раз вышло этот элемент
+# print(result)
+
+# my_nums.append(35) # метод .append() добавляет элемент в конце списка
+# print(my_nums)
+
+# my_nums.insert(0, 4) #тоже такая методика для добавления элемента но для этого нужно учитывать такой условия как это
+# print(my_nums)                       # сперва перед добавления какого то эдемента нужно написать индекс элемента и после запятой можно написать элемент
+
+#
+# my_nums.clear(5)
+# print(my_nums)
+
+# my_nums.extend("avfd")
+# print(my_nums)

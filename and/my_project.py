@@ -17,8 +17,7 @@
 #     print(f"{test}. {number}")
 
 
-# result_patient = [209399, 209134, 417619, 312910, 417585, 209402, 209364]
-#
+# PROJECT №1
 
 cycle_threshold1 = input("enter a number: ")
 
@@ -28,3 +27,13 @@ elif 18 <= int(cycle_threshold1) <= 35:
     print("Positive")
 elif 18 > int(cycle_threshold1) or 35 < int(cycle_threshold1):
     print("Invalid")
+
+# barcode_patient = [209399, 209134, 417619, 312910, 417585, 209402, 209364]
+
+barcode_patient1 = ["209399"]
+ct_patient = [
+    [None, None, 33.1, 28, None] #[NG, CT, MG, IC, TV]
+]
+
+for 
+

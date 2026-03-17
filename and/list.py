@@ -275,9 +275,6 @@ from threading import main_thread
 #  A Ducati is too expensive for me!
 
 
-# invitation = ["Nurai", "Kawai", "Arai"]
-#
-# print(f"{invitation[0].title()} I will invite  ")
 
 
 #КОПИРОРВАНИЕ СПИСКА
@@ -293,18 +290,18 @@ from threading import main_thread
 # print(id(my_cars) == id(copied_cars))  #True
 
 #ВАРИАНТ 2 ТУТ МЫ НАПИСАЛИ И ИСПОЛЬЗОВАЛИ ОТРЕЗКА ЧТОБ НЕ ТРОГАТЬ НА ОРИГИНАЛ
-my_cars = ["BMW", "Mercedes"]
-
-copied_cars = my_cars[:] #<---- создание нового списка используя slice [кусочек]
-
-copied_cars.append("BYD")
-
-print(copied_cars) #['BMW', 'Mercedes', 'BYD']
-print(my_cars)     #['BMW', 'Mercedes']
-
-print(id(copied_cars) == id(my_cars)) #False
-
-#ВАРИАНТ 3 ТУТ МЫ БУДЕМ ИСПОЛЬЗОВАТЬ .copy()
+# my_cars = ["BMW", "Mercedes"]
+#
+# copied_cars = my_cars[:] #<---- создание нового списка используя slice [кусочек]
+#
+# copied_cars.append("BYD")
+#
+# print(copied_cars) #['BMW', 'Mercedes', 'BYD']
+# print(my_cars)     #['BMW', 'Mercedes']
+#
+# print(id(copied_cars) == id(my_cars)) #False
+#
+# #ВАРИАНТ 3 ТУТ МЫ БУДЕМ ИСПОЛЬЗОВАТЬ .copy()
 
 # my_cars = ["BMW", "Mercedes"]
 #
@@ -329,3 +326,41 @@ print(id(copied_cars) == id(my_cars)) #False
 # print(my_cars)
 #
 # print(id(copied_cars) == id(my_cars))
+
+
+#VARIANT NUMBER 1 FROM LIST
+invitation = ["Nurai", "Kawai", "Arai"]
+
+print(f"{invitation[0].title()}, I will invite you")
+print(f"{invitation[1].title()}, I will invite you")
+print(f"{invitation[2].title()}, I will invite you")
+
+print(f"\n {invitation[2]} won't be able to come to visit.")
+
+invitation[2] = "Alima"
+print(invitation)
+
+for person in invitation:
+    print(f"{person}, I will invite you")
+
+
+print(f"\n !!! EXPANSION COMING SOON!!!")
+
+invitation.insert(0, "Ali")
+invitation.insert(1, "Zhalgas")
+invitation.append(2) = ""
+
+print(invitation)
+
+
+
+
+
+
+
+
+# invitation = ["Nurai", "Kawai", "Arai"]
+#
+# for friend in invitation:
+#     print(f"{friend}, I will invite you!")
+

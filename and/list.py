@@ -1,5 +1,6 @@
 # bicycles = ["trek", "cannondale", "redline", "specialized"]
 # print(bicycles)
+from reprlib import aRepr
 from threading import main_thread
 
 # bicycles = ["trek", "cannondale", "redline", "specialized"] # Список — упорядочённый набор. каждый элемент содержат свои индексы
@@ -334,7 +335,6 @@ from threading import main_thread
 # print(f"{invitation[0].title()}, I will invite you")
 # print(f"{invitation[1].title()}, I will invite you")
 # print(f"{invitation[2].title()}, I will invite you")
-#
 # print(f"\n {invitation[2]} won't be able to come to visit.")
 #
 # invitation[2] = "Alima"
@@ -343,35 +343,117 @@ from threading import main_thread
 # for person in invitation:
 #     print(f"{person}, I will invite you")
 #
-#
 # print(f"\n !!! EXPANSION COMING SOON!!!")
 #
 # invitation.insert(0, "Ali")
-# invitation.insert(1, "Zhalgas")
-# invitation.append(2) = ""
+# invitation.insert(2, "Zhalgas")
+# invitation.append("Abdulla")
 #
 # print(invitation)
-
-# invitation = ["Nurai", "Kawai", "Arai"]
 #
 # for friend in invitation:
 #     print(f"{friend}, I will invite you!")
+#
+#
+# print("\n ONLY TWO GUESTS ARE INVITED TO DINNER!!! ")
+#
+# print(invitation)
+# popped_guests1 = invitation.pop()
+# print(f"{popped_guests1},I regret canceling the invitation 😅! ")
+#
+# popped_guests2 = invitation.pop()
+# print(f"{popped_guests2},I regret canceling the invitation 😅! ")
+#
+# popped_guests3 = invitation.pop()
+# print(f"{popped_guests3},I regret canceling the invitation 😅! ")
+#
+# popped_guests4 = invitation.pop()
+# print(f"{popped_guests4},I regret canceling the invitation 😅! ")
+#
+#
+# for special_guests in invitation:
+#     print(f"\n {special_guests}, your invitation still stands ☺️!")
+
+# del invitation
+# print(invitation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # my_nums = [1, 3, 3, 67, 78, 34]
 
 # result = my_nums.count(3) #метод .count() найдет в списке элемент который сколько раз встречался и выводит число сколько раз вышло этот элемент
 # print(result)
-
+#
 # my_nums.append(35) # метод .append() добавляет элемент в конце списка
 # print(my_nums)
-
+#
 # my_nums.insert(0, 4) #тоже такая методика для добавления элемента но для этого нужно учитывать такой условия как это
 # print(my_nums)                       # сперва перед добавления какого то эдемента нужно написать индекс элемента и после запятой можно написать элемент
-
 #
-# my_nums.clear(5)
+#
+# my_nums.clear()
 # print(my_nums)
-
+#
 # my_nums.extend("avfd")
 # print(my_nums)
+
+
+# my_nums = [1, 3, 3, 67, 78, 34]
+#
+# # other_nums = my_nums
+# #
+# # print(id(my_nums))
+# # print(id(other_nums))
+#
+# # other_nums = my_nums.copy()
+# # other_nums = my_nums[:]
+# # other_nums = list(my_nums)
+#
+# my_nums.append(55)
+# # other_nums.clear()
+#
+# # print(id(my_nums))
+# # print(id(other_nums))
+# #
+# # print(my_nums, other_nums)
+#
+# print(len(my_nums))
+
+
+
+#TASKS NUMBER 1
+
+artefact = [45, 53, "Arigatoo", 65, 76] # создать список содержится 5 элементов
+
+artefact.pop(2)    # удалить 3-й элемент
+print(artefact)
+print(len(artefact)) # выводим длину списка в терминале
+
+artefact.sort()
+print(artefact)
+
+new_artefact = [-8, -6]
+print(new_artefact)
+
+
+artefact.extend(new_artefact)   # .extend() этот метод помодет обьединит и расширить список например вот так
+print(artefact)

@@ -19,14 +19,14 @@
 
 # PROJECT №1
 
-# cycle_threshold1 = input("enter a number: ")
-#
-# if cycle_threshold1 == " " or cycle_threshold1 == "  ":
-#     print("Negative")
-# elif 18 <= int(cycle_threshold1) <= 35:
-#     print("Positive")
-# elif 18 > int(cycle_threshold1) or 35 < int(cycle_threshold1):
-#     print("Invalid")
+cycle_threshold1 = input("enter a number: ")
+
+if cycle_threshold1 == " " or cycle_threshold1 == "  ":
+    print("Negative")
+elif 18 <= int(cycle_threshold1) <= 35:
+    print("Positive")
+elif 18 > int(cycle_threshold1) or 35 < int(cycle_threshold1):
+    print("Invalid")
 
 
 barcode_patients= ["202504", "302643", "505678", "343235", "414754", "354890"]
@@ -37,5 +37,6 @@ ct_results = [None, 22.40, None, 28.5, None]
 
 index = 0
 for channel in ct_channels:
+    cycle_threshold1
     print(channel, ct_results[index])
     index = index + 1

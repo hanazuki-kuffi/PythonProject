@@ -29,11 +29,11 @@
 #     print("Invalid")
 
 
-barcode_patients= ["202504", "302643", "505678", "343235", "414754", "354890"]
-
-ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
-
-ct_results1 = [None, 22.40, None, 28.5, None]
+# barcode_patients= ["202504", "302643", "505678", "343235", "414754", "354890"]
+#
+# ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
+#
+# ct_results1 = [None, 22.40, None, 28.5, None]
 
 
 # FOR 1 PATIENT

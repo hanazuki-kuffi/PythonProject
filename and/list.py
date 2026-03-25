@@ -393,12 +393,12 @@
 
 
 
-cars = ["bmw", "subaru", "audi", "toyota"]
-
-print(f"\n Here is the original list: ")
-print(cars)
-
-print(f"\n Here is the sorted list: ")
+# cars = ["bmw", "subaru", "audi", "toyota"]
+#
+# print(f"\n Here is the original list: ")
+# print(cars)
+#
+# print(f"\n Here is the sorted list: ")
 
 
 
@@ -464,7 +464,7 @@ print(f"\n Here is the sorted list: ")
 # print(artefact)
 # print(len(artefact)) # выводим длину списка в терминале
 #
-# artefact.sort()
+# # artefact.sort(reverse=True)
 # print(artefact)
 #
 # new_artefact = [-8, -6]
@@ -473,3 +473,18 @@ print(f"\n Here is the sorted list: ")
 #
 # artefact.extend(new_artefact)   # .extend() этот метод помодет обьединит и расширить список например вот так
 # print(artefact)
+
+
+#TASKS NUMBER 2
+
+# list_1 = ["qwerty", "abc", 123]
+# list_2 = ["zxcv", "plm", 456]
+#
+# all_list_1 = list_1 + list_2
+# print(all_list_1)
+#
+# all_list_2 = list_1.__add__(list_2)
+# print(all_list_2)
+#
+# list_1.extend(list_2)
+# print(list_1)

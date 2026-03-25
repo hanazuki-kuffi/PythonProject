@@ -373,9 +373,12 @@ from threading import main_thread
 #
 # for special_guests in invitation:
 #     print(f"\n {special_guests}, your invitation still stands ☺️!")
+#
+# del invitation[0]
+# del invitation[0] # здесь играет роль последовательности каароче После первого удаления список сдвигается, поэтому второй элемент снова становится [0].
+print(invitation)
 
-# del invitation
-# print(invitation)
+
 
 
 
@@ -442,18 +445,18 @@ from threading import main_thread
 
 #TASKS NUMBER 1
 
-artefact = [45, 53, "Arigatoo", 65, 76] # создать список содержится 5 элементов
-
-artefact.pop(2)    # удалить 3-й элемент
-print(artefact)
-print(len(artefact)) # выводим длину списка в терминале
-
-artefact.sort()
-print(artefact)
-
-new_artefact = [-8, -6]
-print(new_artefact)
-
-
-artefact.extend(new_artefact)   # .extend() этот метод помодет обьединит и расширить список например вот так
-print(artefact)
+# artefact = [45, 53, "Arigatoo", 65, 76] # создать список содержится 5 элементов
+#
+# artefact.pop(2)    # удалить 3-й элемент
+# print(artefact)
+# print(len(artefact)) # выводим длину списка в терминале
+#
+# artefact.sort()
+# print(artefact)
+#
+# new_artefact = [-8, -6]
+# print(new_artefact)
+#
+#
+# artefact.extend(new_artefact)   # .extend() этот метод помодет обьединит и расширить список например вот так
+# print(artefact)

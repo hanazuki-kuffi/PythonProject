@@ -1,7 +1,7 @@
 # bicycles = ["trek", "cannondale", "redline", "specialized"]
 # print(bicycles)
-from reprlib import aRepr
-from threading import main_thread
+# from reprlib import aRepr
+# from threading import main_thread
 
 # bicycles = ["trek", "cannondale", "redline", "specialized"] # Список — упорядочённый набор. каждый элемент содержат свои индексы
 # print(bicycles[0:4])   #Когда мы запрашиваем один элемент из списка, Python возвращает только этот элемент без квадратных скобок или кавычек:
@@ -376,16 +376,29 @@ from threading import main_thread
 #
 # del invitation[0]
 # del invitation[0] # здесь играет роль последовательности каароче После первого удаления список сдвигается, поэтому второй элемент снова становится [0].
-print(invitation)
+# print(invitation)
+
+
+#
+# cars = ["bmw", "toyota", "audi", "subaru"]
+#
+# cars.sort() # сортирует по алфавитом и вернуться к ис- ходному порядку уже не удастся:
+# print(cars) # ['audi', 'bmw', 'subaru', 'toyota']
+
+
+# cars = ["bmw", "toyota", "audi", "subaru"]
+#
+# cars.sort(reverse=True) #Список также можно отсортировать в обратном алфавитном порядке; для этого методу sort() следует передать аргумент reverse=True. В следующем примере список сортируется в порядке, обратном алфавитному:
+# print(cars)  #['toyota', 'subaru', 'bmw', 'audi']
 
 
 
+cars = ["bmw", "subaru", "audi", "toyota"]
 
+print(f"\n Here is the original list: ")
+print(cars)
 
-
-
-
-
+print(f"\n Here is the sorted list: ")
 
 
 

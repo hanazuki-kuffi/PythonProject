@@ -142,6 +142,7 @@ for patient in ct_results:
 #
 
 print("\n === SUMMARY ===")
+print(f"Total patients: {len(barcode_patients)}")
 print(f"Total positive: {positive_count}!")
 print(f"Total Negative: {negative_count}!")
 print(f"Total Invalid: {invalid_count}!")
@@ -183,3 +184,16 @@ print(barcode_patients)
 print("\n Patients in reverse order")
 barcode_patients.reverse()
 print(barcode_patients)
+
+
+barcode = int(input("Enter barcode: "))
+
+if barcode in barcode_patients:
+    print(f"Patient {barcode} found in the system")
+else:
+    print(f"Patient {barcode} not found")
+
+
+
+daily_patients = [12, 19, 43, 70, 12, 80, 21]
+days = ["Monday", "Tuesday", "Wednesday", "Thursday" ]

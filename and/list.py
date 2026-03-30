@@ -2,7 +2,8 @@
 # print(bicycles)
 # from reprlib import aRepr
 # from threading import main_thread
-from ssl import socket_error
+# from ctypes import c_char_p
+# from ssl import socket_error
 
 # bicycles = ["trek", "cannondale", "redline", "specialized"] # Список — упорядочённый набор. каждый элемент содержат свои индексы
 # print(bicycles[0:4])   #Когда мы запрашиваем один элемент из списка, Python возвращает только этот элемент без квадратных скобок или кавычек:
@@ -425,16 +426,29 @@ from ssl import socket_error
 
 #TASKS NUMBER 2
 
-# country_5 = ["Japan",  "Korea", "Iceland", "USA", "Switzerland"]
-# print(country_5)
-#
+country_5 = ["Japan",  "Korea", "Iceland", "USA", "Switzerland"]
+print(country_5)
+
 # country_5 = sorted(country_5)
+# print(country_5) #type number 1
+
+print(sorted(country_5)) #type number 2
+
+print(country_5)
+
+sorted(country_5, reverse=True)
+print(country_5)
+
+# sorted(country_5, reverse=True)
 # print(country_5)
 #
-# print(sorted(country_5, reverse=True))
+# country_5.sort()
+# print(country_5)
+#
+# country_5.sort(reverse=True)
+# print(country_5)
 
 
-print(bvfb)
 # my_nums = [1, 3, 3, 67, 78, 34]
 
 # result = my_nums.count(3) #метод .count() найдет в списке элемент который сколько раз встречался и выводит число сколько раз вышло этот элемент

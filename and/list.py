@@ -379,7 +379,8 @@
 # del invitation[0]
 # del invitation[0] # здесь играет роль последовательности каароче После первого удаления список сдвигается, поэтому второй элемент снова становится [0].
 # print(invitation)
-
+#
+# print(len(invitation))
 
 #
 # cars = ["bmw", "toyota", "audi", "subaru"]
@@ -426,31 +427,31 @@
 
 #TASKS NUMBER 2
 
-country_5 = ["Japan",  "Korea", "Iceland", "USA", "Switzerland"]
-print(country_5)
-
-# country_5 = sorted(country_5)
-# print(country_5) #type number 1
-
-print(sorted(country_5)) #type number 2
-
-print(country_5)
-
-print(sorted(country_5, reverse=True))
-
-print(country_5)
-
-country_5.reverse()
-print(country_5)
-
-country_5.reverse()
-print(country_5)
-
-country_5.sort()
-print(country_5)
-
-country_5.sort(reverse=True)
-print(country_5)
+# country_5 = ["Japan",  "Korea", "Iceland", "USA", "Switzerland"]
+# print(country_5)
+#
+# # country_5 = sorted(country_5)
+# # print(country_5) #type number 1
+#
+# print(sorted(country_5)) #type number 2
+#
+# print(country_5)
+#
+# print(sorted(country_5, reverse=True))
+#
+# print(country_5)
+#
+# country_5.reverse()
+# print(country_5)
+#
+# country_5.reverse()
+# print(country_5)
+#
+# country_5.sort()
+# print(country_5)
+#
+# country_5.sort(reverse=True)
+# print(country_5)
 # sorted(country_5, reverse=True)
 # print(country_5)
 #
@@ -459,6 +460,21 @@ print(country_5)
 #
 # country_5.sort(reverse=True)
 # print(country_5)
+
+
+my_favorite_place = ["Fudji", "Japan", "Amazon", "Okinawa", "Spanish"]
+
+city = my_favorite_place.pop(1)
+print(f"My favorite city is {city}!")
+
+my_favorite_place.append("Ramen")
+print(my_favorite_place)
+
+my_favorite_place.sort()
+print(my_favorite_place)
+
+my_favorite_place.sort(reverse=True)
+print(my_favorite_place)
 
 
 # my_nums = [1, 3, 3, 67, 78, 34]

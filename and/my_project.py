@@ -161,37 +161,37 @@ barcode_patients.pop()
 print(barcode_patients)
 
 ct_results.pop(-1)
-print(ct_results)
-
-
-print("Results updated for patient 202552")
-
-ct_results[2] = [31.0, 29.5, 28.0, 27.5, None]
-print(ct_results)
-
-
-print("\n Patients sorted by barcode")
-print(sorted(barcode_patients))
-
-print("\n Patients in reverse order")
-print(sorted(barcode_patients, reverse=True))
-
-
-print("\n Patients sorted by barcode")
-barcode_patients.sort()
-print(barcode_patients)
-
-print("\n Patients in reverse order")
-barcode_patients.reverse()
-print(barcode_patients)
-
-
-barcode = int(input("Enter barcode: "))
-
-if barcode in barcode_patients:
-    print(f"Patient {barcode} found in the system")
-else:
-    print(f"Patient {barcode} not found")
+# print(ct_results)
+#
+#
+# print("Results updated for patient 202552")
+#
+# ct_results[2] = [31.0, 29.5, 28.0, 27.5, None]
+# print(ct_results)
+#
+#
+# print("\n Patients sorted by barcode")
+# print(sorted(barcode_patients))
+#
+# print("\n Patients in reverse order")
+# print(sorted(barcode_patients, reverse=True))
+#
+#
+# print("\n Patients sorted by barcode")
+# barcode_patients.sort()
+# print(barcode_patients)
+#
+# print("\n Patients in reverse order")
+# barcode_patients.reverse()
+# print(barcode_patients)
+#
+#
+# barcode = int(input("Enter barcode: "))
+#
+# if barcode in barcode_patients:
+#     print(f"Patient {barcode} found in the system")
+# else:
+#     print(f"Patient {barcode} not found")
 
 
 #

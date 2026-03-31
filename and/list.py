@@ -436,9 +436,21 @@ print(sorted(country_5)) #type number 2
 
 print(country_5)
 
-sorted(country_5, reverse=True)
+print(sorted(country_5, reverse=True))
+
 print(country_5)
 
+country_5.reverse()
+print(country_5)
+
+country_5.reverse()
+print(country_5)
+
+country_5.sort()
+print(country_5)
+
+country_5.sort(reverse=True)
+print(country_5)
 # sorted(country_5, reverse=True)
 # print(country_5)
 #

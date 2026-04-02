@@ -462,19 +462,27 @@
 # print(country_5)
 
 
-# my_favorite_place = ["Fudji", "Japan", "Amazon", "Okinawa", "Spanish"]
-#
-# city = my_favorite_place.pop(1)
-# print(f"My favorite city is {city}!")
-#
-# my_favorite_place.append("Ramen")
-# print(my_favorite_place)
-#
-# my_favorite_place.sort()
-# print(my_favorite_place)
-#
-# my_favorite_place.sort(reverse=True)
-# print(my_favorite_place)
+my_favorite_place = ["Fudji", "Japan", "Amazon", "Okinawa", "Spanish"]
+
+city = my_favorite_place.pop(1)
+print(f"My favorite city is {city}!")
+
+my_favorite_place.append("Ramen")
+print(my_favorite_place)
+
+my_favorite_place.sort()
+print(my_favorite_place)
+
+my_favorite_place.sort(reverse=True)
+print(my_favorite_place)
+
+print(sorted(my_favorite_place))
+
+print(sorted(my_favorite_place, reverse=True))
+
+print(len(my_favorite_place))
+
+
 
 
 # my_nums = [1, 3, 3, 67, 78, 34]

@@ -462,25 +462,39 @@
 # print(country_5)
 
 
-my_favorite_place = ["Fudji", "Japan", "Amazon", "Okinawa", "Spanish"]
-
-city = my_favorite_place.pop(1)
-print(f"My favorite city is {city}!")
-
-my_favorite_place.append("Ramen")
-print(my_favorite_place)
-
-my_favorite_place.sort()
-print(my_favorite_place)
-
-my_favorite_place.sort(reverse=True)
-print(my_favorite_place)
-
-print(sorted(my_favorite_place))
-
-print(sorted(my_favorite_place, reverse=True))
-
-print(len(my_favorite_place))
+# my_favorite_place = ["Fudji", "Japan", "Amazon", "Okinawa", "Spanish"]
+#
+# city = my_favorite_place.pop(1)
+# print(f"My favorite city is {city}!")
+#
+# my_favorite_place.append("Ramen")
+# print(my_favorite_place)
+#
+# my_favorite_place.sort()
+# print(my_favorite_place)
+#
+# my_favorite_place.sort(reverse=True)
+# print(my_favorite_place)
+#
+# print(sorted(my_favorite_place))
+#
+# print(sorted(my_favorite_place, reverse=True))
+#
+# print(len(my_favorite_place))
+#
+# my_favorite_place.insert(1, "Kimano")
+# print(my_favorite_place)
+#
+#
+# my_favorite_place.remove("Spanish")
+# print(my_favorite_place)
+#
+# print(my_favorite_place[4])
+#
+#
+# del my_favorite_place[0:6]
+# print(my_favorite_place)
+# print(my_favorite_place[-1])
 
 
 
@@ -559,3 +573,15 @@ print(len(my_favorite_place))
 #
 # list_1.extend(list_2)
 # print(list_1)
+
+
+# magicians = ["germionna", "harry potter", "tom chrismos", "alice", "carolina"]
+# # for magician in magicians:
+# #     print(magician.title())
+#
+# # for magician in magicians:
+# #     print(f"{magician.title()}, that was a great trick!")
+#
+# for magician in magicians:
+#     print(f"{magician.title()}, that was a great trick!")
+#     print(f"I can not wait to see your next trick {magician.title()}. \n")

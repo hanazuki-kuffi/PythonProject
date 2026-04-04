@@ -10,8 +10,8 @@
 # age = input("How old are you?: ")
 # print(age)
 
-age = input("How old are you?: ")
-print(age)
-
-age = int(input())
-age >= 18
+# age = input("How old are you?: ")
+# print(age)
+#
+# age = int(input())
+# age >= 18

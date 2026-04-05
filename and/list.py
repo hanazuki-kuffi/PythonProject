@@ -574,20 +574,20 @@
 # list_1.extend(list_2)
 # print(list_1)
 
-
-magicians = ["germionna", "harry potter", "tom chrismos", "alice", "carolina"]
-# # for magician in magicians:
-# #     print(magician.title())
 #
+# magicians = ["germionna", "harry potter", "tom chrismos", "alice", "carolina"]
+# # # for magician in magicians:
+# # #     print(magician.title())
+# #
+# # # for magician in magicians:
+# # #     print(f"{magician.title()}, that was a great trick!")
+# #
 # # for magician in magicians:
 # #     print(f"{magician.title()}, that was a great trick!")
+# #     print(f"I can not wait to see your next trick {magician.title()}. \n")
 #
 # for magician in magicians:
 #     print(f"{magician.title()}, that was a great trick!")
-#     print(f"I can not wait to see your next trick {magician.title()}. \n")
-
-for magician in magicians:
-    print(f"{magician.title()}, that was a great trick!")
-    print(f"I can not wait to see your next trick {magician.title()} \n")
-
-print("Thank you everyone. That was a great magic show!")
+#     print(f"I can not wait to see your next trick {magician.title()} \n")
+#
+# print("Thank you everyone. That was a great magic show!")

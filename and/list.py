@@ -589,5 +589,26 @@
 # for magician in magicians:
 #     print(f"{magician.title()}, that was a great trick!")
 #     print(f"I can not wait to see your next trick {magician.title()} \n")
+#
+# print("Thank you everyone. That was a great magic show!")
 
-print("Thank you everyone. That was a great magic show!")
+#
+# my_favorite_pizza = ["Italian Margarrita", "pepperoni", "chicken pizza"]
+#
+# for pizza in my_favorite_pizza:
+#     print(f"I like {pizza} pizza")
+#
+# print("\nI really love pizza!")
+
+
+animals = ["wolf", "fox", "tiger"]
+
+for animal in animals:
+    print(f"A {animal} would make a great pet")
+
+print("\nAny of these animals would make a great pet!")
+
+
+
+
+

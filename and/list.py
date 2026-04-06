@@ -600,13 +600,13 @@
 #
 # print("\nI really love pizza!")
 
-
-animals = ["wolf", "fox", "tiger"]
-
-for animal in animals:
-    print(f"A {animal} would make a great pet")
-
-print("\nAny of these animals would make a great pet!")
+#
+# animals = ["wolf", "fox", "tiger"]
+#
+# for animal in animals:
+#     print(f"A {animal} would make a great pet")
+#
+# print("\nAny of these animals would make a great pet!")
 
 
 

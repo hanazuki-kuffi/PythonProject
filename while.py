@@ -1,6 +1,7 @@
 # name = input("Please enter your name: ")
 # print(f"Hello {name}!\n")
 # from http.cookiejar import user_domain_match
+from pyexpat.errors import messages
 
 # prompt = "If you tell us who you are, we can personalise the messages you see!"
 # prompt += "\nWhat is your first name?: "
@@ -66,13 +67,46 @@
 #     print(message)
 
 
-prompt = "\nTell me something and I will repeat it back to you."
-prompt += "\nEnter 'quit' to end the program!: "
+# prompt = "\nTell me something and I will repeat it back to you."
+# prompt += "\nEnter 'quit' to end the program!: "
+#
+# message = ""
+# while message != 'quit':
+#     message = input(prompt)
+#
+#     if message != 'quit':
+#         print(message)
 
-message = ""
-while message != 'quit':
-    message = input(prompt)
+# prompt = "\nTell me something and I will repeat it back to you."
+# prompt += "\nEnter 'quit' to end the program!: "
+#
+# active = True
+#
+# while active:
+#     message = input(prompt)
 
-    if message != 'quit':
-        print(message)
+# i = 10
+#
+# while i < 50:
+#     print(i)
+#     i += 10
+
+# while True:  # В ЛЮБОМ СЛУЧАЕ ЭТО НЕЛЬЗЯ ЗАПУСКАТЬ А ТО БЕЗКОНЕЧНО ЦИКЛ ТОКТАМАЙ ЖУРЕ БЕРЕТ
+#     print("Infinite loop")
+
+# while True:
+#     answer = input("Enter 'yes' or 'no': ")
+#     if answer == 'no':
+#         break
+
+import random
+
+# random_num = random.randint(1, 5)
+# while True: #while = "принимать пациентов пока рабочий день не закончится" — не знаешь сколько придёт, просто работаешь пока условие (рабочий день) правда. 😊
+#     num = int(input("Guess the number from 1 to 5: "))
+#     if num != random_num:
+#         print("Try again...")
+#         continue
+#     print("Congratulations", random_num)
+#     break #он говорит "выйди из цикла прямо сейчас".
 

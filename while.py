@@ -110,3 +110,13 @@ import random
 #     print("Congratulations", random_num)
 #     break #он говорит "выйди из цикла прямо сейчас".
 
+
+prompt = "\nTell me something and I will repeat it back to you."
+prompt += "\nEnter 'quit' to end the program!: "
+
+active = True
+while active:
+    message = input(prompt)
+
+    if message == 'quit':
+        active = False

@@ -608,6 +608,14 @@
 #
 # print("\nAny of these animals would make a great pet!")
 
+# for value in range(1,5):
+#     print(value)
+
+# number = list(range(1,6))
+# print(number) #[1, 2, 3, 4, 5]
+
+# even_numbers = list(range(2,11,2))
+# print(even_numbers)
 
 
 

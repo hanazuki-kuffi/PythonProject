@@ -637,10 +637,19 @@
 #     squares.append(square)
 #
 # print(squares)
-
-#VARIANT NUMBER 2
+#
+# # VARIANT NUMBER 2
 # squares = []
 #
 # for value in range(1, 11):
 #     squares.append(value ** 2)
 # print(squares)
+
+
+# digits = list(range(1, 10))
+#
+# print(min(digits))
+#
+# print(max(digits))
+#
+# print(sum(digits))

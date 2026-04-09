@@ -645,6 +645,10 @@
 #     squares.append(value ** 2)
 # print(squares)
 
+# VARIANT NUMBER 3
+
+# squares = [value ** 2 for value in range(1, 11)]
+# print(squares)
 
 # digits = list(range(1, 10))
 #
@@ -653,3 +657,16 @@
 # print(max(digits))
 #
 # print(sum(digits))
+
+
+# values = []
+#
+# for value in range(1, 21):
+#     values = value
+#     print(values)
+
+# values_1 = []
+#
+# for value in range(1, 1000001):
+#     values_1 = value
+#     print(values_1)

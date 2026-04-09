@@ -677,3 +677,8 @@
 #
 # print(sum(values_1))
 
+
+# digits = list(range(1, 21))
+#
+# for digit in digits:
+#     print(digit)

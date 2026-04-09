@@ -623,27 +623,27 @@
 # # 3 — шаг (на сколько увеличивать)
 # print(even_numbers_1) #[1, 4, 7, 10, 13, 16, 19, 22, 25, 28]
 #
-even_numbers_2 = list(range(2, 11, 2))
+# even_numbers_2 = list(range(2, 11, 2))
 # 2— начало (старт)
 # 11 — конец (стоп, не включается)
 # 2 — шаг (на сколько увеличивать)
-print(even_numbers_2) #[2, 4, 6, 8, 10]
-
-VARIANT NUMBER 1
-squares = []
-
-for value in range(1, 11):
-    square = value ** 2
-    squares.append(square)
-
-print(squares)
-
-# VARIANT NUMBER 2
-squares = []
-
-for value in range(1, 11):
-    squares.append(value ** 2)
-print(squares)
+# print(even_numbers_2) #[2, 4, 6, 8, 10]
+#
+# VARIANT NUMBER 1
+# squares = []
+#
+# for value in range(1, 11):
+#     square = value ** 2
+#     squares.append(square)
+#
+# print(squares)
+#
+# # VARIANT NUMBER 2
+# squares = []
+#
+# for value in range(1, 11):
+#     squares.append(value ** 2)
+# print(squares)
 
 
 # digits = list(range(1, 10))

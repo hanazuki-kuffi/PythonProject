@@ -662,11 +662,18 @@
 # values = []
 #
 # for value in range(1, 21):
-#     values = value
-#     print(values)
+#     values.append(value)
+# print(values)
 
 # values_1 = []
 #
 # for value in range(1, 1000001):
-#     values_1 = value
-#     print(values_1)
+#     values_1.append(value)
+# print(values_1)
+#
+# print(min(values_1))
+#
+# print(max(values_1))
+#
+# print(sum(values_1))
+

@@ -189,20 +189,26 @@ import random
 #         elif int(age) > 12:
 #             print("The ticket costs $15")
 
-message = "Enter you age for buying tickets. Please enter the 'quit' when you are finished!: "
+# message = "Enter you age for buying tickets. Please enter the 'quit' when you are finished!: "
+#
+# active = True
+#
+# while active:
+#     age = input(message)
+#
+#     if age == 'quit':
+#         active = False
+#     else:
+#         if int(age) < 3:
+#             print("Free tickets!")
+#         elif 3 < int(age) < 12:
+#             print("The ticket costs $10!")
+#         elif int(age) > 12:
+#             print("The ticket costs $15!")
+#             break
 
-active = True
 
-while active:
-    age = input(message)
-
-    if age == 'quit':
-        active = False
-    else:
-        if int(age) < 3:
-            print("Free tickets!")
-        elif 3 < int(age) < 12:
-            print("The ticket costs $10!")
-        elif int(age) > 12:
-            print("The ticket costs $15!")
-            break
+# integer = 1
+#
+# while integer < 100:
+#     print(integer)

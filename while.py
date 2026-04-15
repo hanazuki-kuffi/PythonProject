@@ -134,11 +134,33 @@ import random
 #     else:
 #         print(f"I would love to go to {city.title()}!")
 
-current_number = 0
+# current_number = 0
+#
+# while current_number < 10:
+#     current_number = current_number + 1
+#
+#     if current_number % 2 == 0:
+#         continue
+#     print(current_number)
 
-while current_number < 10:
-    current_number = current_number + 1
 
-    if current_number % 2 == 0:
-        continue
-    print(current_number)
+# x = 1
+# while x <= 5:
+#     print(x)
+
+# x = 1
+# while x <= 5:
+#      print(x)
+#      x += 1
+
+
+pizza_order = "\nPlease, enter your addition for pizza!"
+pizza_order += "\nEnter 'quit' when you are finished: "
+
+while True:
+    order = input(pizza_order)
+    if order == 'quit':
+        break
+    else:
+        print("This supplement is included in the order!")
+

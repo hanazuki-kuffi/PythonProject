@@ -684,7 +684,8 @@
 #     print(digit)
 
 # digits = list(range(3, 31))
-#
-# digits % 3 == 0
-# for digit in digits:
-#     print(digit)
+
+
+
+for digit in range(3, 31, 3):
+    print(digit)

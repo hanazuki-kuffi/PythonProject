@@ -153,14 +153,14 @@ import random
 #      print(x)
 #      x += 1
 
-
-pizza_order = "\nPlease, enter your addition for pizza!"
-pizza_order += "\nEnter 'quit' when you are finished: "
-
-while True:
-    order = input(pizza_order)
-    if order == 'quit':
-        break
-    else:
-        print("This supplement is included in the order!")
+#
+# pizza_order = "\nPlease, enter your addition for pizza!"
+# pizza_order += "\nEnter 'quit' when you are finished: "
+#
+# while True:
+#     order = input(pizza_order)
+#     if order == 'quit':
+#         break
+#     else:
+#         print("This supplement is included in the order!")
 

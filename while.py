@@ -164,3 +164,26 @@ import random
 #     else:
 #         print("This supplement is included in the order!")
 
+
+#  1) age > 3: -- free
+#  2) 3 < age < 12: -- 10 dollars ticket
+#  3) age > 12: -- 15 dollars ticket
+# напишите цикл который предлагает пользователю ввести возраст и выводит цену билета
+
+
+message = "Enter your age for buying tickets. Please, enter the 'quit, when you are finished!: "
+
+active = True
+
+while active:
+    age = input(message)
+
+    if age == 'quit':
+        active = False
+    else:
+        if int(age) < 3:
+            print("Free tickets!")
+        elif 3 < int(age) < 12:
+            print("The ticket costs $10")
+        elif int(age) > 12:
+            print("The ticket costs $15")

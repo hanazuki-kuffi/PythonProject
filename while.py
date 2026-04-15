@@ -1,6 +1,7 @@
 # name = input("Please enter your name: ")
 # print(f"Hello {name}!\n")
 # from http.cookiejar import user_domain_match
+from math import acosh
 from pyexpat.errors import messages
 
 # prompt = "If you tell us who you are, we can personalise the messages you see!"
@@ -171,7 +172,24 @@ import random
 # напишите цикл который предлагает пользователю ввести возраст и выводит цену билета
 
 
-message = "Enter your age for buying tickets. Please, enter the 'quit, when you are finished!: "
+# message = "Enter your age for buying tickets. Please, enter the 'quit, when you are finished!: "
+#
+# active = True
+#
+# while active:
+#     age = input(message)
+#
+#     if age == 'quit':
+#         active = False
+#     else:
+#         if int(age) < 3:
+#             print("Free tickets!")
+#         elif 3 < int(age) < 12:
+#             print("The ticket costs $10")
+#         elif int(age) > 12:
+#             print("The ticket costs $15")
+
+message = "Enter you age for buying tickets. Please enter the 'quit' when you are finished!: "
 
 active = True
 
@@ -184,6 +202,7 @@ while active:
         if int(age) < 3:
             print("Free tickets!")
         elif 3 < int(age) < 12:
-            print("The ticket costs $10")
+            print("The ticket costs $10!")
         elif int(age) > 12:
-            print("The ticket costs $15")
+            print("The ticket costs $15!")
+            break

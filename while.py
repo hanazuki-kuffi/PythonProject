@@ -214,15 +214,42 @@ import random
 #     print(integer)
 
 
-unconfirmed_users = ["Ali", "Nurai", "Arai", "Kawai"]
-confirmed_users = []
+# unconfirmed_users = ["Ali", "Nurai", "Arai", "Kawai"]
+# confirmed_users = []
+#
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+#
+#     print(f"Veryfuying users: {current_user.title()}")
+#     confirmed_users.append(current_user)
+#
+# print("\nThe following users have been confirmed: ")
+# for confirmed_user in confirmed_users:
+#     print(confirmed_user.title())
 
-while unconfirmed_users:
-    current_user = unconfirmed_users.pop()
 
-    print(f"Veryfuying users {current_user.title()}")
-    confirmed_users.append(current_user)
 
-print("\nThe following users have been confirmed: ")
-for confirmed_user in confirmed_users:
-    print(confirmed_user.title())
+
+
+
+
+
+
+
+
+
+
+
+#
+# unconfirmed_users = ["Ali", "Nurai", "Kawai", "Arai"]
+# confirmed_users = []
+#
+# while unconfirmed_users:
+#     current_user = unconfirmed_users.pop()
+#
+#     print(f"Veryfuying user: {current_user.title()}")
+#     confirmed_users.append(current_user)
+#
+# print("\nThe following users have been confirmed: ")
+# for confirmed_user in confirmed_users:
+#     print(confirmed_user.title())

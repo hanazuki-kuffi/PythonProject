@@ -184,11 +184,11 @@ import random
 #     else:
 #         if int(age) < 3:
 #             print("Free tickets!")
-#         elif 3 < int(age) < 12:
+#         elif 3 <= int(age) <= 12:
 #             print("The ticket costs $10")
 #         elif int(age) > 12:
 #             print("The ticket costs $15")
-
+#
 # message = "Enter you age for buying tickets. Please enter the 'quit' when you are finished!: "
 #
 # active = True
@@ -206,9 +206,23 @@ import random
 #         elif int(age) > 12:
 #             print("The ticket costs $15!")
 #             break
-
-
+#
+#
 # integer = 1
 #
 # while integer < 100:
 #     print(integer)
+
+
+unconfirmed_users = ["Ali", "Nurai", "Arai", "Kawai"]
+confirmed_users = []
+
+while unconfirmed_users:
+    current_user = unconfirmed_users.pop()
+
+    print(f"Veryfuying users {current_user.title()}")
+    confirmed_users.append(current_user)
+
+print("\nThe following users have been confirmed: ")
+for confirmed_user in confirmed_users:
+    print(confirmed_user.title())

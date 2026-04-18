@@ -253,3 +253,12 @@ import random
 # print("\nThe following users have been confirmed: ")
 # for confirmed_user in confirmed_users:
 #     print(confirmed_user.title())
+
+
+pets = ["cat", "dog", "cat", "goldfish", "lamb", "cat", "rabbit"]
+print(pets)
+
+while "cat" in pets:
+    pets.remove("cat")
+
+print(pets)

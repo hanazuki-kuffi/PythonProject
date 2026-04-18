@@ -678,13 +678,17 @@
 # print(sum(values_1))
 
 
-digits = list(range(1, 21, 2))
-
-for digit in digits:
-    print(digit)
-
-digits = list(range(3, 31))
+# digits = list(range(1, 21, 2))
+#
+# for digit in digits:
+#     print(digit)
 
 
-for digit in range(3, 31, 3):
-    print(digit)
+# digits = list(range(3, 31))
+
+# digits = []
+#
+# for digit in range(3, 31, 3):
+#     digits.append(digit)
+# print(digits)
+

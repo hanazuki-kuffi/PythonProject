@@ -264,22 +264,37 @@ import random
 #
 # print(pets)
 
-responses = {}
+# responses = {}
+#
+# polling_active = True
+#
+# while polling_active:
+#     name = input("\n What is your name? ")
+#     response = input("\n Wich mountain would you like to climb someday? ")
+#
+# responses[name] = response
+#
+# repeat = input("\n Would you like to let another person respond? (yes/no) ")
+#
+# if repeat == 'no':
+#     polling_active = False
+#
+# print("\n --- Poll results ---")
+#
+# for name, response in responses.items():
+#     print(f"{name} would like to climb {response}.")
 
-polling_active = True
+name = input("What is your name? ")
 
-while polling_active:
-    name = input("\n What is your name? ")
-    response = input("\n Wich mountain would you like to climb someday? ")
+while name == "":
+    print("You did not enter your name")
+    name = input("What is your name? ")
 
-responses[name] = response
+print(f"Hello {name}!")
 
-repeat = input("\n Would you like to let another person respond? (yes/no) ")
+i = 0
 
-if repeat == 'no':
-    polling_active = False
-
-print("\n --- Poll results ---")
-
-for name, response in responses.items():
-    print(f"{name} would like to climb {response}.")
+while i != 20:
+    i += 2
+    print(i)
+print("end")

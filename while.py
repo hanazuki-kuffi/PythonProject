@@ -1,6 +1,7 @@
 # name = input("Please enter your name: ")
 # print(f"Hello {name}!\n")
 # from http.cookiejar import user_domain_match
+from itertools import repeat
 from math import acosh
 from pyexpat.errors import messages
 
@@ -255,10 +256,30 @@ import random
 #     print(confirmed_user.title())
 
 
-pets = ["cat", "dog", "cat", "goldfish", "lamb", "cat", "rabbit"]
-print(pets)
+# pets = ["cat", "dog", "cat", "goldfish", "lamb", "cat", "rabbit"]
+# print(pets)
+#
+# while "cat" in pets:
+#     pets.remove("cat")
+#
+# print(pets)
 
-while "cat" in pets:
-    pets.remove("cat")
+responses = {}
 
-print(pets)
+polling_active = True
+
+while polling_active:
+    name = input("\n What is your name? ")
+    response = input("\n Wich mountain would you like to climb someday? ")
+
+responses[name] = response
+
+repeat = input("\n Would you like to let another person respond? (yes/no) ")
+
+if repeat == 'no':
+    polling_active = False
+
+print("\n --- Poll results ---")
+
+for name, response in responses.items():
+    print(f"{name} would like to climb {response}.")

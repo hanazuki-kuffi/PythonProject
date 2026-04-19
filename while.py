@@ -298,3 +298,15 @@ import random
 #     i += 2
 #     print(i)
 # print("end")
+
+
+sandwich_orders = ["panini", "tuna sanwich", "grilled cheese sanwich", "tartine"]
+finished_sandwiches = []
+
+while sandwich_orders:
+    current_sandwich = sandwich_orders.pop()
+
+    print(f"I made your tuna sandwich: {current_sandwich.title()}")
+    finished_sandwiches.append(current_sandwich.title())
+
+print(finished_sandwiches)

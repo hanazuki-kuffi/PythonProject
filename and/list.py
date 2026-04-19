@@ -699,4 +699,4 @@
 #     digits.append(digit ** 3)
 # print(digits)
 
-digits = [digit ** 3 for digit in range(1, 11):
+# digits = [digit ** 3 for digit in range(1, 11):

@@ -692,3 +692,9 @@
 #     digits.append(digit)
 # print(digits)
 
+
+# digits = []
+#
+# for digit in range(1, 11):
+#     digits.append(digit ** 3)
+# print(digits)

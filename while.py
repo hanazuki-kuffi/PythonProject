@@ -284,17 +284,17 @@ import random
 # for name, response in responses.items():
 #     print(f"{name} would like to climb {response}.")
 
-name = input("What is your name? ")
-
-while name == "":
-    print("You did not enter your name")
-    name = input("What is your name? ")
-
-print(f"Hello {name}!")
-
-i = 0
-
-while i != 20:
-    i += 2
-    print(i)
-print("end")
+# name = input("What is your name? ")
+#
+# while name == "":
+#     print("You did not enter your name")
+#     name = input("What is your name? ")
+#
+# print(f"Hello {name}!")
+#
+# i = 0
+#
+# while i != 20:
+#     i += 2
+#     print(i)
+# print("end")

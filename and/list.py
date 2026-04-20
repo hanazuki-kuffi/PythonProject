@@ -702,9 +702,15 @@
 # digits = [digit ** 3 for digit in range(1, 11)]
 # print(digits)
 
-players = ["martine", "alice", "ron", "fred", "silver", "neo"]
-# print(players[0:3])
-# print(players[1:4])
-# print(players[:4])
-# print(players[1:])
-print(players[-3:])
+# players = ["martine", "alice", "ron", "fred", "silver", "neo"]
+# # print(players[0:3])
+# # print(players[1:4])
+# # print(players[:4])
+# # print(players[1:])
+# print(players[-3:])
+
+players = ["silver", "neo", "wishp", "dingle", "avoma", "comman hat",]
+
+print("\nHere are the first four players on my team: ")
+for player in players[:4]:
+    print(player.title()) #Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми тремя именами:Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми 4 именами:

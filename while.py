@@ -312,12 +312,12 @@ import random
 # print(finished_sandwiches)
 
 sandwich_orders = ["panini", "pastrami", "pastrami", "tuna sanwich", "pastrami", "grilled cheese sanwich", "pastrami", "tartine"]
-finished_sanwiches = []
-print("There is no more pastrami!\n")
-
-while "pastrami" in sandwich_orders:
-    sandwich_orders.remove("pastrami")
-print(sandwich_orders)
+# finished_sanwiches = []
+# print("There is no more pastrami!\n")
+#
+# while "pastrami" in sandwich_orders:
+#     sandwich_orders.remove("pastrami")
+# print(sandwich_orders)
 #     current_sandwiches = sandwich_orders.pop()
 #
 # print(finished_sanwiches.append(current_sandwiches))

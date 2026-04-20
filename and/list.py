@@ -705,4 +705,6 @@
 players = ["martine", "alice", "ron", "fred", "silver", "neo"]
 # print(players[0:3])
 # print(players[1:4])
-print(players[:4])
+# print(players[:4])
+# print(players[1:])
+print(players[-3:])

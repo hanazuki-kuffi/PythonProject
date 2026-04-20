@@ -311,7 +311,7 @@ import random
 #
 # print(finished_sandwiches)
 
-sandwich_orders = ["panini", "pastrami", "pastrami", "tuna sanwich", "pastrami", "grilled cheese sanwich", "pastrami", "tartine"]
+# sandwich_orders = ["panini", "pastrami", "pastrami", "tuna sanwich", "pastrami", "grilled cheese sanwich", "pastrami", "tartine"]
 # finished_sanwiches = []
 # print("There is no more pastrami!\n")
 #

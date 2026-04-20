@@ -701,3 +701,8 @@
 
 # digits = [digit ** 3 for digit in range(1, 11)]
 # print(digits)
+
+players = ["martine", "alice", "ron", "fred", "silver", "neo"]
+# print(players[0:3])
+# print(players[1:4])
+print(players[:4])

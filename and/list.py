@@ -709,8 +709,12 @@
 # # print(players[1:])
 # print(players[-3:])
 
-players = ["silver", "neo", "wishp", "dingle", "avoma", "comman hat",]
+# players = ["silver", "neo", "wishp", "dingle", "avoma", "comman hat",]
+#
+# print("\nHere are the first four players on my team: ")
+# for player in players[:4]:
+#     print(player.title()) #Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми тремя именами:Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми 4 именами:
 
-print("\nHere are the first four players on my team: ")
-for player in players[:4]:
-    print(player.title()) #Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми тремя именами:Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми 4 именами:
+
+my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
+friend_foods = my_foods

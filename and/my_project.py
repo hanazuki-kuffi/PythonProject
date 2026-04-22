@@ -54,9 +54,9 @@ ct_results1 = [None, 22.40, None, 28.5, None]
 
 # FOR SOME PATIENTS
 
-barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"]
-
-ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
+# barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"]
+#
+# ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
 
 # ct_results2 = [
 #     [29.51, 28.5, 28.11, 33.0, 28.79],
@@ -168,7 +168,7 @@ ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
 #
 # ct_results[2] = [31.0, 29.5, 28.0, 27.5, None]
 # print(ct_results)
-#
+
 #
 # print("\n Patients sorted by barcode")
 # print(sorted(barcode_patients))
@@ -224,3 +224,57 @@ ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
 
 
 
+
+# barcode_patients.append(707890)
+# print(barcode_patients)
+#
+# ct_results2.append([None, 31.5, None, 28.0, None])
+# print(ct_results2)
+#
+# print("\n New patient 707890 added to the system")
+#
+# print(f"\n Patient {barcode_patients[-1]} has cancelled their test")
+#
+# barcode_patients.pop()
+# print(barcode_patients)
+#
+# ct_results2.pop(-1)
+# print(ct_results2)
+#
+#
+# print("Results updated for patient 202552")
+#
+# ct_results2[2] = [31.0, 29.5, 28.0, 27.5, None]
+# print(ct_results2)
+
+barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"]
+
+ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
+
+ct_results2 = [
+    [29.51, 28.5, 28.11, 33.0, 28.79],
+    [None, 23.95, None, 28.66, None],
+    [28.18, None, None, 27.00, None],
+    [None, None, None, 27.00, None],
+    [None, None, None, 27.00, 33.9],
+    [None, 24.00, None, 27.00, None]
+]
+
+patient_index = 0
+for result in ct_results2:
+    print(f"\n Patient: {barcode_patients[patient_index]}")
+
+    index = 0
+    for channel in ct_channels:
+
+        cycle_threshold = result[index]
+
+        if cycle_threshold == None:
+            print(f"{channel}: Negative")
+        elif 18 <= cycle_threshold <= 35:
+            print(f"{channel}: Positive")
+        elif cycle_threshold < 18 or cycle_threshold > 35:
+            print(f"{channel}: Invalid")
+
+        index += 1
+    patient_index += 1

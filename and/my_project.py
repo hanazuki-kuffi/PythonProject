@@ -247,11 +247,11 @@ ct_results1 = [None, 22.40, None, 28.5, None]
 # ct_results2[2] = [31.0, 29.5, 28.0, 27.5, None]
 # print(ct_results2)
 
-barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"]
+barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"] #список пациента
 
-ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]
+ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"] #список каналов
 
-ct_results2 = [
+ct_results2 = [                                  #cписок результатов
     [29.51, 28.5, 28.11, 33.0, 28.79],
     [None, 23.95, None, 28.66, None],
     [28.18, None, None, 27.00, None],
@@ -259,6 +259,17 @@ ct_results2 = [
     [None, None, None, 27.00, 33.9],
     [None, 24.00, None, 27.00, None]
 ]
+
+
+while True:
+    print("--- PCR LAB MENU ---")
+    print("1. Show all patients")
+    for result in ct_results2:
+        print(result)
+    print("2. Add new patient")
+    print("3. Delete patient")
+    print("4. Exit")
+    print("Choose action (1/2/3/4): ")
 
 patient_index = 0
 for result in ct_results2:

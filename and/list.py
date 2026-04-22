@@ -737,8 +737,8 @@
 # print("\nMy friend is favorite foods are: ")
 # print(friend_food)
 
-my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
-friend_foods = my_foods
-
-friend_foods.append("ice cream")
-print()
+# my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
+# friend_foods = my_foods
+#
+# friend_foods.append("ice cream")
+# print()

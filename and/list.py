@@ -715,6 +715,30 @@
 # for player in players[:4]:
 #     print(player.title()) #Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми тремя именами:Вместо того чтобы перебирать весь список игроков, Python ограничивается первыми 4 именами:
 
+#
+# my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
+# friend_foods = my_foods[:]
+#
+# print(f"My favorite foods are: ")
+# print(my_foods)
+#
+# print(f"\nMy friend is favorite foods are: ")
+# print(friend_foods)
+
+# my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
+# friend_food = my_foods[:]
+#
+# my_foods.append("ice cream")
+# friend_food.append("ice latte")
+#
+# print("My favorite foods are: ")
+# print(my_foods)
+#
+# print("\nMy friend is favorite foods are: ")
+# print(friend_food)
 
 my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
 friend_foods = my_foods
+
+friend_foods.append("ice cream")
+print()

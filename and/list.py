@@ -741,4 +741,16 @@
 # friend_foods = my_foods
 #
 # friend_foods.append("ice cream")
-# print()
+# print(friend_foods)
+
+my_foods = ["sushi burger", "pizza", "ramen", "toppoki", "stake", "samsa", "manpar", "popayes burger"]
+
+print("The first three items in the list are: ")
+print(my_foods[:3])
+
+print("\nThree items from the middle of the list are: ")
+print(my_foods[3:6])
+
+print("\nThe last three items in the list are: ")
+print(my_foods[5:])
+

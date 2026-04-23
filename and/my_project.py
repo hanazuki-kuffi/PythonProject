@@ -261,15 +261,15 @@ ct_results2 = [                                  #cписок результат
 ]
 
 
-# while True:
-#     print("--- PCR LAB MENU ---")
-#     print("1. Show all patients")
-#     for result in ct_results2:
-#         print(result)
-#     print("2. Add new patient")
-#     print("3. Delete patient")
-#     print("4. Exit")
-#     print("Choose action (1/2/3/4): ")
+while True:
+    print("--- PCR LAB MENU ---")
+    print("1. Show all patients")
+    for result in ct_results2:
+        print(result)
+    print("2. Add new patient")
+    print("3. Delete patient")
+    print("4. Exit")
+    print("Choose action (1/2/3/4): ")
 
 patient_index = 0
 for result in ct_results2:

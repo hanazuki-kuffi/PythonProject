@@ -347,3 +347,20 @@ import random
 # while g < len(string):
 #     print(g)
 #     g = g + 1
+
+all_vacation = [] # создали пустой список, и скоро будем складывать элементы
+
+active = True # включен активация
+while active: # пока active = True цикл крутится бесконечно
+    current_survey = input("Where would you like to spend your vacation?: ") #каждый раз спрашивает у пользователя спрашивает ответы
+
+    if current_survey == "quit": #внесем логику если пользователь написал 'quit' и active = False остановливается цикл
+        active = False
+    else:
+        all_vacation.append(current_survey) # если пользователь не ввел 'quit' то цикл продолжается также ответы будут добавляться в список
+
+print(all_vacation) # после того цикл завершился с 'quit' мы выводим список все накопленнные ответы
+
+
+
+

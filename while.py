@@ -361,6 +361,10 @@ import random
 #
 # print(all_vacation) # после того цикл завершился с 'quit' мы выводим список все накопленнные ответы
 
-
-
+# string = input("Enter a something:")
+# i = 0
+#
+# while i < len(string):
+#     print(string[i])
+#     i = i + 1
 

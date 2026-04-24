@@ -320,9 +320,9 @@ while True:
 
         print(f"Patient {new_barcode_patient} added successfully!")
     elif choice == "3":
-        pass
-    elif choice == "4":
-        break
-    else:
-        print("Invalid choice. Try again!")
+    #     pass
+    # elif choice == "4":
+    #     break
+    # else:
+    #     print("Invalid choice. Try again!")
 

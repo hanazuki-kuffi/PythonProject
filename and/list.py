@@ -754,3 +754,17 @@
 # print("\nThe last three items in the list are: ")
 # print(my_foods[5:])
 
+#
+my_favorite_pizza = ["Italian Margarrita", "pepperoni", "chicken pizza"]
+friend_pizzas = my_favorite_pizza[:] # [:] рядом с этой перемменой поставила такой значок потому что это означает я только буду список копировать и все а остальных на 100 процент  не  буду копировать. ЕСли я буду отсутствовавать в этом коде то тогда все проограмма будут целиком копироватся то есть если добавлю что то новое или алып тастасам то коипрованный список точно так же будут делать
+
+my_favorite_pizza.append("Mexico pizza")
+friend_pizzas.append("four cheeze pizza")
+
+print("My favorite pizzas are: ")
+for my_pizza in my_favorite_pizza:
+    print(my_pizza.title())
+
+print("\nMy friend is favorite pizzas are: ")
+for friend_pizza in friend_pizzas:
+    print(friend_pizza.title())

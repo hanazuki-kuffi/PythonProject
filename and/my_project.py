@@ -273,56 +273,56 @@
 #         patient_index = 0
 #         for result in ct_results2:
 #             print(f"\n Patient: {barcode_patients[patient_index]}")
-
-    #         index = 0
-    #         for channel in ct_channels:
-    #
-    #             cycle_threshold = result[index]
-    #
-    #             if cycle_threshold == None:
-    #                 print(f"{channel}: Negative")
-    #             elif 18 <= cycle_threshold <= 35:
-    #                 print(f"{channel}: Positive")
-    #             elif cycle_threshold < 18 or cycle_threshold > 35:
-    #                 print(f"{channel}: Invalid")
-    #
-    #             index += 1
-    #         patient_index += 1
-    # elif choice == "2":
-    #     new_barcode_patient = input("Enter a barcode patient: ")
-    #     fam = input("Enter FAM value (or 'none'): ")
-    #     hex = input("Enter HEX value (or 'none'): ")
-    #     rox = input("Enter ROX value (or 'none'): ")
-    #     cy5 = input("Enter CY5 value (or 'none'): ")
-    #     cy55 = input("Enter CY5.5 value (or 'none'): ")
-    #     if fam == "none":
-    #         fam = None
-    #     else:
-    #         fam = float()
-    #     if hex == "none":
-    #         hex = None
-    #     else:
-    #         hex = float()
-    #     if rox == "none":
-    #         rox = None
-    #     else:
-    #         rox = float()
-    #     if cy5 == "none":
-    #         cy5 = None
-    #     else:
-    #         cy5 = float()
-    #     if cy55 == "none":
-    #         cy55 = None
-    #     else:
-    #         cy55 = float()
-    #     barcode_patients.append(new_barcode_patient)
-    #     ct_results2.append(new_ct_results)
-    #
-    #     print(f"Patient {new_barcode_patient} added successfully!")
-    # elif choice == "3":
-    #     pass
-    # elif choice == "4":
-    #     break
-    # else:
-    #     print("Invalid choice. Try again!")
+#
+#             index = 0
+#             for channel in ct_channels:
+#
+#                 cycle_threshold = result[index]
+#
+#                 if cycle_threshold == None:
+#                     print(f"{channel}: Negative")
+#                 elif 18 <= cycle_threshold <= 35:
+#                     print(f"{channel}: Positive")
+#                 elif cycle_threshold < 18 or cycle_threshold > 35:
+#                     print(f"{channel}: Invalid")
+#
+#                 index += 1
+#             patient_index += 1
+#     elif choice == "2":
+#         new_barcode_patient = input("Enter a barcode patient: ")
+#         fam = input("Enter FAM value (or 'none'): ")
+#         hex = input("Enter HEX value (or 'none'): ")
+#         rox = input("Enter ROX value (or 'none'): ")
+#         cy5 = input("Enter CY5 value (or 'none'): ")
+#         cy55 = input("Enter CY5.5 value (or 'none'): ")
+#         if fam == "none":
+#             fam = None
+#         else:
+#             fam = float()
+#         if hex == "none":
+#             hex = None
+#         else:
+#             hex = float()
+#         if rox == "none":
+#             rox = None
+#         else:
+#             rox = float()
+#         if cy5 == "none":
+#             cy5 = None
+#         else:
+#             cy5 = float()
+#         if cy55 == "none":
+#             cy55 = None
+#         else:
+#             cy55 = float()
+#         barcode_patients.append(new_barcode_patient)
+#         ct_results2.append(new_ct_results)
+#
+#         print(f"Patient {new_barcode_patient} added successfully!")
+#     elif choice == "3":
+#         pass
+#     elif choice == "4":
+#         break
+#     else:
+#         print("Invalid choice. Try again!")
 

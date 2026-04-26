@@ -775,9 +775,13 @@
 # print(dimensions[0])
 # print(dimensions[1])
 
-dimensions = (200, 50)
+# dimensions = (200, 50)
+#
+# dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
+# print(dimensions[0])
+# print(dimensions[1])
 
-dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
-print(dimensions[0])
-print(dimensions[1])
+
+my_cortezh = (3,)
+
 

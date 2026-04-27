@@ -790,13 +790,26 @@
 # for dimension in dimensions:
 #     print(dimension)
 
-dimensions = (200, 50)
+# dimensions = (200, 50)
+#
+# print("\nOriginal dimensions: ")
+# for dimension in dimensions:
+#     print(dimension)
+#
+# print("\nModified dimensions: ")
+# dimensions = (400, 100) #На этот раз Python не выдает сообщений об ошибке, потому что замена значения переменной является допустимой операцией:
+# for dimension in dimensions:
+#     print(dimension)
 
-print("\nOriginal dimensions: ")
-for dimension in dimensions:
-    print(dimension)
+swedish_buffet = ("capreza", "mozzarella pizza","Caeser", "sushi tempura", "cake")
 
-print("\nModified dimensions: ")
-dimensions = (400, 100) #На этот раз Python не выдает сообщений об ошибке, потому что замена значения переменной является допустимой операцией:
-for dimension in dimensions:
-    print(dimension)
+print("\nOriginal menu")
+for buffet in swedish_buffet:
+    print(buffet.title())
+# swedish_buffet[0] = "plov" # line 808, in <module> swedish_buffet[0] = "plov"
+# print(swedish_buffet) #TypeError: 'tuple' object does not support item assignment
+
+print("\nUpdated menu: ")
+swedish_buffet = ("salad", "mozzarella pizza","brioche", "sushi tempura", "cake")
+for buffet in swedish_buffet:
+    print(buffet.title())

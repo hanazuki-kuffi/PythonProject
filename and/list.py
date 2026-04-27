@@ -770,16 +770,16 @@
 #     print(friend_pizza.title())
 
 
-# dimensions = (200, 50) #кортежи это создать список элементов, который не может изменяться.
-#
-# print(dimensions[0])
-# print(dimensions[1])
+dimensions = (200, 50) #кортежи это создать список элементов, который не может изменяться.
 
-# dimensions = (200, 50)
-#
-# dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
-# print(dimensions[0])
-# print(dimensions[1])
+print(dimensions[0])
+print(dimensions[1])
+
+dimensions = (200, 50)
+
+dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
+print(dimensions[0])
+print(dimensions[1])
 
 
 my_cortezh = (3,)

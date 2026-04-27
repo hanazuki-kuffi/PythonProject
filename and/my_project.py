@@ -326,10 +326,17 @@ while True:
                                                        #Каждый пациент — это отдельный список из 5 значений внутри большого списка.
         print(f"Patient {new_barcode_patient} added successfully!")
     elif choice == "3":
-        delete_patient = input("Enter the barcode to delete: ")
-        if delete_patient == 202909:
-            del barcode_patients[-1]
-            del ct_results2[-1]
+        delete_patients = input("Enter the barcode to delete: ")
+        index_1 = 0
+        for delete_patient in barcode_patients:
+            if delete_patient == delete_patients:
+                barcode_patients.pop(index_1)
+                ct_results2.pop(index_1)
+                print(f"Patient {delete_patient} deleted!")
+                break
+            index_1 = index_1 + 1
+        else:
+            print("The barcode not found")
     elif choice == "4":
         break
     else:

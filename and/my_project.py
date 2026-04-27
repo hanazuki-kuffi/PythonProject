@@ -328,11 +328,11 @@ while True:
     elif choice == "3":
         delete_patients = input("Enter the barcode to delete: ")
         index_1 = 0
-        for delete_patient in barcode_patients:
-            if delete_patient == delete_patients:
+        for patient in barcode_patients:
+            if patient == delete_patients:
                 barcode_patients.pop(index_1)
                 ct_results2.pop(index_1)
-                print(f"Patient {delete_patient} deleted!")
+                print(f"Patient {patient} deleted!")
                 break
             index_1 = index_1 + 1
         else:

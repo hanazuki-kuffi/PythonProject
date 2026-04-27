@@ -801,15 +801,16 @@
 # for dimension in dimensions:
 #     print(dimension)
 
-swedish_buffet = ("capreza", "mozzarella pizza","Caeser", "sushi tempura", "cake")
+# swedish_buffet = ("capreza", "mozzarella pizza","Caeser", "sushi tempura", "cake")
+#
+# print("\nOriginal menu")
+# for buffet in swedish_buffet:
+#     print(buffet.title())
+# # swedish_buffet[0] = "plov" # line 808, in <module> swedish_buffet[0] = "plov"
+# # print(swedish_buffet) #TypeError: 'tuple' object does not support item assignment
+#
+# print("\nUpdated menu: ")
+# swedish_buffet = ("salad", "mozzarella pizza","brioche", "sushi tempura", "cake")
+# for buffet in swedish_buffet:
+#     print(buffet.title())
 
-print("\nOriginal menu")
-for buffet in swedish_buffet:
-    print(buffet.title())
-# swedish_buffet[0] = "plov" # line 808, in <module> swedish_buffet[0] = "plov"
-# print(swedish_buffet) #TypeError: 'tuple' object does not support item assignment
-
-print("\nUpdated menu: ")
-swedish_buffet = ("salad", "mozzarella pizza","brioche", "sushi tempura", "cake")
-for buffet in swedish_buffet:
-    print(buffet.title())

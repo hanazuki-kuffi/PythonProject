@@ -379,3 +379,14 @@ import random
 #     g = g + 1
 # print("End")
 
+
+# string = input("Enter the something: ")
+#
+# i = 0
+# while i < len(string):
+#     if string[i] == "#":
+#         print("The grate '#' was met, we are wrapped up!")
+#         break
+#     print(string[i])
+#     i = i + 1
+# print("End")

@@ -770,18 +770,33 @@
 #     print(friend_pizza.title())
 
 
-dimensions = (200, 50) #кортежи это создать список элементов, который не может изменяться.
+# dimensions = (200, 50) #кортежи это создать список элементов, который не может изменяться.
+#
+# print(dimensions[0])
+# print(dimensions[1])
+#
+# dimensions = (200, 50)
+#
+# dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
+# print(dimensions[0])
+# print(dimensions[1])
 
-print(dimensions[0])
-print(dimensions[1])
+
+# my_cortezh = (3,) #Если вы хотите определить кортеж, состоящий из одного элемента, включите завершающую запятую:
+
+#Перебор всех значений в кортеже
+# dimensions = (200, 50)
+#
+# for dimension in dimensions:
+#     print(dimension)
 
 dimensions = (200, 50)
 
-dimensions[0] = 250 # line 780, in <module>, TypeError: 'tuple' object does not support item assignment
-print(dimensions[0])
-print(dimensions[1])
+print("\nOriginal dimensions: ")
+for dimension in dimensions:
+    print(dimension)
 
-
-my_cortezh = (3,)
-
-
+print("\nModified dimensions: ")
+dimensions = (400, 100) #На этот раз Python не выдает сообщений об ошибке, потому что замена значения переменной является допустимой операцией:
+for dimension in dimensions:
+    print(dimension)

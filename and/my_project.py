@@ -246,99 +246,99 @@
 #
 # ct_results2[2] = [31.0, 29.5, 28.0, 27.5, None]
 # print(ct_results2)
+# #
+# barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"] #список пациента
 #
-barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"] #список пациента
-
-ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"] #список каналов
-
-ct_results2 = [                                  #cписок результатов
-                                                 #Это список списков. Каждый пациент — это отдельный список из 5 значений внутри большого списка.
-    [29.51, 28.5, 28.11, 33.0, 28.79],
-    [None, 23.95, None, 28.66, None],
-    [28.18, None, None, 27.00, None],
-    [None, None, None, 27.00, None],
-    [None, None, None, 27.00, 33.9],
-    [None, 24.00, None, 27.00, None]
-]
-
-
-while True:
-    print("--- PCR LAB MENU ---")
-    print("1. Show all patients")
-    print("2. Add new patient")
-    print("3. Delete patient")
-    print("4. Exit")
-    choice = (input("Choose action (1/2/3/4): "))
-
-    if choice == "1":
-        patient_index = 0
-        for result in ct_results2:
-            print(f"\n Patient: {barcode_patients[patient_index]}")
-
-            index = 0
-            for channel in ct_channels:
-
-                cycle_threshold = result[index]
-
-                if cycle_threshold == None:
-                    print(f"{channel}: Negative")
-                elif 18 <= cycle_threshold <= 35:
-                    print(f"{channel}: Positive")
-                elif cycle_threshold < 18 or cycle_threshold > 35:
-                    print(f"{channel}: Invalid")
-
-                index += 1
-            patient_index += 1
-    elif choice == "2":
-        new_barcode_patient = input("Enter a barcode patient: ")
-        fam = input("Enter FAM value (or 'none'): ")
-        hex = input("Enter HEX value (or 'none'): ")
-        rox = input("Enter ROX value (or 'none'): ")
-        cy5 = input("Enter CY5 value (or 'none'): ")
-        cy55 = input("Enter CY5.5 value (or 'none'): ")
-
-        # fam = "28.5"  # пользователь ввёл текст "28.5"
-        # fam = float(fam)  # говоришь float: "возьми fam и сделай число"
-        # # теперь fam = 28.5  ← настоящее число, не текст
-
-        if fam == "none":
-            fam = None
-        else:                #float() — это функция которая конвертирует текст в число. Но ей нужно сказать что именно конвертировать.
-            fam = float(fam) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
-        if hex == "none":
-            hex = None
-        else:
-            hex = float(hex) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
-        if rox == "none":
-            rox = None
-        else:
-            rox = float(rox) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
-        if cy5 == "none":
-            cy5 = None
-        else:
-            cy5 = float(cy5) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
-        if cy55 == "none":
-            cy55 = None
-        else:
-            cy55 = float(cy55) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
-        barcode_patients.append(new_barcode_patient)
-        ct_results2.append([fam, hex, rox, cy5, cy55]) #Ты сначала собираешь 5 значений в один список [...], и потом добавляешь этот список как одного пациента. Структура сохраняется.
-                                                       #Каждый пациент — это отдельный список из 5 значений внутри большого списка.
-        print(f"Patient {new_barcode_patient} added successfully!")
-    elif choice == "3":
-        delete_patients = input("Enter the barcode to delete: ")
-        index_1 = 0
-        for patient in barcode_patients:
-            if patient == delete_patients:
-                barcode_patients.pop(index_1)
-                ct_results2.pop(index_1)
-                print(f"Patient {patient} deleted!")
-                break
-            index_1 = index_1 + 1
-        else:
-            print("The barcode not found")
-    elif choice == "4":
-        break
-    else:
-        print("Invalid choice. Try again!")
+# ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"] #список каналов
+#
+# ct_results2 = [                                  #cписок результатов
+#                                                  #Это список списков. Каждый пациент — это отдельный список из 5 значений внутри большого списка.
+#     [29.51, 28.5, 28.11, 33.0, 28.79],
+#     [None, 23.95, None, 28.66, None],
+#     [28.18, None, None, 27.00, None],
+#     [None, None, None, 27.00, None],
+#     [None, None, None, 27.00, 33.9],
+#     [None, 24.00, None, 27.00, None]
+# ]
+#
+#
+# while True:
+#     print("--- PCR LAB MENU ---")
+#     print("1. Show all patients")
+#     print("2. Add new patient")
+#     print("3. Delete patient")
+#     print("4. Exit")
+#     choice = (input("Choose action (1/2/3/4): "))
+#
+#     if choice == "1":
+#         patient_index = 0
+#         for result in ct_results2:
+#             print(f"\n Patient: {barcode_patients[patient_index]}")
+#
+#             index = 0
+#             for channel in ct_channels:
+#
+#                 cycle_threshold = result[index]
+#
+#                 if cycle_threshold == None:
+#                     print(f"{channel}: Negative")
+#                 elif 18 <= cycle_threshold <= 35:
+#                     print(f"{channel}: Positive")
+#                 elif cycle_threshold < 18 or cycle_threshold > 35:
+#                     print(f"{channel}: Invalid")
+#
+#                 index += 1
+#             patient_index += 1
+#     elif choice == "2":
+#         new_barcode_patient = input("Enter a barcode patient: ")
+#         fam = input("Enter FAM value (or 'none'): ")
+#         hex = input("Enter HEX value (or 'none'): ")
+#         rox = input("Enter ROX value (or 'none'): ")
+#         cy5 = input("Enter CY5 value (or 'none'): ")
+#         cy55 = input("Enter CY5.5 value (or 'none'): ")
+#
+#         # fam = "28.5"  # пользователь ввёл текст "28.5"
+#         # fam = float(fam)  # говоришь float: "возьми fam и сделай число"
+#         # # теперь fam = 28.5  ← настоящее число, не текст
+#
+#         if fam == "none":
+#             fam = None
+#         else:                #float() — это функция которая конвертирует текст в число. Но ей нужно сказать что именно конвертировать.
+#             fam = float(fam) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
+#         if hex == "none":
+#             hex = None
+#         else:
+#             hex = float(hex) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
+#         if rox == "none":
+#             rox = None
+#         else:
+#             rox = float(rox) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
+#         if cy5 == "none":
+#             cy5 = None
+#         else:
+#             cy5 = float(cy5) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
+#         if cy55 == "none":
+#             cy55 = None
+#         else:
+#             cy55 = float(cy55) #float() без аргумента внутри не знает что конвертировать! Нужно передать переменную:
+#         barcode_patients.append(new_barcode_patient)
+#         ct_results2.append([fam, hex, rox, cy5, cy55]) #Ты сначала собираешь 5 значений в один список [...], и потом добавляешь этот список как одного пациента. Структура сохраняется.
+#                                                        #Каждый пациент — это отдельный список из 5 значений внутри большого списка.
+#         print(f"Patient {new_barcode_patient} added successfully!")
+#     elif choice == "3":
+#         delete_patients = input("Enter the barcode to delete: ")
+#         index_1 = 0
+#         for patient in barcode_patients:
+#             if patient == delete_patients:
+#                 barcode_patients.pop(index_1)
+#                 ct_results2.pop(index_1)
+#                 print(f"Patient {patient} deleted!")
+#                 break
+#             index_1 = index_1 + 1
+#         else:
+#             print("The barcode not found")
+#     elif choice == "4":
+#         break
+#     else:
+#         print("Invalid choice. Try again!")
 

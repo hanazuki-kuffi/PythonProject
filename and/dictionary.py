@@ -195,6 +195,13 @@
 # print(alien_0["colour"])
 # print(alien_0["points"])
 
+#Количество пар «ключ-значение» в словаре не ограничено.
+# alien_0 = {"colour": "green"}
+# print(alien_0["colour"])
 
-alien_0 = {"colour": "green"}
-print(alien_0["colour"])
+
+alien_0 = {"colour": "green", "points": 5}
+
+new_points = alien_0["points"]
+
+print(f"You just earned {new_points} points!")

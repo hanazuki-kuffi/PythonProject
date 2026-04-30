@@ -190,8 +190,11 @@
 #     if
 
 
-alien_0 = {"colour": "green", "points": 5}
+# alien_0 = {"colour": "green", "points": 5}
+#
+# print(alien_0["colour"])
+# print(alien_0["points"])
 
+
+alien_0 = {"colour": "green"}
 print(alien_0["colour"])
-print(alien_0["points"])
-

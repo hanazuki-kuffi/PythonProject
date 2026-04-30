@@ -390,3 +390,15 @@ import random
 #     print(string[i])
 #     i = i + 1
 # print("End")
+
+
+string = input()
+i = 0
+
+while i < len(string): # len() возвращает (количество символов)
+    if string[i] == "#":
+        break  #← если сработал break → else НЕ выполняется
+    print(string[i])
+    i = i + 1
+else:        # ← выполняется ТОЛЬКО если цикл завершился ЕСТЕСТВЕННО  # (то есть условие стало False, без break)
+    print("There was not grate!")

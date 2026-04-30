@@ -205,3 +205,13 @@
 # new_points = alien_0["points"]
 #
 # print(f"You just earned {new_points} points!")
+
+#Словари относятся к динамическим структурам данных: в словарь можно в любой момент добавлять новые пары «ключ-значение».
+
+alien_0 = {"colour": "green", "points": 5}
+print(alien_0)
+
+alien_0["x_position"] = 0 # добавим новый пара ключ и значение
+alien_0["y_position"] = 25 # добавим новый пара ключ и значение
+
+print(alien_0)

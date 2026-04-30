@@ -189,19 +189,19 @@
 #     print(name.title())                 # за принтировала и вызвала всех 4 ключты как name
 #     if
 
-
+#
+# # alien_0 = {"colour": "green", "points": 5}
+# #
+# # print(alien_0["colour"])
+# # print(alien_0["points"])
+#
+# #Количество пар «ключ-значение» в словаре не ограничено.
+# # alien_0 = {"colour": "green"}
+# # print(alien_0["colour"])
+#
+#
 # alien_0 = {"colour": "green", "points": 5}
 #
-# print(alien_0["colour"])
-# print(alien_0["points"])
-
-#Количество пар «ключ-значение» в словаре не ограничено.
-# alien_0 = {"colour": "green"}
-# print(alien_0["colour"])
-
-
-alien_0 = {"colour": "green", "points": 5}
-
-new_points = alien_0["points"]
-
-print(f"You just earned {new_points} points!")
+# new_points = alien_0["points"]
+#
+# print(f"You just earned {new_points} points!")

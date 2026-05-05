@@ -215,3 +215,12 @@
 # alien_0["y_position"] = 25 # добавим новый пара ключ и значение
 #
 # print(alien_0)
+
+# ADD A NEW KEY
+alien_0 = {}
+
+alien_0["height"] = 250
+alien_0["colour"] = "green"
+alien_0["points"] = 5
+
+print(alien_0)

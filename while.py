@@ -404,8 +404,8 @@ import random
 #     print("There was not grate!")
 
 
-string = input()
-i = 0
-
-while i < len(string):
-    if string[i] == "#"
+# string = input()
+# i = 0
+#
+# while i < len(string):
+#     if string[i] == "#"

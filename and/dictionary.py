@@ -217,10 +217,20 @@
 # print(alien_0)
 
 # ADD A NEW KEY
-alien_0 = {}
+# alien_0 = {}
+#
+# alien_0["height"] = 250
+# alien_0["colour"] = "green"
+# alien_0["points"] = 5
+#
+# print(alien_0)
 
-alien_0["height"] = 250
-alien_0["colour"] = "green"
-alien_0["points"] = 5
+#CHANGE A NEW VALUE
+
+alien_0 = {"colour": "green"}
+print(f"The alien is {alien_0["colour"]}")
+
+alien_0["colour"] = "blue"
+print(f"The alien is now {alien_0["colour"]}")
 
 print(alien_0)

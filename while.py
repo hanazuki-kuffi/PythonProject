@@ -402,3 +402,6 @@ import random
 #     i = i + 1
 # else:        # ← выполняется ТОЛЬКО если цикл завершился ЕСТЕСТВЕННО  # (то есть условие стало False, без break)
 #     print("There was not grate!")
+
+
+

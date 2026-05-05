@@ -226,11 +226,24 @@
 # print(alien_0)
 
 #CHANGE A NEW VALUE
+#
+# alien_0 = {"colour": "green"}
+# print(f"The alien is {alien_0["colour"]}")
+#
+# alien_0["colour"] = "blue"
+# print(f"The alien is now {alien_0["colour"]}")
+#
+# print(alien_0)
 
-alien_0 = {"colour": "green"}
-print(f"The alien is {alien_0["colour"]}")
-
-alien_0["colour"] = "blue"
-print(f"The alien is now {alien_0["colour"]}")
-
-print(alien_0)
+# alien_0 = {"x_position": 0, "y_position": 25, "speed": "medium"}
+# print(f"Original position: {alien_0["speed"]}")
+#
+# if alien_0["speed"] == "slow":
+#     x_increment = 1
+# elif alien_0["speed"] == "medium":
+#     x_increment = 2
+# else:
+#     #The alien moves quickly
+#     x_increment = 3
+#
+# print()

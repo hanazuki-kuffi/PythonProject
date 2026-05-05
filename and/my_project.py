@@ -262,7 +262,7 @@ ct_results2 = [                                  #cписок результат
 ]
 
 
-while True:
+while True:                         #мы создадим меню для пользователя и пока меню у нас истинный цикл повторяется
     print("--- PCR LAB MENU ---")
     print("1. Show all patients")
     print("2. Add new patient")

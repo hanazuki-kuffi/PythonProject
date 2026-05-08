@@ -1,4 +1,4 @@
-print("Hello new World")
+# print("Hello new World")
 
 # print()- это функция
 ##1-задача
@@ -36,3 +36,7 @@ print("Hello new World")
 #
 # convertation_tenge_by_dogicoin = (tenge_dogicoin * 0.020)
 # print(convertation_tenge_by_dogicoin)
+
+a = 5
+сube_area = 6 * a ** 2
+print(сube_area)

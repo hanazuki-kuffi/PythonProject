@@ -24,15 +24,15 @@ print("Hello new World")
 
 ##3-задача
 
-mill_km = 12
-dollar_tg = 15
-tenge_dogicoin = 150000
-
-killometer = (mill_km * 1.60934)
-print(killometer)
-
-convertation_dollar_by_tenge = (dollar_tg * 464.62)
-print(convertation_dollar_by_tenge)
-
-convertation_tenge_by_dogicoin = (tenge_dogicoin * 0.020)
-print(convertation_tenge_by_dogicoin)
+# mill_km = 12
+# dollar_tg = 15
+# tenge_dogicoin = 150000
+#
+# killometer = (mill_km * 1.60934)
+# print(killometer)
+#
+# convertation_dollar_by_tenge = (dollar_tg * 464.62)
+# print(convertation_dollar_by_tenge)
+#
+# convertation_tenge_by_dogicoin = (tenge_dogicoin * 0.020)
+# print(convertation_tenge_by_dogicoin)

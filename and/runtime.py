@@ -37,6 +37,9 @@
 # convertation_tenge_by_dogicoin = (tenge_dogicoin * 0.020)
 # print(convertation_tenge_by_dogicoin)
 
-a = 5
-сube_area = 6 * a ** 2
-print(сube_area)
+# a = 5
+# сube_area = 6 * a ** 2
+# print(сube_area)
+
+#
+# print("Zharylkassynova Gulaiym Dumanovna, I want to became a good developer")

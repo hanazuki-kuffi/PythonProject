@@ -43,3 +43,40 @@
 
 #
 # print("Zharylkassynova Gulaiym Dumanovna, I want to became a good developer")
+
+
+##1-задача
+my_name = input("Enter your name: ")
+age = int()
+my_weight = float(my_weight)
+weather = str("20")
+
+##2-задача
+my_review = str("I am exited to continue learning programming")
+
+##3-задача
+my_money_now = float(input())
+my_money_future = float(input())
+
+##4-задача
+my_age = int(input("Enter your age: ")
+my_birthday = int(input("Enter your birthday: ")
+
+
+##5-задача
+activ_true = "You can learn to program!"
+active_false = "You won't have enough strength and patience, you won't be to")
+
+bool(active_true = True)
+bool(active_false = False)
+
+##6-задача
+math_tasks = str("2 * 4 + 8 * 3")
+
+
+##7-задача
+digits_1 = int(1, 2, 3, 4, 5, 6, 7, 8, 9, 0)
+digits_2 = float(1.1, 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9)
+
+##8-задача
+empty = str()

@@ -13,11 +13,11 @@
 #
 # ##2-задача
 
-user_1 = 51
-user_2 = 49
-user_3 = 50
-user_4 = 48
-user_5 = 52
+# user_1 = 51
+# user_2 = 49
+# user_3 = 50
+# user_4 = 48
+# user_5 = 52
 #
 # average_user_age = ((user_1 + user_2 + user_3 + user_4 + user_5) / 5)
 # print(average_user_age)
@@ -106,3 +106,11 @@ user_5 = 52
 # daily_chance = (money_treasure - money_expense_everyday) * 365
 # all_money = daily_chance + 100000
 # print(all_money)
+
+a = 5
+b = 7
+
+a = 7
+b = 5
+print(a)
+print(b)

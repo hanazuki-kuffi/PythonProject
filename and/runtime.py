@@ -12,12 +12,12 @@
 # print(solution_2)
 #
 # ##2-задача
-#
-# user_1 = 51
-# user_2 = 49
-# user_3 = 50
-# user_4 = 48
-# user_5 = 52
+
+user_1 = 51
+user_2 = 49
+user_3 = 50
+user_4 = 48
+user_5 = 52
 #
 # average_user_age = ((user_1 + user_2 + user_3 + user_4 + user_5) / 5)
 # print(average_user_age)

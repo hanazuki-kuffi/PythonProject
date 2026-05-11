@@ -107,10 +107,10 @@
 # all_money = daily_chance + 100000
 # print(all_money)
 
-a = 5
-b = 7
-
-a = 7
-b = 5
-print(a)
-print(b)
+# a = 5
+# b = 7
+# 
+# a = 7
+# b = 5
+# print(a)
+# print(b)

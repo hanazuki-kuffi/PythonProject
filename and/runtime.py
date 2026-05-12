@@ -118,39 +118,39 @@
 # a, b = b, a
 # print(a)
 # print(b)
-
-digit_1 = 10
-digit_2 = 2
-digit_3 = 45
-digit_4 = 3
-
-# print(digit_1, digit_2, sep="/", end= "+")
-# print(digit_3, digit_4, sep="*")
 #
-# print(digit_1, "/", digit_2, "+", digit_3, "*", digit_4, sep=' ', end=' ')
-
-##1-задача
-day = int(input("Enter day: "))
-month = int(input("Enter month: "))
-year = int(input("Enter year: "))
-
-print("Date: ", end='')
-print(day, month, year, sep=".")
-
-
-##2-задача
-name = input("Enter your name: ")
-age = int(input("How old are you: "))
-place_of_residence = input("Where do you live: ")
-
-print(f"Your name is {name.title()}, you are {age}, you live in the city {place_of_residence.title()} ")
-print("Data saved!")
-
-##3-задача
-digit_1 = int(input("Enter number: "))
-digit_2 = int(input("Enter number: "))
-digit_3 = int(input("Enter number: "))
-digit_4 = int(input("Enter number: "))
+# digit_1 = 10
+# digit_2 = 2
+# digit_3 = 45
+# digit_4 = 3
+#
+# # print(digit_1, digit_2, sep="/", end= "+")
+# # print(digit_3, digit_4, sep="*")
+# #
+# # print(digit_1, "/", digit_2, "+", digit_3, "*", digit_4, sep=' ', end=' ')
+#
+# ##1-задача
+# day = int(input("Enter day: "))
+# month = int(input("Enter month: "))
+# year = int(input("Enter year: "))
+#
+# print("Date: ", end='')
+# print(day, month, year, sep=".")
+#
+#
+# ##2-задача
+# name = input("Enter your name: ")
+# age = int(input("How old are you: "))
+# place_of_residence = input("Where do you live: ")
+#
+# print(f"Your name is {name.title()}, you are {age}, you live in the city {place_of_residence.title()} ")
+# print("Data saved!")
+#
+# ##3-задача
+# digit_1 = int(input("Enter number: "))
+# digit_2 = int(input("Enter number: "))
+# digit_3 = int(input("Enter number: "))
+# digit_4 = int(input("Enter number: "))
 
 result = (digit_1 + digit_2) / (digit_3 + digit_4)
 print(result)

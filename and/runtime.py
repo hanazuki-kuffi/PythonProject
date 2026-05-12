@@ -106,15 +106,54 @@
 # daily_chance = (money_treasure - money_expense_everyday) * 365
 # all_money = daily_chance + 100000
 # print(all_money)
-
+#
 # a = 5
 # b = 7
-# 
-# a = 7
-# b = 5
+#
+# # number_1
+# # c = a
+# # a = b
+# # b = c
+#
+# a, b = b, a
 # print(a)
 # print(b)
 
+digit_1 = 10
+digit_2 = 2
+digit_3 = 45
+digit_4 = 3
+
+# print(digit_1, digit_2, sep="/", end= "+")
+# print(digit_3, digit_4, sep="*")
+#
+# print(digit_1, "/", digit_2, "+", digit_3, "*", digit_4, sep=' ', end=' ')
+
+##1-задача
+day = int(input("Enter day: "))
+month = int(input("Enter month: "))
+year = int(input("Enter year: "))
+
+print("Date: ", end='')
+print(day, month, year, sep=".")
+
+
+##2-задача
+name = input("Enter your name: ")
+age = int(input("How old are you: "))
+place_of_residence = input("Where do you live: ")
+
+print(f"Your name is {name.title()}, you are {age}, you live in the city {place_of_residence.title()} ")
+print("Data saved!")
+
+##3-задача
+digit_1 = int(input("Enter number: "))
+digit_2 = int(input("Enter number: "))
+digit_3 = int(input("Enter number: "))
+digit_4 = int(input("Enter number: "))
+
+result = (digit_1 + digit_2) / (digit_3 + digit_4)
+print(result)
 
 
 # LECTION №1
@@ -192,14 +231,15 @@
 
 # что себе представляет инструкция?
 # 1. переменные
-# 2. объекты (True, 10.7, 10, "Hello new world")
+# 2. объекты (True, 10.7, 10, "Hello new world") (это любые данные(информаций) в прогамме)
 # 3. функций (ввод и вывод кароче формула такой  "функция()")
 # 4. операторы
 
 
 #  функций (ввод и вывод кароче формула такой  "функция()")
-# Функция = это готовые инструкций которые указывают компютеру совершить какие либо сложные действий над данным или создать данных
-print("Hello new world!")
-print(len("Hello")) # вот эти вот print(), len() функций явл
+# # Функция = это готовые инструкций которые указывают компютеру совершить какие либо сложные действий над данным или создать данных
+# print("Hello new world!")
+# print(len("Hello")) # вот эти вот print(), len() функций явл
+#
+# print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))
 
-print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))

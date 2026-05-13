@@ -261,11 +261,11 @@
 
 #  функций (ввод и вывод кароче формула такой  "функция()")
 # # Функция = это готовые инструкций которые указывают компютеру совершить какие либо сложные действий над данным или создать данных
-# print("Hello new world!")
-# print(len("Hello")) # вот эти вот print(), len() функций явл
-#
-# print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))
+print("Hello new world!")
+print(len("Hello")) # вот эти вот print(), len() функций явл
 
-# file = open("Name.txt", "w", encoding= "UTF-8")
-# file.write("Ansar, Kuffi")
-# file.close()
+print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))
+
+file = open("Name.txt", "w", encoding= "UTF-8")
+file.write("Ansar, Kuffi")
+file.close()

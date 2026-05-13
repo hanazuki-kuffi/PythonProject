@@ -147,36 +147,36 @@
 # print("Data saved!")
 #
 # ##3-задача
-digit_1 = int(input("Enter number: "))
-digit_2 = int(input("Enter number: "))
-digit_3 = int(input("Enter number: "))
-digit_4 = int(input("Enter number: "))
-
-result = (digit_1 + digit_2) / (digit_3 + digit_4)
-# print(result)
-digit_1 = int(input("Enter the first number: "))
-digit_2 = int(input("Enter the second number: "))
-
-result_1 = digit_1 + digit_2
-print(digit_1, "+", digit_2, "=", result_1)
-
-result_2 = digit_1 - digit_2
-print(digit_1, "-", digit_2, "=", result_2)
-
-result_3 = digit_1 * digit_2
-print(digit_1, "*", digit_2, "=", result_3)
-
-result_4 = digit_1 / digit_2
-print(digit_1, "/", digit_2, "=", result_4)
-
-result_5 = digit_1 // digit_2
-print(digit_1, "//", digit_2, "=", result_5)
-
-result_6 = digit_1 % digit_2
-print(digit_1, "%", digit_2, "=", result_6)
-
-result_7 = digit_1 ** digit_2
-print(digit_1, "**", digit_2, "=", result_7)
+# digit_1 = int(input("Enter number: "))
+# digit_2 = int(input("Enter number: "))
+# digit_3 = int(input("Enter number: "))
+# digit_4 = int(input("Enter number: "))
+#
+# result = (digit_1 + digit_2) / (digit_3 + digit_4)
+# # print(result)
+# digit_1 = int(input("Enter the first number: "))
+# digit_2 = int(input("Enter the second number: "))
+#
+# result_1 = digit_1 + digit_2
+# print(digit_1, "+", digit_2, "=", result_1)
+#
+# result_2 = digit_1 - digit_2
+# print(digit_1, "-", digit_2, "=", result_2)
+#
+# result_3 = digit_1 * digit_2
+# print(digit_1, "*", digit_2, "=", result_3)
+#
+# result_4 = digit_1 / digit_2
+# print(digit_1, "/", digit_2, "=", result_4)
+#
+# result_5 = digit_1 // digit_2
+# print(digit_1, "//", digit_2, "=", result_5)
+#
+# result_6 = digit_1 % digit_2
+# print(digit_1, "%", digit_2, "=", result_6)
+#
+# result_7 = digit_1 ** digit_2
+# print(digit_1, "**", digit_2, "=", result_7)
 
 
 # LECTION №1

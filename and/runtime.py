@@ -153,30 +153,30 @@
 # digit_4 = int(input("Enter number: "))
 
 # result = (digit_1 + digit_2) / (digit_3 + digit_4)
-# print(result)
-digit_1 = int(input("Enter the first number: "))
-digit_2 = int(input("Enter the second number: "))
-
-result_1 = digit_1 + digit_2
-print(digit_1, "+", digit_2, "=", result_1)
-
-result_2 = digit_1 - digit_2
-print(digit_1, "-", digit_2, "=", result_2)
-
-result_3 = digit_1 * digit_2
-print(digit_1, "*", digit_2, "=", result_3)
-
-result_4 = digit_1 / digit_2
-print(digit_1, "/", digit_2, "=", result_4)
-
-result_5 = digit_1 // digit_2
-print(digit_1, "//", digit_2, "=", result_5)
-
-result_6 = digit_1 % digit_2
-print(digit_1, "%", digit_2, "=", result_6)
-
-result_7 = digit_1 ** digit_2
-print(digit_1, "**", digit_2, "=", result_7)
+# # print(result)
+# digit_1 = int(input("Enter the first number: "))
+# digit_2 = int(input("Enter the second number: "))
+#
+# result_1 = digit_1 + digit_2
+# print(digit_1, "+", digit_2, "=", result_1)
+#
+# result_2 = digit_1 - digit_2
+# print(digit_1, "-", digit_2, "=", result_2)
+#
+# result_3 = digit_1 * digit_2
+# print(digit_1, "*", digit_2, "=", result_3)
+#
+# result_4 = digit_1 / digit_2
+# print(digit_1, "/", digit_2, "=", result_4)
+#
+# result_5 = digit_1 // digit_2
+# print(digit_1, "//", digit_2, "=", result_5)
+#
+# result_6 = digit_1 % digit_2
+# print(digit_1, "%", digit_2, "=", result_6)
+#
+# result_7 = digit_1 ** digit_2
+# print(digit_1, "**", digit_2, "=", result_7)
 
 
 # LECTION №1
@@ -266,3 +266,6 @@ print(digit_1, "**", digit_2, "=", result_7)
 #
 # print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))
 
+file = open("Name.txt", "w", encoding= "UTF-8")
+file.write("Ansar, Kuffi")
+file.close()

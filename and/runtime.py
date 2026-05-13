@@ -266,6 +266,6 @@
 #
 # print(len("Hello")) # комп прочитает это 1. "Hello", 2. len( "Hello"), 3. print(len("Hello"))
 
-file = open("Name.txt", "w", encoding= "UTF-8")
-file.write("Ansar, Kuffi")
-file.close()
+# file = open("Name.txt", "w", encoding= "UTF-8")
+# file.write("Ansar, Kuffi")
+# file.close()

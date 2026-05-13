@@ -213,14 +213,14 @@
 
 # 4. Сохранение
 #
-# age = 21
-# print(age)
-#
-# result_1 = age + 10
-# print(result_1)
-#
-# result_2 = result_1 + 5
-# print(result_2)
+age = 21
+print(age)
+
+result_1 = age + 10
+print(result_1)
+
+result_2 = result_1 + 5
+print(result_2)
 
 # LECTION №2
 #ПРОСРАНСТВО ИМЕН И ПРАВИЛА

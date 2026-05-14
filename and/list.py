@@ -561,18 +561,18 @@
 
 
 #TASKS NUMBER 2
-
-list_1 = ["qwerty", "abc", 123]
-list_2 = ["zxcv", "plm", 456]
-
-all_list_1 = list_1 + list_2
-print(all_list_1)
-
-all_list_2 = list_1.__add__(list_2)
-print(all_list_2)
-
-list_1.extend(list_2)
-print(list_1)
+#
+# list_1 = ["qwerty", "abc", 123]
+# list_2 = ["zxcv", "plm", 456]
+#
+# all_list_1 = list_1 + list_2
+# print(all_list_1)
+#
+# all_list_2 = list_1.__add__(list_2)
+# print(all_list_2)
+#
+# list_1.extend(list_2)
+# print(list_1)
 
 #
 # magicians = ["germionna", "harry potter", "tom chrismos", "alice", "carolina"]

@@ -269,3 +269,61 @@
 # file = open("Name.txt", "w", encoding= "UTF-8")
 # file.write("Ansar, Kuffi")
 # file.close()
+
+
+# напишите программу которая объеденяет трех текстовых файлов в один выходной файл
+
+# 1-й файл
+file_1 = open("file1.txt", "w", encoding= "UTF-8")
+file_1.write("Hello file1, You can write something")
+file_1.close()
+
+
+file_2 = open("file2.txt", "w", encoding= "UTF-8")
+file_2.write("Hello file2, You can write something")
+file_2.close()
+
+
+file_3 = open("file3.txt", "w", encoding= "UTF-8")
+file_3.write("Hello file3, You can write something")
+file_3.close()
+
+
+file_request_1 = input("Enter the name of the first file: ")
+file_request_2 = input("Enter the name of the second file: ")
+file_request_1 = input("Enter the name of the third file: ")
+output_file = input("Enter the output file name: ")
+
+
+file_1 = open("file1.txt", "r", encoding= "UTF-8")
+file1_read = file_1.read()
+file_1.close()
+print(file1_read)
+
+file_2 = open("file2.txt", "r", encoding= "UTF-8")
+file2_read = file_2.read()
+file_2.close()
+print(file2_read)
+
+file_3 = open("file3.txt", "r", encoding= "UTF-8")
+file3_read = file_3.read()
+file_3.close()
+print(file3_read)
+
+
+all_file = open("output.txt", "a", encoding= "UTF-8")
+all_file.write(file1_read)
+all_file.close()
+
+all_file = open("output.txt", "a", encoding= "UTF-8")
+all_file.write(file2_read)
+all_file.close()
+
+all_file = open("output.txt", "a", encoding= "UTF-8")
+all_file.write(file3_read)
+all_file.close()
+
+print("The contents of file1.txt have been successfully added to output.txt")
+print("The contents of file2.txt have been successfully added to output.txt")
+print("The contents of file3.txt have been successfully added to output.txt")
+

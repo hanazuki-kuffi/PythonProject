@@ -271,9 +271,9 @@
 # file.close()
 
 
-# напишите программу которая объеденяет трех текстовых файлов в один выходной файл
+напишите программу которая объеденяет трех текстовых файлов в один выходной файл
 
-# 1-й файл
+1-й файл
 file_1 = open("file1.txt", "w", encoding= "UTF-8")
 file_1.write("Hello file1, You can write something")
 file_1.close()
@@ -327,3 +327,79 @@ print("The contents of file1.txt have been successfully added to output.txt")
 print("The contents of file2.txt have been successfully added to output.txt")
 print("The contents of file3.txt have been successfully added to output.txt")
 
+file_resource = open("source.txt", "w", encoding= "UTF-8")
+file_resource.write("Hello open source!")
+file_resource.close()
+
+
+file_request_1 = input("Enter the name of the first file: ")
+file_request_2 = input("Enter the name of the second file: ")
+print("Information copied successfully!")
+
+
+file_resource = open("source.txt", "r", encoding= "UTF-8")
+source = file_resource.read()
+file_resource.close()
+print(source)
+
+destination = open("destination.txt", "a", encoding= "UTF-8")
+destination.write(source)
+destination.close()
+
+
+#1-задача
+file_1 = open("info.txt", "w", encoding= "UTF-8")
+file_1.write("Working with files in Python means doing simple things with files on your computer using code.")
+file_1.write("A file is just information that is saved on your computer. Python can open this information, read it, write new information, and then close the file.")
+file_1.close()
+
+file_1 = open("info.txt", "r", encoding= "UTF-8")
+info = file_1.read()
+file_1.close()
+print(info)
+
+##2-задача
+file_2 = open("log.txt", "w", encoding= "UTF-8")
+file_2.write("First, open a file — you tell Python which file you want and what you want to do with it: read or write.")
+file_2.close()
+
+file_2 = open("log.txt", "a", encoding= "UTF-8")
+file_2.write("Second, read the file — you take the text from the file and put it into a variable so you can use it in your code.")
+file_2.close()
+
+file_2 = open("log.txt", "r", encoding= "UTF-8")
+log = file_2.read()
+file_2.close()
+print(log)
+
+##3-задача
+file_3 = open("data.txt", "w", encoding= "UTF-8")
+file_3.write("Third, write to the file — you save some text or a result of your program into the file.")
+file_3.close()
+
+file_3 = open("data.txt", "w", encoding= "UTF-8")
+file_3.write("Close the file — you finish working with it so the computer can free up its resources and make sure everything is saved correctly.")
+file_3.close()
+
+file_3 = open("data.txt", "r", encoding= "UTF-8")
+data = file_3.read()
+file_3.close()
+print(data)
+
+##4-задача
+file_4 = open("mix.txt", "w", encoding= "UTF-8")
+file_4.write("These are the basic operations and every real program uses them — saving settings, reading data, writing logs, and so on. ")
+file_4.close()
+
+file_4 = open("mix.txt", "w", encoding= "UTF-8")
+file_4.write("File updated.")
+file_4.close()
+
+file_4 = open("mix.txt", "a", encoding= "UTF-8")
+file_4.write("These are the basic operations and every real program uses them — saving settings, reading data, writing logs, and so on.")
+file_4.close()
+
+file_4 = open("mix.txt", "r", encoding= "UTF-8")
+mix = file_4.read()
+file_4.close()
+print(mix)

@@ -29,17 +29,46 @@
 
 
 #3 пример
-print("START")
+# print("START")
+#
+# has_ticket = False
+# age = 20
+#
+# if age >= 14:
+#     if has_ticket:
+#         print("The ticket is valid.")
+#     else:
+#         print("No entry. Buy the ticket first!")
+# else:
+#     print("No entry.")
+#
+# print("END")
 
-has_ticket = False
-age = 20
 
-if age >= 14:
-    if has_ticket:
-        print("The ticket is valid.")
-    else:
-        print("No entry. Buy the ticket first!")
-else:
-    print("No entry.")
+# age = int(input("Напишите свой возраст: "))
+# outfit = input("Есть ли у вас дресс-код?(да/нет)")
+# if age >= 18:
+#     if outfit == "да":
+#         print("Добро пожаловать!")
+#     else:
+#         print("Извините, в спортивках нельзя")
+# else:
+#     print("Вход только для взрослых")
 
-print("END")
+
+# city = input("Напишите город: ")
+# weight = int(input("Напишите вес: "))
+#
+# if city == "Москва":
+#     if weight <= 5:
+#         print("стоимость 300 руб")
+#     else:
+#         print("стоимость 500 руб.")
+#         if city == "Питер":
+#             if weight <= 5:
+#                 print("стоимость 400 руб")
+#             else:
+#                 print("стоимость 700 руб.")
+#
+# else:
+#     print("В этот город доставки нет")

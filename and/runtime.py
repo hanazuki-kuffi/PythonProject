@@ -403,31 +403,36 @@
 # mix = file_4.read()
 # file_4.close()
 # print(mix)
-
-
-
-#1-задача
-number = int(input("Введите число: "))
-
-if number > 0:
-    print("Число положительное")
-elif number < 0:
-    print("Число отрицательное")
-else:
-    print("Число нейтральное")
-
-
-#2-задача
-
-print("Что вы хотите купить? ")
-print("1.Морковь")
-print("2.Салат")
-
-choice = input("Выберите товар (1/2): ")
-
-if choice == "1":
-    print("В вашей корзине есть Морковь")
-elif choice == "2":
-    print("В вашей корзине есть Салат")
-else:
-    print("В корзине пусто")
+#
+#
+#
+# # 1-задача
+# number = input("Введите число: ")
+#
+# if int(number) > 0:
+#     print("Число положительное")
+# else:
+#     if int(number) < 0:
+#         print("Число отрицательное")
+#     else:
+#         if int(number) == 0:
+#             print("Число нейтральное")
+#         else:
+#             print("invalid")
+#
+#
+#
+# # 2-задача
+#
+# print("Что вы хотите купить? ")
+# print("1.Морковь")
+# print("2.Салат")
+#
+# choice = input("Выберите товар (1/2): ")
+#
+# if choice == "1":
+#     print("В вашей корзине есть Морковь")
+# elif choice == "2":
+#     print("В вашей корзине есть Салат")
+# else:
+#     print("В корзине пусто")

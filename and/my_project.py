@@ -246,7 +246,7 @@
 #
 # ct_results2[2] = [31.0, 29.5, 28.0, 27.5, None]
 # print(ct_results2)
-# # #
+# #
 # barcode_patients = ["202504", "302643", "505678", "343235", "414754", "354890"] #список пациента
 #
 # ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"] #список каналов
@@ -341,4 +341,4 @@
 #         break
 #     else:
 #         print("Invalid choice. Try again!")
-#
+# #

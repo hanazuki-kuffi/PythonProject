@@ -455,3 +455,15 @@ import random
 # while i <= 100:
 #     print(sign, i,  end=" ",) # здесь ошибка 🤣
 #     i += 1
+
+
+
+step = 1
+
+while step <= 3:
+    print("Enter your name:", end=" ")
+    name = input()
+    print("Hello", name)
+    step += 1
+
+print("End programm")

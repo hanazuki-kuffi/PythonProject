@@ -457,13 +457,22 @@ import random
 #     i += 1
 
 
-
-step = 1
-
-while step <= 3:
-    print("Enter your name:", end=" ")
-    name = input()
-    print("Hello", name)
-    step += 1
-
-print("End programm")
+#цикл с определенным итераций то есть 3 итераций
+# step = 1
+#
+# while step <= 3:
+#     print("Enter your name:", end=" ")
+#     name = input()
+#     print("Hello", name)
+#     step += 1
+#
+# print("End programm")
+#
+# #цикл с неопределенным итераций точнее оно мб безконечно пока не найдем ложный результат
+# name = ""
+# while name != "Kuffi":
+#     print("Guess the name:", end=" ")
+#     name = input()
+#     print("Hello", name)
+#
+# print("End programm")

@@ -102,6 +102,7 @@ from pyexpat.errors import messages
 #         break
 
 import random
+from unicodedata import digit
 
 # random_num = random.randint(1, 5)
 # while True: #while = "принимать пациентов пока рабочий день не закончится" — не знаешь сколько придёт, просто работаешь пока условие (рабочий день) правда. 😊
@@ -477,50 +478,79 @@ import random
 #
 # print("End programm")
 
-задача
-number = int(input("До какого числа генерировать последовательность: "))
-i = 1
-
-while i < number:
-    print(i, end=", ")
-    i += 1
+# задача
+# number = int(input("До какого числа генерировать последовательность: "))
+# i = 1
 #
-print(i)
+# while i < number:
+#     print(i, end=", ")
+#     i += 1
+# #
+# print(i)
+#
+# #2-задача
+# number = int(input("Выберите сколько чисел вывести на экран: ")) #8
+# g = 1
+# num = 1
+# while g <= number:
+#     print(num, end=" ") #1 2 4 8 16 32 64 128
+#     g = g + 1
+#     num = num * 2
+#
+# #3-задача
+# number = int(input("Выберите сколько чисел вывести на экран: "))
+# i = 1
+# num = 2
+# while i <= number:
+#     print(num, end=" ")
+#     num = num ** 2
+#     i += 1
+#
+# # 4-задача
+#
+# number = int(input("Введите число: "))
+# i = 1
+# while i <= 10:
+#     print( number, "*", i, "=", number * i)
+#     i += 1
+#
+# # # 5-задача
+# number = int(input("Введите число: "))
+# i = 1
+# num = 1
+# while i < number:
+#     print(i, end=" + ")
+#     i = i + 1
+#     num = num + i # если ты что то написал старайся сделать разнообразие а не сразу кидай
+#
+#
+# print(i, "=", num)
 
-#2-задача
-number = int(input("Выберите сколько чисел вывести на экран: ")) #8
-g = 1
-num = 1
-while g <= number:
-    print(num, end=" ") #1 2 4 8 16 32 64 128
-    g = g + 1
-    num = num * 2
 
-#3-задача
-number = int(input("Выберите сколько чисел вывести на экран: "))
+# 1. Выведи числа от 10 до 1 в обратном порядке (10, 9, 8 ... 1)
+# i = 1
+# num = 10
+# while i <= 10:
+#     print(num)
+#     i = i + 1
+#     num = num - 1
+
+#2. Запроси число у пользователя и выведи его таблицу умножения от 1 до 10 (как задача 4, но сделай сама с нуля)
+# print("Введите число:", end=" ")
+# digit = int(input())
+#
+# i = 1
+#
+# while i <= 10:
+#     print(digit, "*", i, end=" = ")
+#     print(i * digit)
+#     i += 1
+
+#3. Выведи все чётные числа от 1 до 20
+
 i = 1
-num = 2
-while i <= number:
-    print(num, end=" ")
-    num = num ** 2
+
+while i <= 20:
+    if i % 2 == 0:
+        print(i)
     i += 1
-
-# 4-задача
-
-number = int(input("Введите число: "))
-i = 1
-while i <= 10:
-    print( number, "*", i, "=", number * i)
-    i += 1
-
-# # 5-задача
-number = int(input("Введите число: "))
-i = 1
-num = 1
-while i < number:
-    print(i, end=" + ")
-    i = i + 1
-    num = num + i # если ты что то написал старайся сделать разнообразие а не сразу кидай
-
-
-print(i, "=", num)

@@ -476,3 +476,51 @@ import random
 #     print("Hello", name)
 #
 # print("End programm")
+
+задача
+number = int(input("До какого числа генерировать последовательность: "))
+i = 1
+
+while i < number:
+    print(i, end=", ")
+    i += 1
+#
+print(i)
+
+#2-задача
+number = int(input("Выберите сколько чисел вывести на экран: ")) #8
+g = 1
+num = 1
+while g <= number:
+    print(num, end=" ") #1 2 4 8 16 32 64 128
+    g = g + 1
+    num = num * 2
+
+#3-задача
+number = int(input("Выберите сколько чисел вывести на экран: "))
+i = 1
+num = 2
+while i <= number:
+    print(num, end=" ")
+    num = num ** 2
+    i += 1
+
+# 4-задача
+
+number = int(input("Введите число: "))
+i = 1
+while i <= 10:
+    print( number, "*", i, "=", number * i)
+    i += 1
+
+# # 5-задача
+number = int(input("Введите число: "))
+i = 1
+num = 1
+while i < number:
+    print(i, end=" + ")
+    i = i + 1
+    num = num + i # если ты что то написал старайся сделать разнообразие а не сразу кидай
+
+
+print(i, "=", num)

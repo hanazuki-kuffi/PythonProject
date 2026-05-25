@@ -547,10 +547,39 @@ from unicodedata import digit
 #     i += 1
 
 #3. Выведи все чётные числа от 1 до 20
+# i = 1
+#
+# while i <= 20:
+#     if i % 2 == 0:
+#         print(i)
+#     i += 1
+
+
+
+#2-задача
+print("Введите сумму вклада:", end=" ")
+deposit_amount = int(input())
+
+print("Введите срок вклада (год):", end=" ")
+deposit_term = int(input())
+
+print("Введите начисляемый процент:", end=" ")
+accrued_interest = int(input())
+
 
 i = 1
+summary = 0
+original_sum = deposit_amount
+# deposit = (100 + accrued_interest) / 100
 
-while i <= 20:
-    if i % 2 == 0:
-        print(i)
+while i <= deposit_term:
+    result_1 = deposit_amount * accrued_interest / 100
+    print(result_1)
+    deposit_amount = deposit_amount + result_1
+    summary = summary + result_1
     i += 1
+
+total_summ = original_sum + summary
+
+print("Сумма на счету по истечению срока вклада: ", total_summ)
+print("Сумма на которую увеличился первоначальный вклад: ", summary)

@@ -527,6 +527,9 @@ from unicodedata import digit
 # print(i, "=", num)
 
 
+
+#Задачи от клаудиии
+
 # 1. Выведи числа от 10 до 1 в обратном порядке (10, 9, 8 ... 1)
 # i = 1
 # num = 10
@@ -554,32 +557,45 @@ from unicodedata import digit
 #         print(i)
 #     i += 1
 
+#4. Запроси число и посчитай сумму только чётных чисел от 1 до этого числа
+# print("Введите числo:", end=" ")
+# digit = int(input())
+#
+# i = 1
+# num = 1
+# while i < digit:
+#     if i % 2 == 0:
+#         print(i, end=" + ")
+#     num = num + i
+#     i += 1
+# print(i, "=", num)
+
 
 
 #2-задача
-print("Введите сумму вклада:", end=" ")
-deposit_amount = int(input())
-
-print("Введите срок вклада (год):", end=" ")
-deposit_term = int(input())
-
-print("Введите начисляемый процент:", end=" ")
-accrued_interest = int(input())
-
-
-i = 1
-summary = 0
-original_sum = deposit_amount
-# deposit = (100 + accrued_interest) / 100
-
-while i <= deposit_term:
-    result_1 = deposit_amount * accrued_interest / 100
-    print(result_1)
-    deposit_amount = deposit_amount + result_1
-    summary = summary + result_1
-    i += 1
-
-total_summ = original_sum + summary
-
-print("Сумма на счету по истечению срока вклада: ", total_summ)
-print("Сумма на которую увеличился первоначальный вклад: ", summary)
+# print("Введите сумму вклада:", end=" ")
+# deposit_amount = int(input())
+#
+# print("Введите срок вклада (год):", end=" ")
+# deposit_term = int(input())
+#
+# print("Введите начисляемый процент:", end=" ")
+# accrued_interest = int(input())
+#
+#
+# i = 1
+# summary = 0
+# original_sum = deposit_amount
+# # deposit = (100 + accrued_interest) / 100
+#
+# while i <= deposit_term:
+#     result_1 = deposit_amount * accrued_interest / 100
+#     print(result_1)
+#     deposit_amount = deposit_amount + result_1
+#     summary = summary + result_1
+#     i += 1
+#
+# total_summ = original_sum + summary
+#
+# print("Сумма на счету по истечению срока вклада: ", total_summ)
+# print("Сумма на которую увеличился первоначальный вклад: ", summary)

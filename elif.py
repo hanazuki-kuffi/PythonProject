@@ -238,3 +238,32 @@
 # elif integer_1 < integer_4:
 #     print(integer_1)
 
+#1-задача.
+
+print("Введите месяца: ", end=" ")
+month_number = int(input())
+
+if month_number == 1 or month_number == 2 or month_number == 3 or month_number == 4 or month_number == 5 or month_number == 6 or month_number == 7 or month_number == 8 or month_number == 9 or month_number == 10 or month_number == 11 or month_number == 12:
+    print("Существует")
+else:
+    print("Не существует")
+
+
+print("Введите месяца: ", end=" ")
+month_number = int(input())
+
+if month_number < 12 and month_number > 0:
+    print("Существует")
+else:
+    print("Не существует")
+#
+
+#2-задача.
+
+print("Введите день: ", end=" ")
+day = int(input())
+
+if day < 31 and day >= 0:
+    print("Существует")
+else:
+    print("")

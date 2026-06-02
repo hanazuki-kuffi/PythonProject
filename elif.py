@@ -426,35 +426,43 @@
 #     print(f"{day}.{month}.{year}")
 
 
-print("Введите число дня:", end=" ")
-day = int(input())
-
-print("Введите число месяца:", end=" ")
-month = int(input())
-
-print("Введите число года:", end=" ")
-year = int(input())
-
-
-print("Date:", end=" ")
-
-if day >= 1 and day <= 9 and month >= 1 and month <= 9:
-    print(f"0{day}.0{month}.{year}", end=" ")
-elif day >= 1 and day <= 9:
-    print(f"0{day}.{month}.{year}", end=" ")
-elif month >= 1 and month <= 9:
-    print(f"{day}.0{month}.{year}", end=" ")
-else:
-    print(f"{day}.{month}.{year}", end=" ")
-
-if not (month >= 1 and month <= 12):
-    print("Не правильная дата")
-else:
-    if month == 2:
-        end_day = 29 if  year % 4 == 0 and year % 100 != 0 or year % 400 == 0 else 28
-    elif month == 4 or month == 6 or month == 9 or month == 11:
-        end_day = 30
-    else:
-        end_day = 31
-    if day >= 1 and day <= end_day:
-        print("правильная дата")
+# 1-задача.
+#Создайте программу, которая определяет, является ли дата правильной.
+#Программа должна запрашивать у пользователя год, месяц (в виде числа) и день,
+#а затем выводить на экран дату и сообщение о том, является ли дата правильной или нет.
+#Эта задача является комбинацией задачи 1, 2 и 3 из домашнего задания на тему “логические операторы”.
+#Сама программа должна учитывать 31, 30, 28 или 29 дней в соответствующих месяцах.
+#
+#
+# print("Введите число дня:", end=" ")
+# day = int(input())
+#
+# print("Введите число месяца:", end=" ")
+# month = int(input())
+#
+# print("Введите число года:", end=" ")
+# year = int(input())
+#
+#
+# print("Date:", end=" ")
+#
+# if day >= 1 and day <= 9 and month >= 1 and month <= 9:
+#     print(f"0{day}.0{month}.{year}", end=" ")
+# elif day >= 1 and day <= 9:
+#     print(f"0{day}.{month}.{year}", end=" ")
+# elif month >= 1 and month <= 9:
+#     print(f"{day}.0{month}.{year}", end=" ")
+# else:
+#     print(f"{day}.{month}.{year}", end=" ")
+#
+# if not (month >= 1 and month <= 12):
+#     print("Не правильная дата")
+# else:
+#     if month == 2:
+#         end_day = 29 if  year % 4 == 0 and year % 100 != 0 or year % 400 == 0 else 28
+#     elif month == 4 or month == 6 or month == 9 or month == 11:
+#         end_day = 30
+#     else:
+#         end_day = 31
+#     if day >= 1 and day <= end_day:
+#         print("правильная дата")

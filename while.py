@@ -607,3 +607,39 @@ from unicodedata import digit
 #     if count == 3:
 #         continue
 #     print("Count:", count)
+
+
+
+#1 EXAMPLE
+#
+# i = 1 #внешний цикл — работает медленно
+# while i <= 5: #внутренний цикл — работает быстро
+#     print(f"I have {i} tips") #то что выполняется на каждом шаге
+#     g = 1 #внутренний закончился — внешний делает шаг
+#     while g <= 10: #внешний закончился — программа идёт дальше
+#         print(f"for {g} biomaterials")
+#         g += 1
+#     print()
+#     i += 1
+
+
+#2 EXAMPLE
+# i = 1 #i: 3
+# while i <= 3: #3 <= 3
+#     j = 1#j: 3
+#     while j <= 3: #3 <= 3
+#         print(i * j, end=" ") #1 * 1, 1 * 2, 1 * 3
+#         j += 1                #2 * 1, 2 * 2, 2 * 3
+#     print()                   #3 * 1, 3 * 2, 3 * 3
+#     i += 1
+
+
+#3 EXAMPLE
+i = 1 #i: 4
+while i <= 4: #4 <= 4
+    j = 1 #j: 1
+    while j <= i: # 1 <= 3
+        print("*", end=" ") # *
+        j += 1              # * *
+    print()                 # * * *
+    i += 1                  # * * * *

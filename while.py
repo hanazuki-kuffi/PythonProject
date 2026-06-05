@@ -635,11 +635,11 @@ from unicodedata import digit
 
 
 #3 EXAMPLE
-i = 1 #i: 4
-while i <= 4: #4 <= 4
-    j = 1 #j: 1
-    while j <= i: # 1 <= 3
-        print("*", end=" ") # *
-        j += 1              # * *
-    print()                 # * * *
-    i += 1                  # * * * *
+# i = 1 #i: 4
+# while i <= 4: #4 <= 4
+#     j = 1 #j: 1
+#     while j <= i: # 1 <= 3
+#         print("*", end=" ") # *
+#         j += 1              # * *
+#     print()                 # * * *
+#     i += 1                  # * * * *

@@ -46,3 +46,14 @@
 #     print("Ran out of the stadium")
 #     print()
 #     i += 1
+
+# import time
+#
+# step = 1
+#
+# while step <= 10:
+#     print(step)
+#     time.sleep(1)
+#     if step != 7:
+#         print("Hello")
+#     step += 1

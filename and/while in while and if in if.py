@@ -8,22 +8,41 @@
 #Программа должна работать до тех пор, пока пользователь не введет слово end.
 
 
-while True:
-    print("\nMenu:")
-    print("Подсчитать квадрат числа - 1")
-    print("Выход из программы - end")
-    print()
-    choice = input("Выберите пункт меню: ")
+# while True:
+#     print("\nMenu:")
+#     print("Подсчитать квадрат числа - 1")
+#     print("Выход из программы - end")
+#     print()
+#     choice = input("Выберите пункт меню: ")
+#
+#     if choice == "1":
+#         number = input("Введите число: ")
+#
+#         while not number.isdigit():
+#             print("Ошибка - некорректные данные, повторите ввод")
+#             number = input("Повторите ввод: ")
+#
+#         print(f"Квадрат этого числа: {int(number) ** 2}")
+#     elif choice == "end":
+#         break
+#     else:
+#         print("Неизвестная команда")
 
-    if choice == "1":
-        number = input("Введите число: ")
+#2-задача.
+#Создайте программу, которая просит пользователя ввести числа, затем выводит на экран квадрат этого числа.
+#Если пользователь ввел не число, а что-то другое, программа должна вывести сообщение о некорректных данных, затем просить пользователя повторить ввод.
 
-        while not number.isdigit():
-            print("Ошибка - некорректные данные, повторите ввод")
-            number = input("Повторите ввод: ")
-
-        print(f"Квадрат этого числа: {int(number) ** 2}")
-    elif choice == "end":
-        break
-    else:
-        print("Неизвестная команда")
+# name = "Kuffi"
+#
+# i = 1
+# while i <= 5:
+#     print(name, "ran", i, "lap around the stadium")
+#     print(name, "ran inside the stadium")
+#
+#     g = 1
+#     while g <= 10:
+#         print(name, "ran", g, "lap around the infield")
+#         g += 1
+#     print("Ran out of the stadium")
+#     print()
+#     i += 1

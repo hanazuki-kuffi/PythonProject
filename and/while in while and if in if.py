@@ -112,35 +112,35 @@ print("4. Хлеб - 80 тг за булку")
 print("5. Яйца - 220 тг за лоток")
 print()
 
-while True:
-    goods = input("Выберите товар: ")
-    quantity = input("Выберите количество: ")
-
-    if goods == "end" and quantity == "end":
-        break
-
-    while not goods.isdigit() or not quantity.isdigit():
-        print("Ошибка - некорректные данные, повторите ввод!")
-        goods = input("Повторите ввод 1: ")
-        quantity = input("Повторите ввод 2: ")
-    else:
-        if goods == "1":
-            result1 = 100 * int(quantity)
-            print(result1)
-        if goods == "2":
-            result2 = 300 * int(quantity)
-            print(result2)
-        if goods == "3":
-            result3 = 70 * int(quantity)
-            print(result3)
-        if goods == "4":
-            result4 = 80 * int(quantity)
-            print(result4)
-        if goods == "5":
-            result5 = 220 * int(quantity)
-            print(result5)
-        if goods == "end" and quantity == "end":
-            break
-
-print()
-print("Общая стоимость: ")
+# while True:
+#     goods = input("Выберите товар: ")
+#     quantity = input("Выберите количество: ")
+#
+#     if goods == "end" and quantity == "end":
+#         break
+#
+#     while not goods.isdigit() or not quantity.isdigit():
+#         print("Ошибка - некорректные данные, повторите ввод!")
+#         goods = input("Повторите ввод 1: ")
+#         quantity = input("Повторите ввод 2: ")
+#     else:
+#         if goods == "1":
+#             result1 = 100 * int(quantity)
+#             print(result1)
+#         if goods == "2":
+#             result2 = 300 * int(quantity)
+#             print(result2)
+#         if goods == "3":
+#             result3 = 70 * int(quantity)
+#             print(result3)
+#         if goods == "4":
+#             result4 = 80 * int(quantity)
+#             print(result4)
+#         if goods == "5":
+#             result5 = 220 * int(quantity)
+#             print(result5)
+#         if goods == "end" and quantity == "end":
+#             break
+#
+# print()
+# print("Общая стоимость: ")

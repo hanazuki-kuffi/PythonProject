@@ -197,49 +197,86 @@ print("Спасибо за покупку!")
 #Программа должна позволять пользователю выбирать сколько угодно раз.
 #Чтобы завершить выбор и вывести на экран общую стоимость всех товаров, пользователь должен ввести слово "end".
 
+#
+# print("Здравствуйте, добро пожаловать в наш магазин.")  #Здравствуйте, добро пожаловать в наш магазин
+#
+# print("\nВот список товаров: ")                        #Вот список товаров
+# print("1. Сахар - 100 тг за кг")                       #1. Сахар - 100 тг за кг
+# print("2. Конфеты - 300 тг за кг")                     #2. Конфеты - 300 тг за кг
+# print("3. Соль - 70 тг за кг")                         #3. Соль - 70 тг за кг
+# print("4. Хлеб - 80 тг за булку")                      #4. Хлеб - 80 тг за булку
+# print("5. Яйца - 220 тг за лоток")                     #5. Яйца - 220 тг за лоток
+# print()
+#
+#
+# total = 0
+# while True:
+#     goods = input("Выберите товар: ")  #"Выберите товар: 1"
+#     quantity = input("Выберите количество: ") #Выберите количество: "2"
+#     #
+#     if goods == "end" or quantity == "end":#xxx
+#         break
+#     print()
+#
+#     while not goods.isdigit() or not quantity.isdigit(): #xxx
+#         print("Ошибка - некорректные данные, повторите ввод!") #xxx #xxx
+#         goods = input("Выберите товар: ")
+#         quantity = input("Выберите количество: ")
+#     else:
+#         if goods == "1": #"1" == "1"
+#             result1 = 100 * int(quantity) #100 * 2 (а не строка 2 потому что мы конвертирволи переменную на число с помощью функций int() )
+#         elif goods == "2": #xxx
+#             result1 = 300 * int(quantity)#xxx
+#         elif goods == "3":#xxx
+#             result1 = 70 * int(quantity)#xxx
+#         elif goods == "4":#xxx
+#             result1 = 80 * int(quantity)#xxx
+#         elif goods == "5":#xxx
+#             result1 = 220 * int(quantity)#xxx
+#         else:
+#             print("Неизвестная команда, повторите попытку")
+#
+#     total = total + result1
+# print(f"\nОбщая стоимость: {total} тг")
+# print("Спасибо за покупку!")
+#
+# print("Здравствуйте, добро пожаловать в наш магазин.")  #Здравствуйте, добро пожаловать в наш магазин
 
-print("Здравствуйте, добро пожаловать в наш магазин.")  #Здравствуйте, добро пожаловать в наш магазин
-
-print("\nВот список товаров: ")                        #Вот список товаров
-print("1. Сахар - 100 тг за кг")                       #1. Сахар - 100 тг за кг
-print("2. Конфеты - 300 тг за кг")                     #2. Конфеты - 300 тг за кг
-print("3. Соль - 70 тг за кг")                         #3. Соль - 70 тг за кг
-print("4. Хлеб - 80 тг за булку")                      #4. Хлеб - 80 тг за булку
-print("5. Яйца - 220 тг за лоток")                     #5. Яйца - 220 тг за лоток
-print()
-
-
-total = 0
-while True:
-    goods = input("Выберите товар: ")  #"Выберите товар: 1"
-    quantity = input("Выберите количество: ") #Выберите количество: "2"
-    #
-    if goods == "end" or quantity == "end":#xxx
-        break
-    print()
-
-    while not goods.isdigit() or not quantity.isdigit(): #xxx
-        print("Ошибка - некорректные данные, повторите ввод!") #xxx #xxx
-        goods = input("Выберите товар: ")
-        quantity = input("Выберите количество: ")
-    else:
-        if goods == "1": #"1" == "1"
-            result1 = 100 * int(quantity) #100 * 2 (а не строка 2 потому что мы конвертирволи переменную на число с помощью функций int() )
-        elif goods == "2": #xxx
-            result1 = 300 * int(quantity)#xxx
-        elif goods == "3":#xxx
-            result1 = 70 * int(quantity)#xxx
-        elif goods == "4":#xxx
-            result1 = 80 * int(quantity)#xxx
-        elif goods == "5":#xxx
-            result1 = 220 * int(quantity)#xxx
-        else:
-            print("Неизвестная команда, повторите попытку")
-
-    total = total + result1
-print(f"\nОбщая стоимость: {total} тг")
-print("Спасибо за покупку!")
-
+# print("\nВот список товаров: ")                        #Вот список товаров
+# print("1. Сахар - 100 тг за кг")                       #1. Сахар - 100 тг за кг
+# print("2. Конфеты - 300 тг за кг")                     #2. Конфеты - 300 тг за кг
+# print("3. Соль - 70 тг за кг")                         #3. Соль - 70 тг за кг
+# print("4. Хлеб - 80 тг за булку")                      #4. Хлеб - 80 тг за булку
+# print("5. Яйца - 220 тг за лоток")                     #5. Яйца - 220 тг за лоток
+# print()
+#
+#
+# total = 0
+# while True:
+#     goods = input("Выберите товар: ")  #"Выберите товар: 1"
+#     if goods == "end":  # xxx
+#         break
+#     quantity = input("Выберите количество: ") #Выберите количество: "2"
+#     if quantity == "end":
+#         break
+#
+#     if goods == "1":  # "1" == "1"
+#         result1 = 100 * int(quantity)  # 100 * 2 (а не строка 2 потому что мы конвертирволи переменную на число с помощью функций int() )
+#     elif goods == "2":  # xxx
+#         result1 = 300 * int(quantity)  # xxx
+#     elif goods == "3":  # xxx
+#         result1 = 70 * int(quantity)  # xxx
+#     elif goods == "4":  # xxx
+#         result1 = 80 * int(quantity)  # xxx
+#     elif goods == "5":  # xxx
+#         result1 = 220 * int(quantity)  # xxx
+#     else:
+#         result1 = 0
+#         print("Неизвестная команда, повторите попытку")
+#
+#     total = total + result1
+# print(f"\nОбщая стоимость: {total} тг")
+# print("Спасибо за покупку!")
 
 
 # A — Лёгкие
@@ -272,3 +309,44 @@ print("Спасибо за покупку!")
 #     print(word.upper())
 
 
+while True:
+    first_number = input("Введите первое число: ")
+    while not first_number.isdigit() and first_number != "stop":
+        print("Вы ввели некорректные данные, повторите ввод")
+        first_number = input("Введите первое число: ")
+    if first_number == "stop":
+        break
+
+    operator = input("Введите операцию(+ - * / ** // %): ")
+    while operator.isalnum() and operator != "stop":
+        print("Вы ввели некорректные операцию, повторите ввод")
+        operator = input("Введите операцию(+ - * / ** // %): ")
+    if operator == "stop":
+        break
+
+    second_number = input("Введите второе число: ")
+    while not second_number.isdigit() or second_number != "stop":
+        print("Вы ввели некорректные данные, повторите ввод")
+        second_number = input("Введите второе число: ")
+    if second_number == "stop":
+        break
+
+    first_number = int(operator)
+    second_number = int(operator)
+
+    if operator == "+":
+        print(f"Результат: {first_number + second_number}")
+    if operator == "-":
+        print(f"Результат: {first_number - second_number}")
+    if operator == "*":
+        print(f"Результат: {first_number * second_number}")
+    if operator == "/":
+        print(f"Результат: {first_number / second_number}")
+    if operator == "**":
+        print(f"Результат: {first_number ** second_number}")
+    if operator == "//":
+        print(f"Результат: {first_number // second_number}")
+    if operator == "%":
+        print(f"Результат: {first_number % second_number}")
+
+print("Завершение программы")

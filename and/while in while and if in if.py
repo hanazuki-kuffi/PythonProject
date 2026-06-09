@@ -1,13 +1,24 @@
 # break Останавливает цикл полностью, даже если условие ещё True.
-import time
-i = 1
+# import time
+# i = 1
+#
+# while i <= 20:
+#     time.sleep(1)
+#     if i == 11:
+#         break #Цикл должен был идти до 20, но мы остановили его на 10.
+#     print(i)
+#     i += 1
 
-while i <= 20:
-    time.sleep(1)
-    if i == 11:
-        break
-    print(i)
-    i += 1
+# students = ["Ali", "Nurailym", "Gulaiym", "Nurali"]
+# search = input("Кого ищем?: ")
+#
+# i = 0
+#
+# while i < 4:
+#     if students[i] == search:
+#         print("Нашли!")
+#         break
+#     i += 1
 
 
 

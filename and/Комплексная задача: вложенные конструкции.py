@@ -10,29 +10,29 @@
 #
 #
 #
-# while True:
-#     print("Регистрация")
-#     print()
-#     name = input("Ваше имя: ")
-#     password1 = input("Придумайте пароль: ")
-#     password11 = input("Подтвердите пароль: ")
-#
-#     if password1 == password11:
-#         print("Данные сохранены!")
-#         print()
-#         print("\nАвторизация")
-#         login = input("Введите логин: ")
-#         password = input("Введите пароль: ")
-#     else:
-#         print("Неверный пароль, начните заново!")
-#         break
-#
-#     if login == name and password == password1:
-#         print("Вход выполнен")
-#         break
-#     else:
-#         print("Вход не выполнен")
-#         break
+while True:
+    print("Регистрация")
+    print()
+    name = input("Ваше имя: ")
+    password1 = input("Придумайте пароль: ")
+    password11 = input("Подтвердите пароль: ")
+
+    if password1 == password11:
+        print("Данные сохранены!")
+        print()
+        print("\nАвторизация")
+        login = input("Введите логин: ")
+        password = input("Введите пароль: ")
+    else:
+        print("Неверный пароль, начните заново!")
+        break
+
+    if login == name and password == password1:
+        print("Вход выполнен")
+        break
+    else:
+        print("Вход не выполнен")
+        break
 
 
 

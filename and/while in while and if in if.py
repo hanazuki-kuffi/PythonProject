@@ -350,3 +350,310 @@ while True:
         print(f"Результат: {first_number % second_number}")
 
 print("Завершение программы")
+
+from wsgiref.simple_server import server_version
+
+# while True:
+#     print("\nMenu:")
+#     print("Подсчитать квадрат числа - 1")
+#     print("Выход из программы - end")
+#     print()
+#
+#     choice = input("Выберите пункт меню: ")
+#     if choice == "1":
+#
+#         number = input("Введите число: ") # "Hello"
+#
+#         while not number.isdigit():
+#             print("Ошибка - некорректные данные, повторите ввод")
+#             number = input("Повторите ввод: ") # "12"
+#
+#         print(f"Квадрат этого числа: {int(number) ** 2}")
+#
+#     elif choice == "end":
+#             break
+#     else:
+#         print("Неизвестная команда")
+
+
+#Создайте программу, которая выводит на экран список товаров и просит пользователя выбрать товар и его количество.
+#Программа должна позволять пользователю выбирать сколько угодно раз.
+#Чтобы завершить выбор и вывести на экран общую стоимость всех товаров, пользователь должен ввести слово "end".
+
+
+# print("Здравствуйте, добро пожаловать в наш магазин.")  #Здравствуйте, добро пожаловать в наш магазин
+#
+# print("\nВот список товаров: ")                        #Вот список товаров
+# print("1. Сахар - 100 тг за кг")                       #1. Сахар - 100 тг за кг
+# print("2. Конфеты - 300 тг за кг")                     #2. Конфеты - 300 тг за кг
+# print("3. Соль - 70 тг за кг")                         #3. Соль - 70 тг за кг
+# print("4. Хлеб - 80 тг за булку")                      #4. Хлеб - 80 тг за булку
+# print("5. Яйца - 220 тг за лоток")                     #5. Яйца - 220 тг за лоток
+# print()
+#
+#
+# total = 0
+# while True:
+#     goods = input("Выберите товар: ")  #"Выберите товар: 1"
+#     if goods == "end":
+#         break
+#
+#     quantity = input("Выберите количество: ") #Выберите количество: "2"
+#     if quantity == "end":
+#         break
+#
+#     if goods == "1": #"1" == "1"
+#         result1 = 100 * int(quantity) #100 * 2 (а не строка 2 потому что мы конвертирволи переменную на число с помощью функций int() )
+#     elif goods == "2": #xxx
+#         result1 = 300 * int(quantity)#xxx
+#     elif goods == "3":#xxx
+#         result1 = 70 * int(quantity)#xxx
+#     elif goods == "4":#xxx
+#         result1 = 80 * int(quantity)#xxx
+#     elif goods == "5":#xxx
+#         result1 = 220 * int(quantity)#xxx
+#     else:
+#         result1 = 0
+#         print("Неизвестный продукт, повторите попытку")
+#
+#     total = total + result1
+# print(f"\nОбщая стоимость: {total} тг")
+# print("Спасибо за покупку!")
+#
+#
+# # 4-задача.
+#
+# while True:
+#     first_number = input("Введите первое число: ")
+#
+#     while not first_number.isdigit() and first_number != "stop" :
+#         print("Вы ввели некорректные данные, повторите ввод")
+#         first_number = input("Введите первое число: ")
+#
+#     if first_number == "stop":
+#         break
+#
+#     operator = input("Введите операцию(+ - * / ** // %): ")
+#
+#     while (operator != "+"
+#            and operator != "-"
+#            and operator != "/"
+#            and operator != "*"
+#            and operator != "stop"):
+#
+#         print("Вы ввели некорректные операцию, повторите ввод")
+#         operator = input("Введите операцию(+ - * / ** // %): ")
+#
+#     if operator == "stop":
+#         break
+#
+#     second_number = input("Введите второе число: ")
+#
+#     while not second_number.isdigit() and second_number != "stop":
+#         print("Вы ввели некорректные данные, повторите ввод")
+#         second_number = input("Введите второе число: ")
+#
+#     if second_number == "stop":
+#         break
+#
+#     first_number = int(first_number)
+#     second_number = int(second_number)
+#
+#     if operator == "+":
+#         print(f"Результат: {first_number + second_number}")
+#     elif operator == "-":
+#         print(f"Результат: {first_number - second_number}")
+#     elif operator == "*":
+#         print(f"Результат: {first_number * second_number}")
+#     elif operator == "/":
+#         print(f"Результат: {first_number / second_number}")
+#     elif operator == "**":
+#         print(f"Результат: {first_number ** second_number}")
+#     elif operator == "//":
+#         print(f"Результат: {first_number // second_number}")
+#     elif operator == "%":
+#         print(f"Результат: {first_number % second_number}")
+#
+#
+#
+# print("Завершение программы")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Практика: действия над циклами
+#1-задача.
+#Создайте программу, которая будет работать через меню.
+#После запуска, программа должна вывести сообщение с возможными вариантами ввода:
+#Подсчитать квадрат числа - 1
+#Выход из программы - end
+#Затем программа должна запросить выбор пункта из меню.Если пользователь вводит 1, то программа должна попросить ввести число и вывести его квадрат.
+#Программа должна работать до тех пор, пока пользователь не введет слово end.
+
+
+# print("\nMenu: ")
+# print("Подсчитать квадрат числа - ""1")
+# print("Выход из программы - ""end")
+# print()
+#
+# while True:
+#     choice = input("Выберите пункт меню: ")
+#
+#     if choice == "1":
+#
+#         number = input("Введите число: ")
+#         print()
+#         while not number.isdigit():
+#             print("Ошибка некорректных данных - повторите ввод пожалуйста! ")
+#             number = input("Повторите ввод: ")
+#
+#         print(f"Квадрат этого чисел: {int(number) ** 2}")
+#
+#     elif choice == "end":
+#         break
+#
+#     else:
+#         print("Неизвестный команда, повторите ввод!")
+
+
+
+
+
+#Домашняя задача: действия над циклами
+#1-задача.
+#Создайте программу, которая выводит на экран список товаров и просит пользователя выбрать товар и его количество.
+#Программа должна позволять пользователю выбирать сколько угодно раз.
+#Чтобы завершить выбор и вывести на экран общую стоимость всех товаров, пользователь должен ввести слово "end".
+#
+# print("Здравствуйте, добро пожаловать в наш магазин.")
+# print("\nВот список товаров:")
+# print("1. Сахар - 100 тг за кг")
+# print("2. Конфеты - 300 тг за кг")
+# print("3. Соль - 70 тг за кг")
+# print("4. Хлеб - 80 тг за булку")
+# print("5. Яйца - 220 тг за лоток")
+# print()
+#
+# total = 0
+# while True:
+#
+#     goods = input("Выберите товар: ")
+#     if goods == "end":
+#         break
+#
+#     quantity = input("Выберите количество: ")
+#     if quantity == "end":
+#         break
+#
+#     print()
+#
+#     quantity = int(quantity)
+#
+#     if goods == "1":
+#         result = 100 * quantity
+#     elif goods == "2":
+#         result = 300 * quantity
+#     elif goods == "3":
+#         result = 70 * quantity
+#     elif goods == "4":
+#         result = 80 * quantity
+#     elif goods == "5":
+#         result = 220 * quantity
+#     else:
+#         result = 0
+#         print("Неизвестный продукт!")
+#
+#     total = total + result
+#
+# print(f"Общая стоимость: {total} тг!")
+# print("Спасибо за покупку!")
+
+
+# Комплексная задача: циклы калькулятор
+#1-задача.
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+
+#
+# while True:
+#
+#     first_number = input("Введите первое число: ")
+#     while not first_number.isdigit() and first_number != "stop":
+#         print("Вы ввели некорректные данные, повторите ввод")
+#         first_number = input("Введите первое число: ")
+#
+#     if first_number == "stop":
+#         break
+#
+#     operator = input("Введите оператор ( + - * / ** // % ): ")
+#     while (operator != "+"
+#         and operator != "-"
+#         and operator != "*"
+#         and operator != "/"
+#         and operator != "//"
+#         and operator != "**"
+#         and operator != "%") and operator != "stop":
+#         print("Вы ввели некорректные оператор, повторите ввод")
+#         operator = input("Введите оператор ( + - * / ** // % ): ")
+#
+#     if operator == "stop":
+#         break
+#
+#     second_number = input("Введите второй число: ")
+#     while not second_number.isdigit() and second_number != "stop":
+#         print("Вы ввели некорректные оператор, повторите ввод")
+#         second_number = input("Введите второй число: ")
+#
+#     if second_number == "stop":
+#         break
+#
+#     first_number = int(first_number)
+#     second_number = int(second_number)
+#
+#     if operator == "+":
+#         print(first_number + second_number)
+#     elif operator == "-":
+#         print(first_number - second_number)
+#     elif operator == "*":
+#         print(first_number * second_number)
+#     elif operator == "/":
+#         print(first_number / second_number)
+#     elif operator == "//":
+#         print(first_number // second_number)
+#     elif operator == "**":
+#         print(first_number ** second_number)
+#     elif operator == "%":
+#         print(first_number % second_number)
+#
+# print("Завершение программы!")

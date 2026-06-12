@@ -130,3 +130,15 @@ def arithmetic_mean_of_numbers(num1, num2, num3, num4, num5):
 
 result1 = arithmetic_mean_of_numbers(1, 2, 3, 4, 5)
 print(result1)
+
+def copy_file(source_filename, destination_filename):
+    source = open(source_filename, "r", encoding="UTF-8")
+    file = source.read()
+    source.close()
+
+    destination = open(destination_filename, "w", encoding="UTF-8") #"w" нужен для копирования!
+    destination.write(file)
+    destination.close()
+
+
+copy_file("file1.txt", "destination1.txt")

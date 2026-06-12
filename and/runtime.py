@@ -359,13 +359,13 @@
 # print(info)
 #
 # ##2-задача
-# file_2 = open("log.txt", "w", encoding= "UTF-8")
-# file_2.write("First, open a file — you tell Python which file you want and what you want to do with it: read or write.")
-# file_2.close()
-#
-# file_2 = open("log.txt", "a", encoding= "UTF-8")
-# file_2.write("Second, read the file — you take the text from the file and put it into a variable so you can use it in your code.")
-# file_2.close()
+file_2 = open("log.txt", "w", encoding= "UTF-8")
+file_2.write("First, open a file — you tell Python which file you want and what you want to do with it: read or write.")
+file_2.close()
+
+file_2 = open("log.txt", "a", encoding= "UTF-8")
+file_2.write("Second, read the file — you take the text from the file and put it into a variable so you can use it in your code.")
+file_2.close()
 #
 # file_2 = open("log.txt", "r", encoding= "UTF-8")
 # log = file_2.read()

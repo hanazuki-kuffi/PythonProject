@@ -122,23 +122,34 @@ print(result2)
 #Функция должна:
 #Рассчитывать среднее арифметическое этих чисел.
 #Возвращать результат в виде целого числа.
+#
+# def arithmetic_mean_of_numbers(num1, num2, num3, num4, num5):
+#     result = (num1 + num2 + num3 + num4 + num5) / 5
+#     result = int(result)
+#     return  result
+#
+# result1 = arithmetic_mean_of_numbers(1, 2, 3, 4, 5)
+# print(result1)
+#
+# def copy_file(source_filename, destination_filename):
+#     source = open(source_filename, "r", encoding="UTF-8")
+#     file = source.read()
+#     source.close()
+#
+#     destination = open(destination_filename, "w", encoding="UTF-8") #"w" нужен для копирования!
+#     destination.write(file)
+#     destination.close()
+#
+#
+# copy_file("file1.txt", "destination1.txt")
 
-def arithmetic_mean_of_numbers(num1, num2, num3, num4, num5):
-    result = (num1 + num2 + num3 + num4 + num5) / 5
-    result = int(result)
-    return  result
 
-result1 = arithmetic_mean_of_numbers(1, 2, 3, 4, 5)
-print(result1)
+# 2-задача: объединение файлов
+#Напишите функцию, которая объединяет содержимое трёх текстовых файлов в один выходной файл.
+#Функция должна:
+#Принимать четыре аргумента:
 
-def copy_file(source_filename, destination_filename):
-    source = open(source_filename, "r", encoding="UTF-8")
-    file = source.read()
-    source.close()
-
-    destination = open(destination_filename, "w", encoding="UTF-8") #"w" нужен для копирования!
-    destination.write(file)
-    destination.close()
-
-
-copy_file("file1.txt", "destination1.txt")
+def merge_files(file1, file2, file3, output_file):
+    file_1 = open(file1, "r", encoding= "UTF-8")
+    file_11 = file_1.read()
+    file_1 = close()

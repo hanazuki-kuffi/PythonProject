@@ -150,6 +150,19 @@ print(result2)
 #Принимать четыре аргумента:
 
 def merge_files(file1, file2, file3, output_file):
+
     file_1 = open(file1, "r", encoding= "UTF-8")
     file_11 = file_1.read()
-    file_1 = close()
+    file_1.close()
+
+    file_2 = open(file2, "r", encoding= "UTF-8")
+    file_22 = file_2.read()
+    file_2.close()
+
+    file_3 = open(file3, "r", encoding= "UTF-8")
+    file_33 = file_3.read()
+    file_3.close()
+
+    output = open(output_file, "a", encoding= "UTF-8")
+    output.write(file1 + "\n" + file2 + "\n" + file3 )
+    output.close()

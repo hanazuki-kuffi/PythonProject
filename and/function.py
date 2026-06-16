@@ -148,47 +148,47 @@ print(result2)
 #Напишите функцию, которая объединяет содержимое трёх текстовых файлов в один выходной файл.
 #Функция должна:
 #Принимать четыре аргумента:
-
-def merge_files(file1, file2, file3, output_file):
-
-    file_1 = open(file1, "r", encoding= "UTF-8")
-    file_11 = file_1.read()
-    file_1.close()
-
-    file_2 = open(file2, "r", encoding= "UTF-8")
-    file_22 = file_2.read()
-    file_2.close()
-
-    file_3 = open(file3, "r", encoding= "UTF-8")
-    file_33 = file_3.read()
-    file_3.close()
-
-    output = open(output_file, "a", encoding= "UTF-8")
-    output.write(file1 + "\n" + file2 + "\n" + file3 )
-    output.close()
-
-
-
-def convert_seconds(conver_sec):
-
-    conver_sec = int(conver_sec) #: 100 000
-
-    day = conver_sec // 86400 # 100 000 // 86 400 = 1 day
-    hour = (conver_sec % 86400) // 3600 #100 000 - 86 400 = 13 600 // 3600 = 3 hour
-    minute = (conver_sec % 3600) // 60 #100 000 % 3600 = 2800 // 60 = 46 min
-    seconds = conver_sec % 60
-
-    result = f"{str(day)}:{str(hour)}:{str(minute)}:{str(seconds)}" #1:3:46:40
-    return result
-
-
-result1 = convert_seconds(86400)
-print(result1)
-result1 = convert_seconds(59)
-print(result1)
-result1 = convert_seconds(3661)
-print(result1)
-result1 = convert_seconds(172800)
-print(result1)
-result1 = convert_seconds(100000)
-print(result1)
+#
+# def merge_files(file1, file2, file3, output_file):
+#
+#     file_1 = open(file1, "r", encoding= "UTF-8")
+#     file_11 = file_1.read()
+#     file_1.close()
+#
+#     file_2 = open(file2, "r", encoding= "UTF-8")
+#     file_22 = file_2.read()
+#     file_2.close()
+#
+#     file_3 = open(file3, "r", encoding= "UTF-8")
+#     file_33 = file_3.read()
+#     file_3.close()
+#
+#     output = open(output_file, "a", encoding= "UTF-8")
+#     output.write(file1 + "\n" + file2 + "\n" + file3 )
+#     output.close()
+#
+#
+#
+# def convert_seconds(conver_sec):
+#
+#     conver_sec = int(conver_sec) #: 100 000
+#
+#     day = conver_sec // 86400 # 100 000 // 86 400 = 1 day
+#     hour = (conver_sec % 86400) // 3600 #100 000 - 86 400 = 13 600 // 3600 = 3 hour
+#     minute = (conver_sec % 3600) // 60 #100 000 % 3600 = 2800 // 60 = 46 min
+#     seconds = conver_sec % 60
+#
+#     result = f"{str(day)}:{str(hour)}:{str(minute)}:{str(seconds)}" #1:3:46:40
+#     return result
+#
+#
+# result1 = convert_seconds(86400)
+# print(result1)
+# result1 = convert_seconds(59)
+# print(result1)
+# result1 = convert_seconds(3661)
+# print(result1)
+# result1 = convert_seconds(172800)
+# print(result1)
+# result1 = convert_seconds(100000)
+# print(result1)

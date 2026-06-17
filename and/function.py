@@ -192,3 +192,25 @@ print(result2)
 # print(result1)
 # result1 = convert_seconds(100000)
 # print(result1)
+
+
+
+# 1-я задача: повторение текста
+def repeat_text(text: str, times=2):
+    repeat = text * times
+    return repeat
+
+new_text = repeat_text("Hello", times=2)
+print(new_text)
+
+
+
+# 2-я задача: генератор визиток
+#
+def generate_business_card(name: str, position="Сотрудник", company="Не указано", email="Не указан", phone="Не указан"):
+
+    total = f"Визитка:\n Имя:{name}\n Должность:{position}\n Компания:{company}\n Email: {email}\n Телефон: {phone}"
+    return total
+
+new_business_card = generate_business_card("Иван Иванов", position="Менеджер", company="ABC Corp", email="ivan@abc.com")
+print(new_business_card)

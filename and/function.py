@@ -196,21 +196,44 @@ print(result2)
 
 
 # 1-я задача: повторение текста
-def repeat_text(text: str, times=2):
-    repeat = text * times
-    return repeat
-
-new_text = repeat_text("Hello", times=2)
-print(new_text)
-
-
-
-# 2-я задача: генератор визиток
+# def repeat_text(text: str, times=2):
+#     repeat = text * times
+#     return repeat
 #
-def generate_business_card(name: str, position="Сотрудник", company="Не указано", email="Не указан", phone="Не указан"):
+# new_text = repeat_text("Hello", times=2)
+# print(new_text)
+#
+#
+#
+# # 2-я задача: генератор визиток
+# #
+# def generate_business_card(name: str, position="Сотрудник", company="Не указано", email="Не указан", phone="Не указан"):
+#
+#     total = f"Визитка:\n Имя:{name}\n Должность:{position}\n Компания:{company}\n Email: {email}\n Телефон: {phone}"
+#     return total
+#
+# new_business_card = generate_business_card("Иван Иванов", position="Менеджер", company="ABC Corp", email="ivan@abc.com")
+# print(new_business_card)
 
-    total = f"Визитка:\n Имя:{name}\n Должность:{position}\n Компания:{company}\n Email: {email}\n Телефон: {phone}"
-    return total
 
-new_business_card = generate_business_card("Иван Иванов", position="Менеджер", company="ABC Corp", email="ivan@abc.com")
-print(new_business_card)
+
+def merge_files(file1, file2, file3, output_file="output123.txt"):
+
+    file_1 = open(file1, "r", encoding= "UTF-8")
+    file_11 = file_1.read()
+    file_1.close()
+
+    file_2 = open(file2, "r", encoding= "UTF-8")
+    file_22 = file_2.read()
+    file_2.close()
+
+    file_3 = open(file3, "r", encoding= "UTF-8")
+    file_33 = file_3.read()
+    file_3.close()
+
+    output = open(output_file, "a", encoding= "UTF-8")
+    output.write(file_11 + "\n\n" + file_22 + "\n\n" +  file_33) #можно так написать "\n\n" дит клауди
+    output.close()
+
+
+merge_files("paper1.txt", "paper2.txt", "paper3.txt", output_file="output.txt")v

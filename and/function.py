@@ -236,4 +236,32 @@ def merge_files(file1, file2, file3, output_file="output123.txt"):
     output.close()
 
 
-merge_files("paper1.txt", "paper2.txt", "paper3.txt", output_file="output.txt")v
+merge_files("paper1.txt", "paper2.txt", "paper3.txt", output_file="output.txt")
+
+
+
+
+# 1-задача: калькулятор скидок
+
+def calculate_discount(total_amount, is_discont=False, is_loyal_customer=False):
+
+    def main_discount_amount():
+
+        discont_amount = 1000
+
+        if is_discont == True:
+            print(is_discont * discont_amount)
+        else:
+            print(is_discont * discont_amount)
+
+    def loyalty_discount_amount():
+
+        loyal_discont = 500
+
+        if is_loyal_customer == True:
+            print(is_loyal_customer * loyal_discont)
+        else:
+            open(is_loyal_customer * loyal_discont)
+
+
+    return calculate_discount(total_amount )

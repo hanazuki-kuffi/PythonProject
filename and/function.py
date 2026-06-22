@@ -275,8 +275,51 @@
 # display_invoice("Kuffi", 45.00, "01/01")
 
 
-def display_invoice(username, amount, due_date):
-    print(f"Hello {username}")
-    print(f"Your bill of {amount:.2f} is due: {due_date}")
+# def display_invoice(username, amount, due_date):
+#     print(f"Hello {username}")
+#     print(f"Your bill of {amount:.2f} is due: {due_date}") #Используется когда выводишь деньги — красиво показывает цену как 45.00 вместо 45.0 или 45.000000
+#
+# display_invoice("John", 100.0453826784, "02/03")  # 100.0453826784 преврашает после {int or float parameter:.2f} == 100.02
 
-display_invoice("John", 100.0453826784, "02/03")
+
+# def display_invoice(username, amount, due_date):
+#     print(f"Hello {username}")
+#     print(f"Your bill of {amount:.2f} is due: {due_date}")
+#
+# display_invoice("Bro", 23.3468976, "01/12") # Python читает 01 как число с нулём впереди, а это запрещено в Python. поэтому надо писать в строке "01/12"  а не 01/12
+#
+# def add(x, y):
+#     z = x + y
+#     return z
+#
+# def subtract(x, y):
+#     z = x - y
+#     return z
+#
+# def multiply(x, y):
+#     z = x * y
+#     return z
+#
+# def divide(x, y):
+#     z = x / y
+#     return z
+#
+#
+# print(add(1, 2))
+# print(subtract(1, 2))
+# print(multiply(1, 2))
+# print(divide(1, 2))
+
+
+# def create_name(first, last):
+#     first = first.capitalize()
+#     last = last.capitalize()
+#     return first + " " + last
+#
+# full_name = create_name("kuffi", "hanazuki")
+# print(full_name)
+
+def net_price(list_price, discount, tax):
+    return list_price * (1 - discount) * (1 + tax)
+
+print(net_price(500, 0, 0.05))

@@ -217,26 +217,26 @@ print(result2)
 
 
 
-# def merge_files(file1, file2, file3, output_file="output123.txt"):
-#
-#     file_1 = open(file1, "r", encoding= "UTF-8")
-#     file_11 = file_1.read()
-#     file_1.close()
-#
-#     file_2 = open(file2, "r", encoding= "UTF-8")
-#     file_22 = file_2.read()
-#     file_2.close()
-#
-#     file_3 = open(file3, "r", encoding= "UTF-8")
-#     file_33 = file_3.read()
-#     file_3.close()
-#
-#     output = open(output_file, "a", encoding= "UTF-8")
-#     output.write(file_11 + "\n\n" + file_22 + "\n\n" +  file_33) #можно так написать "\n\n" дит клауди
-#     output.close()
-#
-#
-# merge_files("paper1.txt", "paper2.txt", "paper3.txt", output_file="output.txt")
+def merge_files(file1, file2, file3, output_file="output123.txt"):
+
+    file_1 = open(file1, "r", encoding= "UTF-8")
+    file_11 = file_1.read()
+    file_1.close()
+
+    file_2 = open(file2, "r", encoding= "UTF-8")
+    file_22 = file_2.read()
+    file_2.close()
+
+    file_3 = open(file3, "r", encoding= "UTF-8")
+    file_33 = file_3.read()
+    file_3.close()
+
+    output = open(output_file, "a", encoding= "UTF-8")
+    output.write(file_11 + "\n\n" + file_22 + "\n\n" +  file_33) #можно так написать "\n\n" дит клауди
+    output.close()
+
+
+merge_files("paper1.txt", "paper2.txt", "paper3.txt", output_file="output.txt")
 
 
 

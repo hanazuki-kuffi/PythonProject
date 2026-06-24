@@ -466,18 +466,18 @@ file_2.close()
 # # print(f"Второй с конца: {numbers[-2]}")
 #
 #
-4-задача:
-Создайте список person, который содержит:
-person = ["Omar", 29, [120, "ул.Гагарина", 5]]
-
-print(f"{person[0]} живет в доме {person[2][0]} на 5 этаже {person[2][1]}")
-
-5-задача:
-Создайте список student, который содержит:
-
-name = "Kuffi"
-course = 3
-grade = [70, 80, 90]
+# 4-задача:
+# Создайте список person, который содержит:
+# person = ["Omar", 29, [120, "ул.Гагарина", 5]]
+#
+# print(f"{person[0]} живет в доме {person[2][0]} на 5 этаже {person[2][1]}")
+#
+# 5-задача:
+# Создайте список student, который содержит:
+#
+# name = "Kuffi"
+# course = 3
+# grade = [70, 80, 90]
 
 # # # student = [name, course, grade]
 # # # print(student)

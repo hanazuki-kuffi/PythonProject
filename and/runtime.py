@@ -618,3 +618,60 @@ file_2.close()
 # print()
 # print(new_list)
 # print(len(new_list))
+
+
+# 1-задача.
+
+def update_list(number, lst):
+
+    raise_number = number ** 2
+    numbers.append(raise_number)
+
+    return numbers
+
+numbers = [16, 144, 81]
+
+result = update_list(5, numbers)
+print(result)
+
+
+#2-задача.
+
+def no_first_and_last(lst):
+
+    return lst[1], lst[2], lst[3]
+
+result = no_first_and_last([1, 2, 3, 4, 5])
+print(result)
+
+
+# 3-задача.
+
+def  last_three(lst):
+
+    return lst[-3], lst[-2], lst[-1]
+
+result = last_three([1, 2, 3, 4, 5])
+print(result)
+
+
+# 4-задача.
+
+def second_half(lst):
+
+    return lst[-4], lst[-3], lst[-2], lst[-1]
+
+result = second_half([1, 2, 3, 4, 5, 6, 7, 8])
+print(result)
+
+
+# 5-задача.
+def delete_second_third(lst):
+
+    del list_words[1]
+
+    return list_words
+
+list_words = ['один', 'два', 'три', 'четыре', 'пять']
+delete_second_third(list_words)
+print(list_words)

@@ -26,7 +26,6 @@ while True:
             print()
             type_biomaterials = input("Choose one of the following biomaterials: ")
 
-
     elif choice == "9":
         break
     else:

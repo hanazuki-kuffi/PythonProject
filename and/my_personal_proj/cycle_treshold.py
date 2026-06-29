@@ -1,0 +1,1 @@
+ct_channels = ["FAM", "HEX", "ROX", "CY5", "CY5.5"]

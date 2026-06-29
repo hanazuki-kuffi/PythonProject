@@ -26,13 +26,209 @@ while True:
             print()
             type_biomaterials = input("Choose one of the following biomaterials: ")
 
-            if (not type_biomaterials == "1"
-                    and type_biomaterials == "2"
-                    and type_biomaterials == "3"
-                    and type_biomaterials == "4"):
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
                 print("Unknown biomaterial, please try again!")
 
             elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+
+    elif choice == "2":
+        print("Type analysis: Candida.albicans")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "3":
+        print("Type analysis: D-Bioflor")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "4":
+        print("Type analysis: HPV-23")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if  not (type_biomaterials.isdigit() != "1"
+                    and type_biomaterials.isdigit() != "2"
+                    and type_biomaterials.isdigit() != "3"
+                    and type_biomaterials.isdigit() != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "5":
+        print("Type analysis: HPV-18")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "6":
+        print("Type analysis: Gelmo-screen")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "7":
+        print("Type analysis: Proto-screen")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
+                print("Start assay!")
+    elif choice == "8":
+        print("Type analysis: Streptococcus agalactae")
+
+        while True:
+            print("\nType biomaterials: ")
+            print()
+            print("1. Swamp")
+            print("2. Urine")
+            print("3. Sperm")
+            print("4. Blood")
+            print()
+            type_biomaterials = input("Choose one of the following biomaterials: ")
+
+            if not (type_biomaterials != "1"
+                    and type_biomaterials != "2"
+                    and type_biomaterials != "3"
+                    and type_biomaterials != "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+            elif type_biomaterials == "2":
+                print("Start assay!")
+            elif type_biomaterials == "3":
+                print("Start assay!")
+            elif type_biomaterials == "4":
                 print("Start assay!")
 
     elif choice == "9":

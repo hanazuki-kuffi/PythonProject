@@ -26,6 +26,15 @@ while True:
             print()
             type_biomaterials = input("Choose one of the following biomaterials: ")
 
+            if (not type_biomaterials == "1"
+                    and type_biomaterials == "2"
+                    and type_biomaterials == "3"
+                    and type_biomaterials == "4"):
+                print("Unknown biomaterial, please try again!")
+
+            elif type_biomaterials == "1":
+                print("Start assay!")
+
     elif choice == "9":
         break
     else:

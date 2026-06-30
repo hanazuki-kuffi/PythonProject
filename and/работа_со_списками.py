@@ -1,4 +1,5 @@
 # 1. Создай список из 5 любимых фруктов и выведи каждый элемент через цикл for
+from shutil import make_archive
 
 # my_favorite_fruits = ["banana", "apple", "peach", "persimmon", "berries"]
 #
@@ -51,4 +52,13 @@
 #         print(number)
 
 # 7. Создай список из 5 имён и удали второй элемент через pop(), выведи результат через for
+
+names = ["ali", "ui ui", "kuffi", "john", "kawai"]
+
+for name in names:
+    remove_1 = names.pop(1)
+    print(name)
+
+
+
 

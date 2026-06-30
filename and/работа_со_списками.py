@@ -34,10 +34,21 @@
 
 # 5. Создай список из 5 чисел и найди сумму всех элементов через цикл for
 
-numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]
+#
+# for number in numbers: # 3
+#     result = number # 3 + 1 = 4
+#     total = result + number
+#     summary = total + result # 4 + 3 = 7
+# print(summary) # 3 + 3 =
 
-for number in numbers: # 2
-    result = number + 1 # 2 + 1 = 3
-    total = result + number  # 2 + 1 = 3
-print(total + result)
+# 6. Создай список из 7 чисел и выведи только чётные числа через for
+#
+# numbers = [1, 2, 3, 4, 5, 6, 7]
+#
+# for number in numbers:
+#     if number % 2 == 0:
+#         print(number)
+
+# 7. Создай список из 5 имён и удали второй элемент через pop(), выведи результат через for
 

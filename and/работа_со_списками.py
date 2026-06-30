@@ -36,6 +36,8 @@
 
 numbers = [1, 2, 3, 4, 5]
 
-for number in numbers:
-    print(number)
+for number in numbers: # 2
+    result = number + 1 # 2 + 1 = 3
+    total = result + number  # 2 + 1 = 3
+print(total + result)
 

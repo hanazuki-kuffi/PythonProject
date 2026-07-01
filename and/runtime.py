@@ -675,3 +675,80 @@ def delete_second_third(lst):
 list_words = ['один', 'два', 'три', 'четыре', 'пять']
 delete_second_third(list_words)
 print(list_words)
+
+
+# # 1-задача.
+def get_three_elements(lst):
+
+    three_elements = lst[1:4]
+
+    return three_elements
+numbers = [23, 56, 88, 44, 25, 98, 100]
+#
+slice_list = get_three_elements(numbers)
+print(slice_list)
+# #
+# # # 2-задача.
+def get_every_other(lst):
+
+    every_other = lst[1:len(numbers):2]
+
+    return every_other
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+
+slice_list = get_every_other(numbers)
+print(slice_list)
+#
+# # 3-задача.
+#
+def get_reverse_order(lst):
+
+    return lst[-1::-1]
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+new_numbers = get_reverse_order(numbers)
+print(new_numbers)
+
+# 4-задача.
+#
+def replace_three_elements(lst):
+
+    numbers[1:4] = 100, 200
+
+numbers = [33, 99, 1, 4, 12, 57]
+
+
+replace_three_elements(numbers)
+print(numbers)
+
+# 5-задача.
+
+def delete_half(lst):
+
+    half = len(numbers) // 2
+
+    del numbers[0:half]
+
+numbers = [81, 93, 24, 83, 43, 89]
+
+delete_half(numbers)
+print(numbers)
+
+
+# 6-задача.
+
+orders = [
+    [201, "Монитор", 10],
+    [202, "Клавиатура", 15],
+    [203, "Мышь", 20],
+    [204, "Системный блок", 5]
+]
+
+first_orders = orders[0:2]
+
+first_orders[0].append("Срочно")
+
+print(first_orders)
+print(orders)

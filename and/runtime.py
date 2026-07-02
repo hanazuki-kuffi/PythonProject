@@ -813,11 +813,11 @@ print(orders)
 
 # 6-задача.
 
-def replace_elements(elements, number_elements=3, start_slice=2, replacement_values=[999]):
-
-    elements[start_slice:-number_elements] = replacement_values #1:-9
-
-numbers = [1, 2, 3, 4, 5, 6, 7, 8] #3:-4
-
-replace_elements(numbers, number_elements=3, start_slice=2, replacement_values=[999])
-print(numbers)
+# def replace_elements(elements, number_elements=3, start_slice=2, replacement_values=[999]):
+#
+#     elements[start_slice:-number_elements] = replacement_values #1:-9
+#
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8] #3:-4
+#
+# replace_elements(numbers, number_elements=3, start_slice=2, replacement_values=[999])
+# print(numbers)

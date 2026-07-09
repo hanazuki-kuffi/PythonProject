@@ -862,3 +862,57 @@ def list_output(lst):
 
 list_numbers = [1, 21, 2, 55, 5, 8, 13, 89, 34, 3, 55]
 list_output(list_numbers)
+# Задача 1:
+fruits = input("Введите названия фруктов через запятую: ")
+
+new_list = fruits.split(",") # в чем разница ", " от ","?
+print(new_list)
+
+
+
+# Задача 2:
+
+def text_to_list(arguments):
+
+    new_list = arguments.split(",")
+    return new_list
+
+fruits = text_to_list("яблоко,банан,груша,киви")
+print(fruits)
+
+
+# Задача 3:
+numbers = input("Введите числа через пробел: ")
+
+new_list = numbers.split()
+print(new_list)
+
+
+def converting(lst):
+
+    lst = int(numbers) #new_list добавить через for по списку new_list
+    return lst #можно не записывать
+
+number_list = new_list
+
+converting(new_list)
+print(new_list) # чет выдает ошибку
+
+# Задача 4:
+
+def count_stats(name_file):
+
+    new_file = open(name_file, "r", encoding= "UTF-8")
+    read_file = new_file.read()
+    new_file.close()
+
+    new_list = name_file.split(",")
+    return new_list
+
+list_lines = count_stats('sample.txt')
+print(list_lines)
+
+
+# Задача 5:
+
+def count_stats(name_file):

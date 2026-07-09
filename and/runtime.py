@@ -856,9 +856,9 @@ list_numbers = [2, 4, 5, 6, 8, 3]
 # 4-задача.
 def list_output(lst):
 
-    for i in lst:
+    for i in lst[:-1]:
         print(i, end=", ")
-    print()
+    print(lst[-1])
 
 list_numbers = [1, 21, 2, 55, 5, 8, 13, 89, 34, 3, 55]
 list_output(list_numbers)

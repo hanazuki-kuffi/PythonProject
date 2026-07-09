@@ -821,3 +821,44 @@ print(orders)
 #
 # replace_elements(numbers, number_elements=3, start_slice=2, replacement_values=[999])
 # print(numbers)
+
+
+# 1-задача.
+def last_3_print(lst):
+
+    for i in lst[-3:]:
+        print(i)
+
+list_numbers = [2, 4, 5, 6, 8, 3]
+# last_3_print(list_numbers)
+
+
+# 2-задача.
+def second_half_print(lst):
+
+    for i in lst[len(list_numbers) // 2:]:
+        print(i)
+
+list_numbers = [2, 4, 5, 6, 8, 3, 11, 7]
+# second_half_print(list_numbers)
+
+
+# 3-задача.
+def except_first_last(lst):
+
+    for i in lst[1:-1]:
+        print(i)
+
+list_numbers = [2, 4, 5, 6, 8, 3]
+# except_first_last(list_numbers)
+
+
+# 4-задача.
+def list_output(lst):
+
+    for i in lst:
+        print(i, end=", ")
+    print()
+
+list_numbers = [1, 21, 2, 55, 5, 8, 13, 89, 34, 3, 55]
+list_output(list_numbers)

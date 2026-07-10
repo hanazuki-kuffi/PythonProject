@@ -916,3 +916,16 @@ print(orders)
 # # Задача 5:
 #
 # def count_stats(name_file):
+
+numbers = input("Введите числа через пробел: ")
+
+new_list = numbers.split()
+
+def converting(lst):
+
+    for i in new_list:\
+        int(i)
+
+
+converting(new_list)
+print(new_list)

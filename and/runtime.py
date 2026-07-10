@@ -923,9 +923,27 @@ new_list = numbers.split()
 
 def converting(lst):
 
-    for i in new_list:\
+    for i in new_list:
         int(i)
 
 
 converting(new_list)
 print(new_list)
+
+def count_stats(name_file):
+
+    new_file = open(name_file, "r", encoding="UTF-8")
+    read_file = new_file.read()
+    new_file.close()
+
+    new_list = read_file.split()
+    count_word = new_list.count(" ") + 1
+
+    count_line = read_file.count("\n")
+
+    total = count_word, count_line
+
+    return tuple(total)
+
+list_lines = count_stats('sample.txt')
+print(list_lines)

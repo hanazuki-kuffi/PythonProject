@@ -50,3 +50,37 @@ from ftplib import all_errors
 #
 # total = arithmetic_number_of_means(90, 98, 95, 100, 85)
 # print(total)
+
+
+
+#PRACTICE
+#
+# def copy_file(source_filename, destination_filename):
+#
+#     file = open(source_filename, "r", encoding="UTF-8")
+#     read_file = file.read()
+#     file.close()
+#
+#     copy_file = open(destination_filename, "w", encoding="UTF-8")
+#     copy_file.write(read_file)
+#     copy_file.close()
+#
+# copy_file("file2.txt", "destination_01.txt")
+
+# # 2-задача: объединение файлов
+# #Напишите функцию, которая объединяет содержимое трёх текстовых файлов в один выходной файл.
+# #Функция должна:
+# #Принимать четыре аргумента:
+#
+def merge_files(file1, file2, file3, output_file):
+
+    file = open(file1, "r", encoding= "UTF-8")
+    read_file = file.read()
+    file.close()
+
+    file = file2, file3
+
+    output_file = open(file, "w", encoding= "UTF-8")
+    output_file.write(file1 + "\n\n" + file2 + "\n\n" + file3)
+
+    return o

@@ -53,7 +53,7 @@ from ftplib import all_errors
 
 
 
-#PRACTICE
+#HOMEWORK
 #
 # def copy_file(source_filename, destination_filename):
 #
@@ -72,29 +72,53 @@ from ftplib import all_errors
 # #Функция должна:
 # #Принимать четыре аргумента:
 #
+#
+# def merge_files(file1, file2, file3, output_file):
+#
+#     file_ = open(file1, "r", encoding="UTF-8")
+#     read_file_ = file_.read()
+#     file_.close()
+#
+#     file__ = open(file2, "r", encoding="UTF-8")
+#     read_file__ = file__.read()
+#     file__.close()
+#
+#
+#     file___ = open(file3, "r", encoding="UTF-8")
+#     read_file___ = file___.read()
+#     file___.close()
+#
+#
+#     output = open(output_file, "w", encoding="UTF-8")
+#     output.write(read_file_ + "\n\n" + read_file__ + "\n\n" + read_file___)
+#     output.close()
+#
+#
+# merge_files("file1.txt", "file2.txt", "file3.txt", "destination123.txt")
 
-def merge_files(file1, file2, file3, output_file):
+#PRACTICE DEF IN DEF
 
-    file_ = open(file1, "r", encoding="UTF-8")
-    read_file_ =file_.read()
-    file_.close()
+# def merge_file(file1, file2, file3, output_file):
+#
+#     def read_file(file_name):
+#
+#         file = open(file_name, "r", encoding="UTF-8")
+#         content = file.read()
+#         file.close()
+#
+#         return content # потому что без этого файл будут просто читаться а не будут переносится куда-то
+#
+#     text_1 = read_file(file1)
+#     text_2 = read_file(file2)
+#     text_3 = read_file(file3)
+#
+#     output = open(output_file, "a", encoding="UTF-8")
+#     output.write(text_1 + "\n\n" + text_2 + "\n\n" + text_3)
+#     output.close()
+#
+#
+# merge_file("file1.txt", "file2.txt", "file3.txt", "overall_file.txt")
 
-    file__ = open(file2, "r", encoding="UTF-8")
-    read_file__ = file__.read()
-    file__.close()
-
-
-    file___ = open(file3, "r", encoding="UTF-8")
-    read_file___ = file___.read()
-    file___.close()
-
-
-    output = open(output_file, "w", encoding="UTF")
-    output.write(read_file_ + "\n\n" + read_file__ + "\n\n" + read_file___)
-    output.close()
-
-
-merge_files("file1.txt", "file2.txt", "file3.txt", "destination123.txt")
 
 
 

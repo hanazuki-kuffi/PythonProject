@@ -1,5 +1,5 @@
 # FUNCTION def
-
+from difflib import restore
 # PRACTICE TIME
 
 #1-задача: **расчет стоимости заказа**
@@ -119,6 +119,34 @@ from ftplib import all_errors
 #
 # merge_file("file1.txt", "file2.txt", "file3.txt", "overall_file.txt")
 
+
+
+# 1-задача: калькулятор скидок
+
+def calculate_discount(total_amount, is_discount=False, is_loyal_customer=False):
+
+    def main_discount(amount):
+
+        summary1 = amount * 0.1
+        return is_discount * summary1
+
+    def loyalty_customer(amount):
+
+        summary2 = amount * 0.05
+        return is_loyal_customer * summary2
+
+
+    result1 = main_discount(total_amount)
+    total_amount = total_amount - result1
+
+    result2 = loyalty_customer(total_amount)
+    total_amount = total_amount - result2
+
+    return total_amount
+
+
+overall = calculate_discount(12000, is_discount=True, is_loyal_customer=True)
+print(overall)
 
 
 

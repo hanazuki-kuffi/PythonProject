@@ -72,13 +72,30 @@ from ftplib import all_errors
 # #Функция должна:
 # #Принимать четыре аргумента:
 #
-#
-#
-#
-#
-#
-#
-#
-#
-#
-#
+
+def merge_files(file1, file2, file3, output_file):
+
+    file_ = open(file1, "r", encoding="UTF-8")
+    read_file_ =file_.read()
+    file_.close()
+
+    file__ = open(file2, "r", encoding="UTF-8")
+    read_file__ = file__.read()
+    file__.close()
+
+
+    file___ = open(file3, "r", encoding="UTF-8")
+    read_file___ = file___.read()
+    file___.close()
+
+
+    output = open(output_file, "w", encoding="UTF")
+    output.write(read_file_ + "\n\n" + read_file__ + "\n\n" + read_file___)
+    output.close()
+
+
+merge_files("file1.txt", "file2.txt", "file3.txt", "destination123.txt")
+
+
+
+

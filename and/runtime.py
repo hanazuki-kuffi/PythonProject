@@ -1040,3 +1040,37 @@ print(selection)
 tasks = ['Check email', 'Call the client', 'Write a report', 'Go to a meeting', 'Schedule tomorrow', 'Send documents']
 
 completed_tasks = input("Which you have already completed?: ")
+
+# 1-задача: форматирование строки в трех стилях
+
+def c_style_formatting(name, age, average_points):
+    return "Меня зовут %s, мне %d лет, мой средний балл %.1f." %(name, age, average_points)
+
+
+def formatting_with_format(name, age, average_points):
+    return "Меня зовут {}, мне {} лет, мой средний балл {}.".format(name, age, average_points)
+
+def formatting_with_f_string(name, age, average_points):
+    return f"Меня зовут {name}, мне {age} лет, мой средний балл {average_points}."
+
+
+def grade_point_average_calculation(points):
+    return sum(points) / len(points) #sum 5+4+3+5+5+5 = 27 / 6
+
+
+
+
+name = "Kuffi"
+age = 21
+points = [5, 4, 3, 5, 5, 5]
+
+average_points = grade_point_average_calculation(points)
+
+text_1 = c_style_formatting(name, age, average_points)
+text_2 = formatting_with_format(name, age, average_points)
+text_3 = formatting_with_f_string(name, age, average_points)
+
+
+print("C-style:", text_1)
+print("format():", text_2)
+print("f-string:", text_3)

@@ -947,3 +947,96 @@ def count_stats(name_file):
 
 list_lines = count_stats('sample.txt')
 print(list_lines)
+
+
+# Задача 1:
+queue = ["Anna", "Boris", "Victor"]
+new_list = ["Grigori", "Dina"]
+queue.extend(new_list)
+print(queue)
+
+removed_name = queue.pop(0)
+processed_applications = []
+processed_applications.append(removed_name)
+print(processed_applications)
+
+
+
+
+#Задача 2:
+
+products = ["Bread", "milk", "cheese"]
+products.append("egg")
+
+products.insert(1, "oil")
+
+products.remove("milk")
+print(products)
+
+
+# Задача 3:
+
+grades = 5, 4, 3, 5, 4
+
+overall = sum(grades) // len(grades)
+print(overall)
+
+
+# Задача 4:
+
+a = [1, 2, 3]
+b = [4, 5]
+a.extend(b)
+print(a)
+
+
+# Задача 5:
+words = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
+
+quantity = words.count("apple")
+print(quantity)
+
+# Задача 6:
+#
+nums = [1, 2, 3, 2, 4, 2, 5]
+
+#используем for
+# внтри for идет через count() то есть количество повторных числов
+# извлечь из этого через remove
+
+find_num = nums.count(2)
+
+for i in range(find_num):
+    nums.remove(2)
+
+print(nums)
+
+#Задача 7:
+
+cities = ['Москва', 'Cанкт-Петербург', 'Казань', 'Новосибирск', 'Екатеринбург']
+
+index_object = cities.index('Казань')
+print(index_object)
+
+
+# Задача 8:
+
+numbers = [7, 3, 5, 3, 9, 1]
+
+pos = numbers.index(3)
+print(f"The number 3 is in position: {pos}")
+
+# Задача 9:
+
+fruits = ['apple', 'banana', 'kiwi', 'orange', 'pear', 'mango', 'pineapple']
+
+index1 = fruits.index("kiwi")
+index2 = fruits.index("mango")
+
+selection = fruits[index1:index2 + 1]
+print(selection)
+
+# # Задача 10:
+tasks = ['Check email', 'Call the client', 'Write a report', 'Go to a meeting', 'Schedule tomorrow', 'Send documents']
+
+completed_tasks = input("Which you have already completed?: ")

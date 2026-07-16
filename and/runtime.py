@@ -1114,3 +1114,51 @@ print(f"+7 ({new_part1}) {new_part2} {new_part3} {new_part4}")
 
 # new_format = "+7 ".join(tuple_number)
 # print(new_format)
+
+# phone = "87011234567"   #+X (XXX) XXX XX XX
+#
+# tuple_number = tuple(phone) #гавно код 🤣🤣
+# new_tuple = tuple_number[1:]
+# new_list = list(new_tuple)
+# new_text = "".join(new_list)
+#
+# new_part1 = new_text[0:3]
+# print(new_part1)
+#
+# new_part2 = new_text[3:6]
+# print(new_part2)
+#
+# new_part3 = new_text[6:8]
+# print(new_part3)
+#
+# new_part4 = new_text[8:10]
+# print(new_part4)
+#
+#
+# print(f"+7 ({new_part1}) {new_part2} {new_part3} {new_part4}")
+
+
+#
+# def convert_number(old_phone_number):
+#
+#     tuple_number = tuple(old_phone_number)
+#
+#     new_part1 = "".join(tuple_number[1:4])
+#     new_part2 = "".join(tuple_number[4:6])
+#     new_part3 = "".join(tuple_number[6:8])
+#     new_part4 = "".join(tuple_number[8:10])
+#
+#     new_phone_number = f"+7 ({new_part1}) {"-".join((new_part2, new_part3,new_part4))}"
+#
+#     return new_phone_number
+#
+#
+#
+#
+# phone = "87011234567"
+# new_phone = convert_number(phone)
+# print(new_phone)
+#
+# phone = "87031234347"
+# new_phone = convert_number(phone)
+# print(new_phone)

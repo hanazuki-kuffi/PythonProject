@@ -1074,3 +1074,23 @@ text_3 = formatting_with_f_string(name, age, average_points)
 print("C-style:", text_1)
 print("format():", text_2)
 print("f-string:", text_3)
+
+
+
+phone = "87011234567"
+
+
+
+
+tuple_number = tuple(phone)
+print(tuple_number)
+
+new_tuple = tuple_number[1:]
+print(new_tuple)
+
+
+
+
+
+# new_format = "+7 ".join(tuple_number)
+# print(new_format)

@@ -1162,3 +1162,15 @@ new_list = list(new_tuple)
 # phone = "87031234347"
 # new_phone = convert_number(phone)
 # print(new_phone)
+
+
+# text = "кот собака кот птица собака кот"
+#
+#
+# word_count = {
+#     "кот": text.count("кот"),
+#     "собака": text.count("собака"),
+#     "птица": text.count("птица")
+# }
+#
+# print(word_count)

@@ -1094,22 +1094,22 @@ phone = "87011234567"   #+X (XXX) XXX XX XX
 tuple_number = tuple(phone) #гавно код 🤣🤣
 new_tuple = tuple_number[1:]
 new_list = list(new_tuple)
-new_text = "".join(new_list)
-
-new_part1 = new_text[0:3]
-print(new_part1)
-
-new_part2 = new_text[3:6]
-print(new_part2)
-
-new_part3 = new_text[6:8]
-print(new_part3)
-
-new_part4 = new_text[8:10]
-print(new_part4)
-
-
-print(f"+7 ({new_part1}) {new_part2} {new_part3} {new_part4}")
+# new_text = "".join(new_list)
+#
+# new_part1 = new_text[0:3]
+# print(new_part1)
+#
+# new_part2 = new_text[3:6]
+# print(new_part2)
+#
+# new_part3 = new_text[6:8]
+# print(new_part3)
+#
+# new_part4 = new_text[8:10]
+# print(new_part4)
+#
+#
+# print(f"+7 ({new_part1}) {new_part2} {new_part3} {new_part4}")
 
 
 # new_format = "+7 ".join(tuple_number)

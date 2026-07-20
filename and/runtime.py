@@ -1206,3 +1206,70 @@ new_list = list(new_tuple)
 # prices["апельсин"] *= 0.8
 #
 # print(prices)
+
+# 1-задача: извлечение значений из словаря
+prices = {
+    "яблоко": 100,
+    "банан": 80,
+    "апельсин": 120
+}
+
+
+discounted_prices = {
+    "яблоко": prices["яблоко"] * 0.8,
+    "банан": prices["банан"] * 0.8,
+    "апельсин": prices["апельсин"] * 0.8
+}
+
+print(discounted_prices)
+
+# Дополнительное задание:
+# Попробуйте изменить существующий словарь не создавая новый
+
+prices = {
+    "яблоко": 100,
+    "банан": 80,
+    "апельсин": 120
+}
+
+prices["яблоко"] *= 0.8
+prices["банан"] *= 0.8
+prices["апельсин"] *= 0.8
+
+print(prices)
+
+
+# 2-задача.
+
+students = {}
+
+def add_student(dct, name_stud, grade1, grade2, grade3):
+
+      dct[name_stud] = {f"Math: {grade1}", f"Literature: {grade2}", f"Physics: {grade3}"}
+
+      return students
+
+add_student(students, "Zoro", 90, 90, 90)
+add_student(students, "Nami", 85, 80, 78)
+add_student(students, "Sanji", 75, 90, 100)
+add_student(students, "black_beard", 80, 80, 80)
+
+print(students)
+
+
+def remove_student(dct, name_stud):
+
+    del dct[name_stud]
+
+    return dct
+
+remove_student(students, 'black_beard')
+print("'black_beard'  удален из списка студентов.") # сомнения есть что здесь какая то ошибка 😑
+
+
+def display_students(dct):
+
+    return dct
+
+print("Список студентов и их оценки:")
+print(display_students(students))

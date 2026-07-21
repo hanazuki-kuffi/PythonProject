@@ -876,224 +876,224 @@ print(orders)
 #
 #     new_list = arguments.split(",")
 #     return new_list
+# #
+# # fruits = text_to_list("яблоко,банан,груша,киви")
+# # print(fruits)
+# #
+# #
+# # # Задача 3:
+# # numbers = input("Введите числа через пробел: ")
+# #
+# # new_list = numbers.split()
+# # print(new_list)
+# #
+# #
+# # def converting(lst):
+# #
+# #     lst = int(numbers) #new_list добавить через for по списку new_list
+# #     return lst #можно не записывать
+# #
+# # number_list = new_list
+# #
+# # converting(new_list)
+# # print(new_list) # чет выдает ошибку
+# #
+# # # Задача 4:
+# #
+# # def count_stats(name_file):
+# #
+# #     new_file = open(name_file, "r", encoding= "UTF-8")
+# #     read_file = new_file.read()
+# #     new_file.close()
+# #
+# #     new_list = name_file.split(",")
+# #     return new_list
+# #
+# # list_lines = count_stats('sample.txt')
+# # print(list_lines)
+# #
+# #
+# # # Задача 5:
+# #
+# # def count_stats(name_file):
 #
-# fruits = text_to_list("яблоко,банан,груша,киви")
-# print(fruits)
+# # numbers = input("Введите числа через пробел: ")
+# #
+# # new_list = numbers.split()
+# #
+# # def converting(lst):
+# #
+# #     for i in new_list:
+# #         int(i)
 #
-#
-# # Задача 3:
-# numbers = input("Введите числа через пробел: ")
-#
-# new_list = numbers.split()
-# print(new_list)
-#
-#
-# def converting(lst):
-#
-#     lst = int(numbers) #new_list добавить через for по списку new_list
-#     return lst #можно не записывать
-#
-# number_list = new_list
-#
-# converting(new_list)
-# print(new_list) # чет выдает ошибку
-#
-# # Задача 4:
+# #
+# # converting(new_list)
+# # print(new_list)
 #
 # def count_stats(name_file):
 #
-#     new_file = open(name_file, "r", encoding= "UTF-8")
+#     new_file = open(name_file, "r", encoding="UTF-8")
 #     read_file = new_file.read()
 #     new_file.close()
 #
-#     new_list = name_file.split(",")
-#     return new_list
+#     new_list = read_file.split()
+#     count_word = new_list.count(" ") + 1
+#
+#     count_line = read_file.count("\n")
+#
+#     total = count_word, count_line
+#
+#     return tuple(total)
 #
 # list_lines = count_stats('sample.txt')
 # print(list_lines)
 #
 #
+# # Задача 1:
+# queue = ["Anna", "Boris", "Victor"]
+# new_list = ["Grigori", "Dina"]
+# queue.extend(new_list)
+# print(queue)
+#
+# removed_name = queue.pop(0)
+# processed_applications = []
+# processed_applications.append(removed_name)
+# print(processed_applications)
+#
+#
+#
+#
+# #Задача 2:
+#
+# products = ["Bread", "milk", "cheese"]
+# products.append("egg")
+#
+# products.insert(1, "oil")
+#
+# products.remove("milk")
+# print(products)
+#
+#
+# # Задача 3:
+#
+# grades = 5, 4, 3, 5, 4
+#
+# overall = sum(grades) // len(grades)
+# print(overall)
+#
+#
+# # Задача 4:
+#
+# a = [1, 2, 3]
+# b = [4, 5]
+# a.extend(b)
+# print(a)
+#
+#
 # # Задача 5:
+# words = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
 #
-# def count_stats(name_file):
-
-# numbers = input("Введите числа через пробел: ")
+# quantity = words.count("apple")
+# print(quantity)
 #
-# new_list = numbers.split()
+# # Задача 6:
+# #
+# nums = [1, 2, 3, 2, 4, 2, 5]
 #
-# def converting(lst):
+# #используем for
+# # внтри for идет через count() то есть количество повторных числов
+# # извлечь из этого через remove
 #
-#     for i in new_list:
-#         int(i)
-
+# find_num = nums.count(2)
 #
-# converting(new_list)
-# print(new_list)
-
-def count_stats(name_file):
-
-    new_file = open(name_file, "r", encoding="UTF-8")
-    read_file = new_file.read()
-    new_file.close()
-
-    new_list = read_file.split()
-    count_word = new_list.count(" ") + 1
-
-    count_line = read_file.count("\n")
-
-    total = count_word, count_line
-
-    return tuple(total)
-
-list_lines = count_stats('sample.txt')
-print(list_lines)
-
-
-# Задача 1:
-queue = ["Anna", "Boris", "Victor"]
-new_list = ["Grigori", "Dina"]
-queue.extend(new_list)
-print(queue)
-
-removed_name = queue.pop(0)
-processed_applications = []
-processed_applications.append(removed_name)
-print(processed_applications)
-
-
-
-
-#Задача 2:
-
-products = ["Bread", "milk", "cheese"]
-products.append("egg")
-
-products.insert(1, "oil")
-
-products.remove("milk")
-print(products)
-
-
-# Задача 3:
-
-grades = 5, 4, 3, 5, 4
-
-overall = sum(grades) // len(grades)
-print(overall)
-
-
-# Задача 4:
-
-a = [1, 2, 3]
-b = [4, 5]
-a.extend(b)
-print(a)
-
-
-# Задача 5:
-words = ['apple', 'banana', 'apple', 'orange', 'banana', 'apple']
-
-quantity = words.count("apple")
-print(quantity)
-
-# Задача 6:
+# for i in range(find_num):
+#     nums.remove(2)
 #
-nums = [1, 2, 3, 2, 4, 2, 5]
-
-#используем for
-# внтри for идет через count() то есть количество повторных числов
-# извлечь из этого через remove
-
-find_num = nums.count(2)
-
-for i in range(find_num):
-    nums.remove(2)
-
-print(nums)
-
-#Задача 7:
-
-cities = ['Москва', 'Cанкт-Петербург', 'Казань', 'Новосибирск', 'Екатеринбург']
-
-index_object = cities.index('Казань')
-print(index_object)
-
-
-# Задача 8:
-
-numbers = [7, 3, 5, 3, 9, 1]
-
-pos = numbers.index(3)
-print(f"The number 3 is in position: {pos}")
-
-# Задача 9:
-
-fruits = ['apple', 'banana', 'kiwi', 'orange', 'pear', 'mango', 'pineapple']
-
-index1 = fruits.index("kiwi")
-index2 = fruits.index("mango")
-
-selection = fruits[index1:index2 + 1]
-print(selection)
-
-# # Задача 10:
-tasks = ['Check email', 'Call the client', 'Write a report', 'Go to a meeting', 'Schedule tomorrow', 'Send documents']
-
-completed_tasks = input("Which you have already completed?: ")
-
-# 1-задача: форматирование строки в трех стилях
-
-def c_style_formatting(name, age, average_points):
-    return "Меня зовут %s, мне %d лет, мой средний балл %.1f." %(name, age, average_points)
-
-
-def formatting_with_format(name, age, average_points):
-    return "Меня зовут {}, мне {} лет, мой средний балл {}.".format(name, age, average_points)
-
-def formatting_with_f_string(name, age, average_points):
-    return f"Меня зовут {name}, мне {age} лет, мой средний балл {average_points}."
-
-
-def grade_point_average_calculation(points):
-    return sum(points) / len(points) #sum 5+4+3+5+5+5 = 27 / 6
-
-
-
-
-name = "Kuffi"
-age = 21
-points = [5, 4, 3, 5, 5, 5]
-
-average_points = grade_point_average_calculation(points)
-
-text_1 = c_style_formatting(name, age, average_points)
-text_2 = formatting_with_format(name, age, average_points)
-text_3 = formatting_with_f_string(name, age, average_points)
-
-
-print("C-style:", text_1)
-print("format():", text_2)
-print("f-string:", text_3)
-
-
-
-phone = "87011234567"
-
-
-
-
-tuple_number = tuple(phone)
-print(tuple_number)
-
-new_tuple = tuple_number[1:]
-print(new_tuple)
-
-
-phone = "87011234567"   #+X (XXX) XXX XX XX
-
-tuple_number = tuple(phone) #гавно код 🤣🤣
-new_tuple = tuple_number[1:]
-new_list = list(new_tuple)
+# print(nums)
+#
+# #Задача 7:
+#
+# cities = ['Москва', 'Cанкт-Петербург', 'Казань', 'Новосибирск', 'Екатеринбург']
+#
+# index_object = cities.index('Казань')
+# print(index_object)
+#
+#
+# # Задача 8:
+#
+# numbers = [7, 3, 5, 3, 9, 1]
+#
+# pos = numbers.index(3)
+# print(f"The number 3 is in position: {pos}")
+#
+# # Задача 9:
+#
+# fruits = ['apple', 'banana', 'kiwi', 'orange', 'pear', 'mango', 'pineapple']
+#
+# index1 = fruits.index("kiwi")
+# index2 = fruits.index("mango")
+#
+# selection = fruits[index1:index2 + 1]
+# print(selection)
+#
+# # # Задача 10:
+# tasks = ['Check email', 'Call the client', 'Write a report', 'Go to a meeting', 'Schedule tomorrow', 'Send documents']
+#
+# completed_tasks = input("Which you have already completed?: ")
+#
+# # 1-задача: форматирование строки в трех стилях
+#
+# def c_style_formatting(name, age, average_points):
+#     return "Меня зовут %s, мне %d лет, мой средний балл %.1f." %(name, age, average_points)
+#
+#
+# def formatting_with_format(name, age, average_points):
+#     return "Меня зовут {}, мне {} лет, мой средний балл {}.".format(name, age, average_points)
+#
+# def formatting_with_f_string(name, age, average_points):
+#     return f"Меня зовут {name}, мне {age} лет, мой средний балл {average_points}."
+#
+#
+# def grade_point_average_calculation(points):
+#     return sum(points) / len(points) #sum 5+4+3+5+5+5 = 27 / 6
+#
+#
+#
+#
+# name = "Kuffi"
+# age = 21
+# points = [5, 4, 3, 5, 5, 5]
+#
+# average_points = grade_point_average_calculation(points)
+#
+# text_1 = c_style_formatting(name, age, average_points)
+# text_2 = formatting_with_format(name, age, average_points)
+# text_3 = formatting_with_f_string(name, age, average_points)
+#
+#
+# print("C-style:", text_1)
+# print("format():", text_2)
+# print("f-string:", text_3)
+#
+#
+#
+# phone = "87011234567"
+#
+#
+#
+#
+# tuple_number = tuple(phone)
+# print(tuple_number)
+#
+# new_tuple = tuple_number[1:]
+# print(new_tuple)
+#
+#
+# phone = "87011234567"   #+X (XXX) XXX XX XX
+#
+# tuple_number = tuple(phone) #гавно код 🤣🤣
+# new_tuple = tuple_number[1:]
+# new_list = list(new_tuple)
 # new_text = "".join(new_list)
 #
 # new_part1 = new_text[0:3]

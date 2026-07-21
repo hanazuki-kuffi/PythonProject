@@ -1247,29 +1247,29 @@ def add_student(dct, name_stud, grade1, grade2, grade3):
 
       dct[name_stud] = {f"Math: {grade1}", f"Literature: {grade2}", f"Physics: {grade3}"}
 
-      return students
-
-add_student(students, "Zoro", 90, 90, 90)
-add_student(students, "Nami", 85, 80, 78)
-add_student(students, "Sanji", 75, 90, 100)
-add_student(students, "black_beard", 80, 80, 80)
-
-print(students)
-
-
-def remove_student(dct, name_stud):
-
-    del dct[name_stud]
-
-    return dct
-
-remove_student(students, 'black_beard')
-print("'black_beard'  удален из списка студентов.") # сомнения есть что здесь какая то ошибка 😑
-
-
-def display_students(dct):
-
-    return dct
-
-print("Список студентов и их оценки:")
-print(display_students(students))
+#       return students
+#
+# add_student(students, "Zoro", 90, 90, 90)
+# add_student(students, "Nami", 85, 80, 78)
+# add_student(students, "Sanji", 75, 90, 100)
+# add_student(students, "black_beard", 80, 80, 80)
+#
+# print(students)
+#
+#
+# def remove_student(dct, name_stud):
+#
+#     del dct[name_stud]
+#
+#     return dct
+#
+# remove_student(students, 'black_beard')
+# print("'black_beard'  удален из списка студентов.") # сомнения есть что здесь какая то ошибка 😑
+#
+#
+# def display_students(dct):
+#
+#     return dct
+#
+# print("Список студентов и их оценки:")
+# print(display_students(students))

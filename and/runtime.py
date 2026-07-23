@@ -1274,17 +1274,26 @@ def add_student(dct, name_stud, grade1, grade2, grade3):
 # print("Список студентов и их оценки:")
 # print(display_students(students))
 
-word_value = int(input("Введите количество слов, которые вы хотите добавить: "))
+word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #3
 print()
 
-results = {}
-i = 0
-while i < word_value:
-    translate_word = input("Введите слово и его перевод через знак '-': ")
+while True:
+    dictionary = {}
+    i = 0
+    while i < word_value:
+        translate_word = input("Введите слово и его перевод через знак '-': ")
+        i += 1
 
-    i += 1
+        dictionary[i] = translate_word.split("-")
 
-for g in range(word_value):
-    print(g)
-current_word = input("Введите слово для перевода: ")
-print("Слово переводится: ")
+    print(dictionary)
+
+    for key, value in dictionary.items():
+        print(value)
+
+    current_word = input("Введите слово для перевода: ")
+
+    if current_word != key or value:
+        print("Такого слова нет в словаре.")
+    else:
+        print(f"Слово переводится: {translate_word}")

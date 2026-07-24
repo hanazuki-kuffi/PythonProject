@@ -1213,41 +1213,41 @@ prices = {
     "банан": 80,
     "апельсин": 120
 }
-
-
-discounted_prices = {
-    "яблоко": prices["яблоко"] * 0.8,
-    "банан": prices["банан"] * 0.8,
-    "апельсин": prices["апельсин"] * 0.8
-}
-
-print(discounted_prices)
-
-# Дополнительное задание:
-# Попробуйте изменить существующий словарь не создавая новый
-
-prices = {
-    "яблоко": 100,
-    "банан": 80,
-    "апельсин": 120
-}
-
-prices["яблоко"] *= 0.8
-prices["банан"] *= 0.8
-prices["апельсин"] *= 0.8
-
-print(prices)
-
-
-# 2-задача.
-
-students = {}
-
-def add_student(dct, name_stud, grade1, grade2, grade3):
-
-      dct[name_stud] = {f"Math: {grade1}", f"Literature: {grade2}", f"Physics: {grade3}"}
-
-#       return students
+#
+#
+# discounted_prices = {
+#     "яблоко": prices["яблоко"] * 0.8,
+#     "банан": prices["банан"] * 0.8,
+#     "апельсин": prices["апельсин"] * 0.8
+# }
+#
+# print(discounted_prices)
+#
+# # Дополнительное задание:
+# # Попробуйте изменить существующий словарь не создавая новый
+#
+# prices = {
+#     "яблоко": 100,
+#     "банан": 80,
+#     "апельсин": 120
+# }
+#
+# prices["яблоко"] *= 0.8
+# prices["банан"] *= 0.8
+# prices["апельсин"] *= 0.8
+#
+# print(prices)
+#
+#
+# # 2-задача.
+#
+# students = {}
+#
+# def add_student(dct, name_stud, grade1, grade2, grade3):
+#
+#       dct[name_stud] = {f"Math: {grade1}", f"Literature: {grade2}", f"Physics: {grade3}"}
+#
+# #       return students
 #
 # add_student(students, "Zoro", 90, 90, 90)
 # add_student(students, "Nami", 85, 80, 78)

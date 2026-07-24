@@ -1313,6 +1313,8 @@ prices = {
 #
 # # После выхода из цикла работаем со всей собранной базой
 # print("Итоговый список студентов:", students_db)
+
+
 tasks = [
     {"id": 1, "title": "to buy milk", "status": "in progress"},
     {"id": 2, "title": "finish the report", "status": "ready"},

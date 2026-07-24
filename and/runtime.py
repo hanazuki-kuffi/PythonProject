@@ -1299,7 +1299,7 @@ prices = {
 #         print(f"Слово переводится: {translate_word}")
 
 
-students_db = {}
+# students_db = {}
 
 # while True:
 #     name = input("Введите имя студента (или 'выход'): ")
@@ -1313,3 +1313,8 @@ students_db = {}
 #
 # # После выхода из цикла работаем со всей собранной базой
 # print("Итоговый список студентов:", students_db)
+tasks = [
+    {"id": 1, "title": "to buy milk", "status": "in progress"},
+    {"id": 2, "title": "finish the report", "status": "ready"},
+    {"id": 3, "title": "make an appointment with a dentist"}
+]

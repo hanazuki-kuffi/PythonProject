@@ -1320,3 +1320,18 @@ tasks = [
     {"id": 2, "title": "finish the report", "status": "ready"},
     {"id": 3, "title": "make an appointment with a dentist"}
 ]
+
+word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #1)сперва я спрошу у пользователя напсать количество слова с переводом для добавления в словарь
+print() # оставлю пустой строка
+dictionary = {}
+i = 0
+while i < word_value:
+    translate_word = input("Введите слово и его перевод через знак '-': ")
+    words = translate_word.split("-")
+    print(words)
+    key_word = words[0]
+    value_word = words[1]
+    dictionary[key_word] = value_word
+    dictionary[value_word] = key_word
+    print(dictionary)
+    i += 1

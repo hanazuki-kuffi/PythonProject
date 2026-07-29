@@ -1401,17 +1401,17 @@ formatted_contacts["Жан Сугуров"] = convert_number(contacts["Жан С
 print(formatted_contacts)
 
 
-tasks = [
-    {"id": 1, "title": "to buy milk", "status": "in progress"},
-    {"id": 2, "title": "finish the report", "status": "ready"},
-    {"id": 3, "title": "make an appointment with a dentist", "status": "not started"}
-]
-
-
-def display_tasks(tasks):
-    result = ""
-    for task in tasks:
-        result += f"[ID:{task["id"]}] {task["title"]} - {task["status"]}\n"
-    return result
-
-print(display_tasks(tasks))
+# tasks = [
+#     {"id": 1, "title": "to buy milk", "status": "in progress"},
+#     {"id": 2, "title": "finish the report", "status": "ready"},
+#     {"id": 3, "title": "make an appointment with a dentist", "status": "not started"}
+# ]
+#
+#
+# def display_tasks(tasks):
+#     result = ""
+#     for task in tasks:
+#         result += f"[ID:{task["id"]}] {task["title"]} - {task["status"]}\n"
+#     return result
+#
+# print(display_tasks(tasks))

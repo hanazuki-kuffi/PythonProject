@@ -1415,3 +1415,26 @@ print(formatted_contacts)
 #     return result
 #
 # print(display_tasks(tasks))
+
+
+
+info = input("Введите информацию: ") #12
+
+if info in ("True", "False"):
+    info = True if info == "True" else False
+    print(f"Result: {not info}")
+    print(f"Тип данных: <class 'bool'>")
+
+elif info.isdigit():
+    info = int(info)
+    print(f"Result: {info / 2}")
+    print(f"Тип данных: <class 'int'>")
+
+else:
+    try:
+        info = float(info)
+        print(f"Result: {float(info)}")
+        print(f"Тип данных: <class 'float'>")
+    except ValueError:
+        print(f"Result: {info.upper()}")
+        print(f"Тип данных: <class 'str'>")

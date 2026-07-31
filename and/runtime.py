@@ -1418,23 +1418,61 @@ print(formatted_contacts)
 
 
 
-info = input("Введите информацию: ") #12
+# info = input("Введите информацию: ") #12
+#
+# if info in ("True", "False"):
+#     info = True if info == "True" else False
+#     print(f"Result: {not info}")
+#     print(f"Тип данных: <class 'bool'>")
+#
+# elif info.isdigit():
+#     info = int(info)
+#     print(f"Result: {info / 2}")
+#     print(f"Тип данных: <class 'int'>")
+#
+# else:
+#     try:
+#         info = float(info)
+#         print(f"Result: {float(info)}")
+#         print(f"Тип данных: <class 'float'>")
+#     except ValueError:
+#         print(f"Result: {info.upper()}")
+#         print(f"Тип данных: <class 'str'>")
 
-if info in ("True", "False"):
-    info = True if info == "True" else False
-    print(f"Result: {not info}")
-    print(f"Тип данных: <class 'bool'>")
 
-elif info.isdigit():
-    info = int(info)
-    print(f"Result: {info / 2}")
-    print(f"Тип данных: <class 'int'>")
 
-else:
-    try:
-        info = float(info)
-        print(f"Result: {float(info)}")
-        print(f"Тип данных: <class 'float'>")
-    except ValueError:
-        print(f"Result: {info.upper()}")
-        print(f"Тип данных: <class 'str'>")
+
+
+def replace(text, old, new):
+
+    new_result = text.index(old) #здесь мы ставили на текст индекс самого old
+    new_slice = text[new_result:len(text)]
+
+
+
+
+
+print(replace("Hello new world", "new", "old"))
+
+
+
+
+
+# text = "Hello new World"
+#
+# new_text = text.replace("new", "old")
+# print(new_text)
+#
+# new_text1 = text.index("new")
+# print(new_text1)
+#
+# new_text2 = new_text1
+
+
+
+
+#через длину списка мы определяем что пользователь ввел и кароче мы определимся с длиной списка
+# строка само по себе имеет свой индекс
+# через индекс мы получаем необходимые данные и затем мы можем брать нужный нам подстрока и заменяя его новым строкой при этом мы создаем уже новый строка  с новыми переменными
+# если метод .index найдет только первый символ подстроке сзначит чтоб я его могла полностью заменять мне нужно будет срез и через срез мы делаем следующее
+# допустим у меня есть ресурс на котором я могу опредеит сколько символов и слов написал пользователь и работать над этим но акка? смотри пользователь ввел что то что конкретно мы не можем видеть но мы можем узнать с помощбю инструмента lrn() и определимся что пользователь ввел какой то слов со длином например в нашем случае 15 и

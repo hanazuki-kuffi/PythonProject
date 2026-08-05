@@ -1443,16 +1443,16 @@ print(formatted_contacts)
 
 
 
-def replace(text, old, new):
-
-    new_result = text.index(old) #здесь мы ставили на текст индекс самого old
-    new_slice = text[new_result:len(text)]
-
-
-
-
-
-print(replace("Hello new world", "new", "old"))
+# def replace(text, old, new):
+#
+#     new_result = text.index(old) #здесь мы ставили на текст индекс самого old
+#     new_slice = text[new_result:len(text)]
+#
+#
+#
+#
+#
+# print(replace("Hello new world", "new", "old"))
 
 
 

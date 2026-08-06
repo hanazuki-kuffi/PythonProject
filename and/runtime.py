@@ -1478,14 +1478,14 @@ print(formatted_contacts)
 # допустим у меня есть ресурс на котором я могу опредеит сколько символов и слов написал пользователь и работать над этим но акка? смотри пользователь ввел что то что конкретно мы не можем видеть но мы можем узнать с помощбю инструмента lrn() и определимся что пользователь ввел какой то слов со длином например в нашем случае 15 и
 
 
-def replace(text, old, new):
-    new_result = text.index(old)
-    old_slice = text[new_result+len(old)]
-
-    left_slice = text[:new_result]
-    right_slice = text[old_slice:]
-
-    return left_slice + new + right_slice
-
-
-replace("Hello new world", "new", "old")
+# def replace(text, old, new):
+#     new_result = text.index(old)
+#     old_slice = text[new_result+len(old)]
+#
+#     left_slice = text[:new_result]
+#     right_slice = text[old_slice:]
+#
+#     return left_slice + new + right_slice
+#
+#
+# replace("Hello new world", "new", "old")

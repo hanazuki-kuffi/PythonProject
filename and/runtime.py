@@ -1501,3 +1501,16 @@ print(formatted_contacts)
 #
 #
 # print(replace("Hello new world", "new", "old"))
+
+
+file1 = open("tasks.txt", "w", encoding="UTF-8")
+file1.write("id; title; status")
+file1.close()
+
+file2 = open("users.txt", "w", encoding="UTF-8")
+file2.write("id; name; email; phone")
+file2.close()
+
+file3 = open("history.txt", "w", encoding="UTF-8")
+file3.write("timestamp; task-id; action; description")
+file3.close()

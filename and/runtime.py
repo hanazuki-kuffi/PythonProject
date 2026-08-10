@@ -591,167 +591,167 @@ file_2.close()
 # plan = ["учёба", "спорт", "отдых"]
 # plan[1] = "работа"
 # print(plan)
+# # #
+# # # # 9-задача:
+# # #
+# # fruits = ["яблоко", "банан", "груша", "апельсин", "киви"]
+# # #
+# # del fruits[3]
+# # print(fruits) #это считается ли обновленным списком?
+# # print(len(fruits))
 # #
-# # # 9-задача:
 # #
-# fruits = ["яблоко", "банан", "груша", "апельсин", "киви"]
+# # # 10-задача:
+# # # Создайте список numbers = [100, 200, 300, 400, 500, 600, 700]
 # #
-# del fruits[3]
-# print(fruits) #это считается ли обновленным списком?
-# print(len(fruits))
+# # numbers = [100, 200, 300, 400, 500, 600, 700]
+# #
+# # new_list = numbers[1:6]
+# #
+# # new_list.append(999)
+# #
+# # new_list[0] = 111
+# #
+# # del new_list[2]
+# # print(new_list)
+# #
+# # print()
+# # print(new_list)
+# # print(len(new_list))
 #
 #
-# # 10-задача:
-# # Создайте список numbers = [100, 200, 300, 400, 500, 600, 700]
-#
-# numbers = [100, 200, 300, 400, 500, 600, 700]
-#
-# new_list = numbers[1:6]
-#
-# new_list.append(999)
-#
-# new_list[0] = 111
-#
-# del new_list[2]
-# print(new_list)
-#
-# print()
-# print(new_list)
-# print(len(new_list))
-
-
-# 1-задача.
-
-def update_list(number, lst):
-
-    raise_number = number ** 2
-    numbers.append(raise_number)
-
-    return numbers
-
-numbers = [16, 144, 81]
-
-result = update_list(5, numbers)
-print(result)
-
-
-#2-задача.
-
-def no_first_and_last(lst):
-
-    return lst[1], lst[2], lst[3]
-
-result = no_first_and_last([1, 2, 3, 4, 5])
-print(result)
-
-
-# 3-задача.
-
-def  last_three(lst):
-
-    return lst[-3], lst[-2], lst[-1]
-
-result = last_three([1, 2, 3, 4, 5])
-print(result)
-
-
-# 4-задача.
-
-def second_half(lst):
-
-    return lst[-4], lst[-3], lst[-2], lst[-1]
-
-result = second_half([1, 2, 3, 4, 5, 6, 7, 8])
-print(result)
-
-
-# 5-задача.
-def delete_second_third(lst):
-
-    del list_words[1]
-
-    return list_words
-
-list_words = ['один', 'два', 'три', 'четыре', 'пять']
-delete_second_third(list_words)
-print(list_words)
-
-
 # # 1-задача.
-def get_three_elements(lst):
-
-    three_elements = lst[1:4]
-
-    return three_elements
-numbers = [23, 56, 88, 44, 25, 98, 100]
 #
-slice_list = get_three_elements(numbers)
-print(slice_list)
-# #
-# # # 2-задача.
-def get_every_other(lst):
-
-    every_other = lst[1:len(numbers):2]
-
-    return every_other
-
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
-
-slice_list = get_every_other(numbers)
-print(slice_list)
+# def update_list(number, lst):
+#
+#     raise_number = number ** 2
+#     numbers.append(raise_number)
+#
+#     return numbers
+#
+# numbers = [16, 144, 81]
+#
+# result = update_list(5, numbers)
+# print(result)
+#
+#
+# #2-задача.
+#
+# def no_first_and_last(lst):
+#
+#     return lst[1], lst[2], lst[3]
+#
+# result = no_first_and_last([1, 2, 3, 4, 5])
+# print(result)
+#
 #
 # # 3-задача.
 #
-def get_reverse_order(lst):
-
-    return lst[-1::-1]
-
-numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# def  last_three(lst):
 #
-new_numbers = get_reverse_order(numbers)
-print(new_numbers)
-
-# 4-задача.
+#     return lst[-3], lst[-2], lst[-1]
 #
-def replace_three_elements(lst):
-
-    numbers[1:4] = 100, 200
-
-numbers = [33, 99, 1, 4, 12, 57]
-
-
-replace_three_elements(numbers)
-print(numbers)
-
-# 5-задача.
-
-def delete_half(lst):
-
-    half = len(numbers) // 2
-
-    del numbers[0:half]
-
-numbers = [81, 93, 24, 83, 43, 89]
-
-delete_half(numbers)
-print(numbers)
-
-
-# 6-задача.
-
-orders = [
-    [201, "Монитор", 10],
-    [202, "Клавиатура", 15],
-    [203, "Мышь", 20],
-    [204, "Системный блок", 5]
-]
-
-first_orders = orders[0:2]
-
-first_orders[0].append("Срочно")
-
-print(first_orders)
-print(orders)
+# result = last_three([1, 2, 3, 4, 5])
+# print(result)
+#
+#
+# # 4-задача.
+#
+# def second_half(lst):
+#
+#     return lst[-4], lst[-3], lst[-2], lst[-1]
+#
+# result = second_half([1, 2, 3, 4, 5, 6, 7, 8])
+# print(result)
+#
+#
+# # 5-задача.
+# def delete_second_third(lst):
+#
+#     del list_words[1]
+#
+#     return list_words
+#
+# list_words = ['один', 'два', 'три', 'четыре', 'пять']
+# delete_second_third(list_words)
+# print(list_words)
+#
+#
+# # # 1-задача.
+# def get_three_elements(lst):
+#
+#     three_elements = lst[1:4]
+#
+#     return three_elements
+# numbers = [23, 56, 88, 44, 25, 98, 100]
+# #
+# slice_list = get_three_elements(numbers)
+# print(slice_list)
+# # #
+# # # # 2-задача.
+# def get_every_other(lst):
+#
+#     every_other = lst[1:len(numbers):2]
+#
+#     return every_other
+#
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+#
+# slice_list = get_every_other(numbers)
+# print(slice_list)
+# #
+# # # 3-задача.
+# #
+# def get_reverse_order(lst):
+#
+#     return lst[-1::-1]
+#
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# #
+# new_numbers = get_reverse_order(numbers)
+# print(new_numbers)
+#
+# # 4-задача.
+# #
+# def replace_three_elements(lst):
+#
+#     numbers[1:4] = 100, 200
+#
+# numbers = [33, 99, 1, 4, 12, 57]
+#
+#
+# replace_three_elements(numbers)
+# print(numbers)
+#
+# # 5-задача.
+#
+# def delete_half(lst):
+#
+#     half = len(numbers) // 2
+#
+#     del numbers[0:half]
+#
+# numbers = [81, 93, 24, 83, 43, 89]
+#
+# delete_half(numbers)
+# print(numbers)
+#
+#
+# # 6-задача.
+#
+# orders = [
+#     [201, "Монитор", 10],
+#     [202, "Клавиатура", 15],
+#     [203, "Мышь", 20],
+#     [204, "Системный блок", 5]
+# ]
+#
+# first_orders = orders[0:2]
+#
+# first_orders[0].append("Срочно")
+#
+# print(first_orders)
+# print(orders)
 
 
 # 1-задача.
@@ -1207,12 +1207,12 @@ print(orders)
 #
 # print(prices)
 
-# 1-задача: извлечение значений из словаря
-prices = {
-    "яблоко": 100,
-    "банан": 80,
-    "апельсин": 120
-}
+# # 1-задача: извлечение значений из словаря
+# prices = {
+#     "яблоко": 100,
+#     "банан": 80,
+#     "апельсин": 120
+# }
 #
 #
 # discounted_prices = {
@@ -1273,132 +1273,132 @@ prices = {
 #
 # print("Список студентов и их оценки:")
 # print(display_students(students))
-
-# word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #3
-# print()
 #
-# while True:
-#     dictionary = {}
-#     i = 0
-#     while i < word_value:
-#         translate_word = input("Введите слово и его перевод через знак '-': ")
-#         i += 1
+# # word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #3
+# # print()
+# #
+# # while True:
+# #     dictionary = {}
+# #     i = 0
+# #     while i < word_value:
+# #         translate_word = input("Введите слово и его перевод через знак '-': ")
+# #         i += 1
+# #
+# #         dictionary[i] = translate_word.split("-")
+# #
+# #     print(dictionary)
+# #
+# #     for key, value in dictionary.items():
+# #         print(value)
+# #
+# #     current_word = input("Введите слово для перевода: ")
+# #
+# #     if current_word != key or value:
+# #         print("Такого слова нет в словаре.")
+# #     else:
+# #         print(f"Слово переводится: {translate_word}")
 #
-#         dictionary[i] = translate_word.split("-")
 #
+# # students_db = {}
+#
+# # while True:
+# #     name = input("Введите имя студента (или 'выход'): ")
+# #     if name.lower() == 'выход':
+# #         break  # Выходим из бесконечного цикла
+# #
+# #     grade = input(f"Введите оценку для {name}: ")
+# #
+# #     # Сохраняем данные в словарь на каждой итерации
+# #     students_db[name] = grade
+# #
+# # # После выхода из цикла работаем со всей собранной базой
+# # print("Итоговый список студентов:", students_db)
+#
+#
+# tasks = [
+#     {"id": 1, "title": "to buy milk", "status": "in progress"},
+#     {"id": 2, "title": "finish the report", "status": "ready"},
+#     {"id": 3, "title": "make an appointment with a dentist"}
+# ]
+#
+# word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #1)сперва я спрошу у пользователя напсать количество слова с переводом для добавления в словарь
+# print() # оставлю пустой строка
+# dictionary = {}
+# i = 0
+# while i < word_value:
+#     translate_word = input("Введите слово и его перевод через знак '-': ")
+#     words = translate_word.split("-")
+#     print(words)
+#     key_word = words[0]
+#     value_word = words[1]
+#     dictionary[key_word] = value_word
+#     dictionary[value_word] = key_word
 #     print(dictionary)
+#     i += 1
 #
-#     for key, value in dictionary.items():
-#         print(value)
 #
-#     current_word = input("Введите слово для перевода: ")
+# word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #1)сперва я спрошу у пользователя напсать количество слова с переводом для добавления в словарь
+# print() # оставлю пустой строка
+# dictionary = {} #создам новый пустой словарь до цикла почему? потому что еслт я это добавлю в теле цикла то у мееня все прописанные словарь будут истететь при каждом запуске итераций
+# i = 0 # создам переменный счетчик
+# while i < word_value: # создаам лупс в таком случае будет не фор а уайл почему ? потому что именно жтот лупс сделаем логику так же выполгяем задачу
+#     translate_word = input("Введите слово и его перевод через знак '-': ") #ввод пишем перевод с словами через лефыис
+#     words = translate_word.split("-") # создам новую переменную внутри лупс и кароче берем ввод затем жтотт  ввод разбим через сплит убирая дефис создавая список
 #
-#     if current_word != key or value:
-#         print("Такого слова нет в словаре.")
-#     else:
-#         print(f"Слово переводится: {translate_word}")
-
-
-# students_db = {}
-
+#     dictionary[words[0]] = words[1]
+#     dictionary[words[1]] = words[0]
+#
+#     i += 1
+#
 # while True:
-#     name = input("Введите имя студента (или 'выход'): ")
-#     if name.lower() == 'выход':
-#         break  # Выходим из бесконечного цикла
+#     translate = input("Введите слово для перевода(или 'stop' для выхода): ")
 #
-#     grade = input(f"Введите оценку для {name}: ")
+#     if translate == "stop":
+#         break
+#     if translate in dictionary:
+#         print(f"Слова переводится {dictionary[translate]}")
+#     else:
+#         print("Такого слова нет в словаре!")
+# # я тут думаю что пользователь могут ввести слова с переводом через знака "-" и разделит можно через .split() то есть создавая список слов✅
+# #  translate_word как  я поняла что это должно повторяться сколько угодно раз зависима word_value✅
+# # но эти повторяемые и разные ввода в консоль повторяющихся по итераций куда и где можнл хранить ?✅
+# # так зачем и куда где буду использовать словарь а ?✅
+# # суть я немного поняла, здесь вот так работает кароче количество слов берешь для перевода и потом напишеш слова с переводами и потом напишеш итог то ест пишеш текущее слова и программа должно выйти на экран с переводами что должно работать в обеих фронтах
+# # словарь  при себе хранит данные тока последний обновленнный тип обьекта то есть каким то образом мне нужно чтоб эти несколько повторяюшихся итераций  и каждая итерация сохранился куда-то. какие у меня мб инструменты которая поможет хранить все и дальше дороботать ?✅
 #
-#     # Сохраняем данные в словарь на каждой итерации
-#     students_db[name] = grade
 #
-# # После выхода из цикла работаем со всей собранной базой
-# print("Итоговый список студентов:", students_db)
-
-
-tasks = [
-    {"id": 1, "title": "to buy milk", "status": "in progress"},
-    {"id": 2, "title": "finish the report", "status": "ready"},
-    {"id": 3, "title": "make an appointment with a dentist"}
-]
-
-word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #1)сперва я спрошу у пользователя напсать количество слова с переводом для добавления в словарь
-print() # оставлю пустой строка
-dictionary = {}
-i = 0
-while i < word_value:
-    translate_word = input("Введите слово и его перевод через знак '-': ")
-    words = translate_word.split("-")
-    print(words)
-    key_word = words[0]
-    value_word = words[1]
-    dictionary[key_word] = value_word
-    dictionary[value_word] = key_word
-    print(dictionary)
-    i += 1
-
-
-word_value = int(input("Введите количество слов, которые вы хотите добавить: ")) #1)сперва я спрошу у пользователя напсать количество слова с переводом для добавления в словарь
-print() # оставлю пустой строка
-dictionary = {} #создам новый пустой словарь до цикла почему? потому что еслт я это добавлю в теле цикла то у мееня все прописанные словарь будут истететь при каждом запуске итераций
-i = 0 # создам переменный счетчик
-while i < word_value: # создаам лупс в таком случае будет не фор а уайл почему ? потому что именно жтот лупс сделаем логику так же выполгяем задачу
-    translate_word = input("Введите слово и его перевод через знак '-': ") #ввод пишем перевод с словами через лефыис
-    words = translate_word.split("-") # создам новую переменную внутри лупс и кароче берем ввод затем жтотт  ввод разбим через сплит убирая дефис создавая список
-
-    dictionary[words[0]] = words[1]
-    dictionary[words[1]] = words[0]
-
-    i += 1
-
-while True:
-    translate = input("Введите слово для перевода(или 'stop' для выхода): ")
-
-    if translate == "stop":
-        break
-    if translate in dictionary:
-        print(f"Слова переводится {dictionary[translate]}")
-    else:
-        print("Такого слова нет в словаре!")
-# я тут думаю что пользователь могут ввести слова с переводом через знака "-" и разделит можно через .split() то есть создавая список слов✅
-#  translate_word как  я поняла что это должно повторяться сколько угодно раз зависима word_value✅
-# но эти повторяемые и разные ввода в консоль повторяющихся по итераций куда и где можнл хранить ?✅
-# так зачем и куда где буду использовать словарь а ?✅
-# суть я немного поняла, здесь вот так работает кароче количество слов берешь для перевода и потом напишеш слова с переводами и потом напишеш итог то ест пишеш текущее слова и программа должно выйти на экран с переводами что должно работать в обеих фронтах
-# словарь  при себе хранит данные тока последний обновленнный тип обьекта то есть каким то образом мне нужно чтоб эти несколько повторяюшихся итераций  и каждая итерация сохранился куда-то. какие у меня мб инструменты которая поможет хранить все и дальше дороботать ?✅
-
-
-
-# 2-задача: форматирование данных
-
-
-
-def convert_number(old_phone_number):
-
-    tuple_number = tuple(old_phone_number)
-
-    new_part1 = "".join(tuple_number[1:4])
-    new_part2 = "".join(tuple_number[4:6])
-    new_part3 = "".join(tuple_number[6:8])
-    new_part4 = "".join(tuple_number[8:10])
-
-    new_phone_number = f"+7 ({new_part1}) {"-".join((new_part2, new_part3,new_part4))}"
-
-    return new_phone_number
-
-
-contacts = {
-    "Максутов": "87011234567",
-    "Сарсенов": "87021234567",
-    "Жан Сугуров": "87761234567"
-}
-
-formatted_contacts = {}
-
-
-formatted_contacts["Максутов"] = convert_number(contacts["Максутов"])
-formatted_contacts["Сарсенов"] = convert_number(contacts["Сарсенов"])
-formatted_contacts["Жан Сугуров"] = convert_number(contacts["Жан Сугуров"])
-print(formatted_contacts)
+#
+# # 2-задача: форматирование данных
+#
+#
+#
+# def convert_number(old_phone_number):
+#
+#     tuple_number = tuple(old_phone_number)
+#
+#     new_part1 = "".join(tuple_number[1:4])
+#     new_part2 = "".join(tuple_number[4:6])
+#     new_part3 = "".join(tuple_number[6:8])
+#     new_part4 = "".join(tuple_number[8:10])
+#
+#     new_phone_number = f"+7 ({new_part1}) {"-".join((new_part2, new_part3,new_part4))}"
+#
+#     return new_phone_number
+#
+#
+# contacts = {
+#     "Максутов": "87011234567",
+#     "Сарсенов": "87021234567",
+#     "Жан Сугуров": "87761234567"
+# }
+#
+# formatted_contacts = {}
+#
+#
+# formatted_contacts["Максутов"] = convert_number(contacts["Максутов"])
+# formatted_contacts["Сарсенов"] = convert_number(contacts["Сарсенов"])
+# formatted_contacts["Жан Сугуров"] = convert_number(contacts["Жан Сугуров"])
+# print(formatted_contacts)
 
 
 # tasks = [

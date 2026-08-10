@@ -1490,14 +1490,14 @@ print(formatted_contacts)
 #
 # replace("Hello new world", "new", "old")
 
-def replace(text, old, new): # "Hello new world", "new", "old"
-    new_result = text.index(old) #6
-    old_slice = new_result + len(old) #6 + 3 = 9
-
-    left_slice = text[:new_result] #[:6] "Hello "
-    right_slice = text[old_slice:] #[9:] "world"
-
-    return left_slice + new + right_slice
-
-
-print(replace("Hello new world", "new", "old"))
+# def replace(text, old, new): # "Hello new world", "new", "old"
+#     new_result = text.index(old) #6
+#     old_slice = new_result + len(old) #6 + 3 = 9
+#
+#     left_slice = text[:new_result] #[:6] "Hello "
+#     right_slice = text[old_slice:] #[9:] "world"
+#
+#     return left_slice + new + right_slice
+#
+#
+# print(replace("Hello new world", "new", "old"))

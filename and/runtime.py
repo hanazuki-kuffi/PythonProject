@@ -1478,29 +1478,29 @@ file_2.close()
 # допустим у меня есть ресурс на котором я могу опредеит сколько символов и слов написал пользователь и работать над этим но акка? смотри пользователь ввел что то что конкретно мы не можем видеть но мы можем узнать с помощбю инструмента lrn() и определимся что пользователь ввел какой то слов со длином например в нашем случае 15 и
 
 
-# def replace(text, old, new):
-#     new_result = text.index(old)
-#     old_slice = text[new_result+len(old)]
-#
-#     left_slice = text[:new_result]
-#     right_slice = text[old_slice:]
-#
-#     return left_slice + new + right_slice
-#
-#
-# replace("Hello new world", "new", "old")
+def replace(text, old, new):
+    new_result = text.index(old)
+    old_slice = text[new_result+len(old)]
 
-# def replace(text, old, new): # "Hello new world", "new", "old"
-#     new_result = text.index(old) #6
-#     old_slice = new_result + len(old) #6 + 3 = 9
-#
-#     left_slice = text[:new_result] #[:6] "Hello "
-#     right_slice = text[old_slice:] #[9:] "world"
-#
-#     return left_slice + new + right_slice
-#
-#
-# print(replace("Hello new world", "new", "old"))
+    left_slice = text[:new_result]
+    right_slice = text[old_slice:]
+
+    return left_slice + new + right_slice
+
+
+replace("Hello new world", "new", "old")
+
+def replace(text, old, new): # "Hello new world", "new", "old"
+    new_result = text.index(old) #6
+    old_slice = new_result + len(old) #6 + 3 = 9
+
+    left_slice = text[:new_result] #[:6] "Hello "
+    right_slice = text[old_slice:] #[9:] "world"
+
+    return left_slice + new + right_slice
+
+
+print(replace("Hello new world", "new", "old"))
 
 
 file1 = open("tasks.txt", "w", encoding="UTF-8")
@@ -1556,6 +1556,87 @@ def get_table_data(name_file):
     lines = text.split("\n")
 
     headures = lines[0].split(";")  #["id", "title", "status"]
+
+    del lines[0]
+    for line in lines:
+        values = line.split(";")
+
+        data = {}
+
+        for i in range(len(headures)):
+            data[headures[i]] = values[i]
+
+        list_dicts.append(data)
+
+    return list_dicts
+
+
+pprint(get_table_data("history.txt"))
+
+tasks = [
+    {"id": 1, "title": "to buy milk", "status": "in progress"},
+    {"id": 2, "title": "finish the report", "status": "ready"},
+    {"id": 3, "title": "make  an appointment with a dentist", "status": "not started"}
+]
+
+def display_tasks(tasks):
+    result = ""
+    for task in tasks:
+        result += f"[ID:{task['id']}] {task['title']} - {task['status']}\n"
+
+    return result
+
+print(display_tasks(tasks))
+
+def generate_tasks(tasks, output_file="report.txt"):
+
+    file = open(output_file, "w", encoding="UTF-8")
+    file.write(display_tasks(tasks))
+    file.close()
+
+generate_tasks(tasks, output_file="new_file.txt")
+
+file1 = open("tasks.txt", "w", encoding="UTF-8")
+file1.write("id; title; status\n")
+file1.write("1; Купить молоко; в процессе\n")
+file1.write("2; Закончить отчет; готово\n")
+file1.write("3; Записаться к стоматологу; не начато\n")
+file1.close()
+
+
+file2 = open("users.txt", "w", encoding="UTF-8")
+file2.write("id; name; email; phone\n")
+file2.write("1; John; johns.an@gmail.com; +77773456222\n")
+file2.write("2; Sam; sam_grant@gmail.com; +77874457212\n")
+file2.close()
+
+file3 = open("history.txt", "w", encoding="UTF-8")
+file3.write("timestamp; task-id; action; description\n")
+file3.write("2025-04-13 09:00:00; 1; add; Добавлена задача 'Купить молоко'\n")
+file3.write("2025-04-13 09:10:12; 2; add; Добавлена задача 'Закончить отчет'\n")
+file3.write("2025-04-13 09:15:30; 3; add; Добавлена задача 'Записаться к стоматологу'\n")
+file3.write("2025-04-13 10:00:00; 1; update_status; Статус изменён на 'в процессе'\n")
+file3.write("2025-04-13 10:05:00; 2; update_status; Статус изменён на 'готово'\n")
+file3.write("2025-04-13 10:10:00; 3; update_status; Статус изменён на 'не начато'\n")
+file3.write("2025-04-13 11:00:00; 3; update_description; Изменено описание задачи\n")
+file3.write("2025-04-13 12:00:00; 1; delete; Задача удалена\n")
+file3.close()
+
+
+
+from pprint import pprint
+
+
+def get_table_data(name_file):
+
+    list_dicts = []
+    file = open(name_file, "r", encoding="UTF-8")
+    text = file.read() # мы прочитали все полученные  содержимое файлы
+    file.close()
+
+    lines = text.split("\n")
+
+    headures = lines[0].split(";")  #["id", "title", "status"] как раз они будут нашим ключом
 
     del lines[0]
     for line in lines:

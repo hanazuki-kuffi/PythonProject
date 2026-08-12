@@ -1541,3 +1541,34 @@ file3.write("2025-04-13 10:10:00; 3; update_status; Статус изменён 
 file3.write("2025-04-13 11:00:00; 3; update_description; Изменено описание задачи\n")
 file3.write("2025-04-13 12:00:00; 1; delete; Задача удалена\n")
 file3.close()
+
+
+from pprint import pprint
+
+
+def get_table_data(name_file):
+
+    list_dicts = []
+    file = open(name_file, "r", encoding="UTF-8")
+    text = file.read() # мы получили все содержимое файлы
+    file.close()
+
+    lines = text.split("\n")
+
+    headures = lines[0].split(";")  #["id", "title", "status"]
+
+    del lines[0]
+    for line in lines:
+        values = line.split(";")
+
+        data = {}
+
+        for i in range(len(headures)):
+            data[headures[i]] = values[i]
+
+        list_dicts.append(data)
+
+    return list_dicts
+
+
+pprint(get_table_data("history.txt"))

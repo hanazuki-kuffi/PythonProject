@@ -101,44 +101,44 @@ print(total)
 #Создайте две отдельные функции:
 #Первая функция должна вычислять периметр четырёхугольника. Функция должна принимать длины всех четырёх сторон в качестве параметров и возвращать периметр.
 
-def perimeter_qua(a, b, c, d):
-    formula = a + b + c + d
-    return formula
-
-def area_recqua(a, b):
-    formula = a * b
-    return formula
-
-
-result1 = perimeter_qua(1, 2, 3, 4)
-result2 = area_recqua(2, 3)
-
-print(result1)
-print(result2)
-
-
-#3 задача: вычисление среднего значения пяти чисел
-#Создайте функцию, которая принимает пять чисел в качестве аргументов в соответствующие параметры.
-#Функция должна:
-#Рассчитывать среднее арифметическое этих чисел.
-#Возвращать результат в виде целого числа.
+# def perimeter_qua(a, b, c, d):
+#     formula = a + b + c + d
+#     return formula
 #
-# def arithmetic_mean_of_numbers(num1, num2, num3, num4, num5):
-#     result = (num1 + num2 + num3 + num4 + num5) / 5
-#     result = int(result)
-#     return  result
+# def area_recqua(a, b):
+#     formula = a * b
+#     return formula
 #
-# result1 = arithmetic_mean_of_numbers(1, 2, 3, 4, 5)
+#
+# result1 = perimeter_qua(1, 2, 3, 4)
+# result2 = area_recqua(2, 3)
+#
 # print(result1)
+# print(result2)
 #
-# def copy_file(source_filename, destination_filename):
-#     source = open(source_filename, "r", encoding="UTF-8")
-#     file = source.read()
-#     source.close()
 #
-#     destination = open(destination_filename, "w", encoding="UTF-8") #"w" нужен для копирования!
-#     destination.write(file)
-#     destination.close()
+# #3 задача: вычисление среднего значения пяти чисел
+# #Создайте функцию, которая принимает пять чисел в качестве аргументов в соответствующие параметры.
+# #Функция должна:
+# #Рассчитывать среднее арифметическое этих чисел.
+# #Возвращать результат в виде целого числа.
+# #
+# # def arithmetic_mean_of_numbers(num1, num2, num3, num4, num5):
+# #     result = (num1 + num2 + num3 + num4 + num5) / 5
+# #     result = int(result)
+# #     return  result
+# #
+# # result1 = arithmetic_mean_of_numbers(1, 2, 3, 4, 5)
+# # print(result1)
+# #
+# # def copy_file(source_filename, destination_filename):
+# #     source = open(source_filename, "r", encoding="UTF-8")
+# #     file = source.read()
+# #     source.close()
+# #
+# #     destination = open(destination_filename, "w", encoding="UTF-8") #"w" нужен для копирования!
+# #     destination.write(file)
+# #     destination.close()
 #
 #
 # copy_file("file1.txt", "destination1.txt")
